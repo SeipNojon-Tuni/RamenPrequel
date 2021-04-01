@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Sprites/Space/red_galaxy.png" type="Texture" id=2]
+
+[node name="RedGalaxy" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+modulate = Color( 1, 1, 1, 0.192157 )
+position = Vector2( 438.883, 317.657 )
+scale = Vector2( 0.465661, 0.486578 )
+texture = ExtResource( 2 )
+
+[node name="Light2D" type="Light2D" parent="."]
+position = Vector2( 557.864, 297.452 )
+scale = Vector2( 0.566215, 0.474106 )
+texture = ExtResource( 2 )
+energy = 5.07
