@@ -22,12 +22,10 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 	#pass
-	
 
-# When glow is finished to maximum or minimum value.
-func _on_tween_tween_completed(_object, _key):
-	
-	time = rand_range(1.2, 2.2)
+
+func _on_Tween_tween_completed(_object, _key):	
+	time = rand_range(1.2, 1.9)
 	
 	if (self.energy <= minVal + 0.1):
 		tween.interpolate_property(self, "energy", minVal, maxVal, time, Tween.TRANS_SINE)

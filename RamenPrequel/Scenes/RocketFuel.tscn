@@ -58,7 +58,6 @@ texture = ExtResource( 1 )
 modulate = Color( 1, 1, 1, 0.686275 )
 position = Vector2( 549.954, 293.665 )
 frames = SubResource( 8 )
-frame = 3
 playing = true
 
 [node name="Glow" type="Light2D" parent="."]
@@ -68,3 +67,4 @@ energy = 0.94
 script = ExtResource( 3 )
 
 [node name="Tween" type="Tween" parent="."]
+[connection signal="tween_completed" from="Tween" to="Glow" method="_on_Tween_tween_completed"]
