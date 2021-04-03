@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/synth.wav-cdc7d3fb21caaa7f2df2e90d09ab522d.sample"
+
+[deps]
+
+source_file="res://Audio/voices/synth.wav"
+dest_files=[ "res://.import/synth.wav-cdc7d3fb21caaa7f2df2e90d09ab522d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

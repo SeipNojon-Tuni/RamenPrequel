@@ -24,5 +24,5 @@ position = Vector2( 511.132, 279.611 )
 scale = Vector2( 0.300324, 0.322698 )
 texture = ExtResource( 2 )
 
-[node name="tween" type="Tween" parent="."]
-[connection signal="tween_completed" from="tween" to="glow" method="_on_tween_tween_completed"]
+[node name="Tween" type="Tween" parent="."]
+[connection signal="tween_completed" from="Tween" to="glow" method="_on_tween_tween_completed"]
