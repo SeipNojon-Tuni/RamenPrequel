@@ -1,0 +1,30 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/EXP-System-Dialog/Resource_BakedStory/EXP_BakedStory.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+TYPE = "EXP_Baked_Story"
+story = {
+1: {
+"nodes": {
+1: {
+"links": {
+0: 2
+},
+"text": "<speaker>Sparky</speaker>
+<dialog>A war between two battling robot factions: Cult of Ramen and Noo Dle Syndicate in the Planet Micrawa Ramen has continued for nearby 100 years</dialog>"
+},
+2: {
+"links": {
+
+},
+"text": "<speaker>Sparky</speaker>
+<dialog>Now Noo Dle Syndicate has won the war and Cult of Ramen, which has fallen to just three robots have been commanded to be exiled to the wasteland from Shoyu, the capital of Planet Micrawa Ramen</dialog> "
+}
+}
+}
+}
+names = {
+"SparkyStart": 1
+}
