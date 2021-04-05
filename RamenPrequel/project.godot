@@ -18,3 +18,7 @@ _global_script_class_icons={
 config/name="Black Beards Treasure: Tales from Outer Space"
 run/main_scene="res://Scenes/MainMenu.tscn"
 config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "EXP-System-Dialog" )
