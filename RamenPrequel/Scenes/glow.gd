@@ -4,9 +4,9 @@ extends Light2D
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
-var maxVal = 0.9
-var minVal = 0.2
-var time = 1.7
+export var maxVal = 0.9
+export var minVal = 0.2
+export var time = 1.7
 
 onready var tween = get_node("../Tween")
 
