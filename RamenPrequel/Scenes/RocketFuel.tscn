@@ -58,6 +58,7 @@ texture = ExtResource( 1 )
 modulate = Color( 1, 1, 1, 0.686275 )
 position = Vector2( 549.954, 293.665 )
 frames = SubResource( 8 )
+frame = 7
 playing = true
 
 [node name="Glow" type="Light2D" parent="."]
