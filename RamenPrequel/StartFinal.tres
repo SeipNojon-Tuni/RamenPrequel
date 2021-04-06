@@ -1,0 +1,70 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/EXP-System-Dialog/Resource_EditorStory/EXP_EditorStory.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+TYPE = "EXP_Story_editor"
+names = {
+"SparkyStart": 1
+}
+story = {
+1: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "Starting narrative of the game",
+"name": "SparkyStart",
+"nodes": {
+1: {
+"graph_offset": Vector2( 40, 40 ),
+"links": {
+0: 2
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<start>",
+"type": "line"
+},
+2: {
+"graph_offset": Vector2( 560, 40 ),
+"links": {
+0: 3
+},
+"rect_size": Vector2( 483, 213.6 ),
+"slot_amount": 1,
+"text": "<speaker>Sparky</speaker>
+<dialog>A war between two battling robot factions: Cult of Ramen 
+and Noo Dle Syndicate in the Planet Micrawa Ramen
+ has continued for nearby 100 years...</dialog>
+",
+"type": "line"
+},
+3: {
+"graph_offset": Vector2( 1080, 40 ),
+"links": {
+0: 4
+},
+"rect_size": Vector2( 441, 206.4 ),
+"slot_amount": 1,
+"text": "<speaker>Sparky</speaker>
+<dialog>Now Noo Dle Syndicate has won the war and 
+Cult of Ramen, which has fallen to just two robots 
+have been commanded to be exiled to the wasteland 
+from Shoyu, the capital of Planet Micrawa Ramen</dialog> ",
+"type": "line"
+},
+4: {
+"graph_offset": Vector2( 1600, 40 ),
+"links": {
+
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<end>",
+"type": "line"
+}
+}
+}
+}
+available_dids = [  ]
+groups = [  ]

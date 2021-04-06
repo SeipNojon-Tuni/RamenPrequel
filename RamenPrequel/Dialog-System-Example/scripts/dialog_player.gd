@@ -17,13 +17,13 @@ func _ready():
 	var Story_Reader_Class = load("res://addons/EXP-System-Dialog/Reference_StoryReader/EXP_StoryReader.gd")
 	_Story_Reader = Story_Reader_Class.new()
 	
-	var story = load("res://Dialog-System-Example/stories/Example_Story_Baked.tres")
+	var story = load("res://Startfinalbaked.tres")
 	_Story_Reader.read(story)
 	
 	_Dialog_Box.visible = false
 	_SpaceBar_Icon.visible = false
 	
-	play_dialog("Plains/Battle/Slime")
+	play_dialog("SparkyStart")
 
 
 func _input(event):
