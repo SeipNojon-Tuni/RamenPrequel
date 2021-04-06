@@ -1,3 +1,91 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
 
-[node name="MainMenu" type="Node2D"]
+[ext_resource path="res://Sprites/PrequelTitle.png" type="Texture" id=2]
+
+[node name="MainMenu" type="Control"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="StartButton" type="Button" parent="."]
+margin_left = 445.081
+margin_top = 363.623
+margin_right = 583.081
+margin_bottom = 397.623
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Start" type="Label" parent="StartButton"]
+margin_left = 38.0
+margin_top = 4.0
+margin_right = 67.0
+margin_bottom = 35.0
+rect_scale = Vector2( 2, 2 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Start
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CreditsButton" type="Button" parent="."]
+margin_left = 445.081
+margin_top = 420.705
+margin_right = 583.081
+margin_bottom = 454.705
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Start" type="Label" parent="CreditsButton"]
+margin_left = 23.7295
+margin_top = 4.0
+margin_right = 68.7295
+margin_bottom = 52.0
+rect_scale = Vector2( 2, 2 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Credits
+
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="QuitButton" type="Button" parent="."]
+margin_left = 445.081
+margin_top = 480.0
+margin_right = 583.081
+margin_bottom = 514.0
+custom_colors/font_color = Color( 1, 0.117647, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Quit" type="Label" parent="QuitButton"]
+margin_left = 34.6393
+margin_top = 5.68411
+margin_right = 74.6393
+margin_bottom = 53.6841
+rect_scale = Vector2( 2, 2 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Quit
+
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 323.848
+margin_top = 72.054
+margin_right = 2243.85
+margin_bottom = 1152.05
+rect_scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
