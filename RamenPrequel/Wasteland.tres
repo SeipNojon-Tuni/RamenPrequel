@@ -1,0 +1,149 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/EXP-System-Dialog/Resource_EditorStory/EXP_EditorStory.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+TYPE = "EXP_Story_editor"
+names = {
+"Interaction1": 2,
+"Interaction2": 3,
+"Interaction3": 4,
+"Tralala": 1
+}
+story = {
+1: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "Wasteland/Start",
+"name": "Tralala",
+"nodes": {
+1: {
+"graph_offset": Vector2( -1506.56, 36.544 ),
+"links": {
+0: 2
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<start>",
+"type": "line"
+},
+2: {
+"graph_offset": Vector2( -832.138, 49.96 ),
+"links": {
+0: 3
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Tralala, tralala, a life in the wasteland is so boring that you can not do anything else, but sing</dialog>",
+"type": "line"
+},
+3: {
+"graph_offset": Vector2( -292.728, 34.7 ),
+"links": {
+0: 4
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>A wasteland life is definely boring, but I do not have anything else in my mind, that we could do, but to search the scrap for food etc. so that we do not die</dialog>",
+"type": "line"
+},
+4: {
+"graph_offset": Vector2( 286.432, -194.62 ),
+"links": {
+0: 5
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait a second, you old TinHeart, there is a spaceship over there, I think it will definely have some scrap for us</dialog>",
+"type": "line"
+},
+5: {
+"graph_offset": Vector2( 795.912, -400.18 ),
+"links": {
+0: 6
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>You Youngster, Think around the box, perhaps this spaceship could be our way out of this situation, we head to the space and start a life elsewhere</dialog> ",
+"type": "line"
+},
+6: {
+"graph_offset": Vector2( 1403.59, -561.46 ),
+"links": {
+0: 7
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>That is definely a good idea from you, old TinHeart. The only problem is that the ship seems to be broken and we can not get inside of it</dialog>",
+"type": "line"
+},
+7: {
+"graph_offset": Vector2( 1942.15, -558.58 ),
+"links": {
+0: 8
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker
+<dialog>It is definely missing some parts, it seems to be missing   , maybe we should head to the wasteland and see if we find them</dialog>",
+"type": "line"
+},
+8: {
+"graph_offset": Vector2( 2443.27, -552.82 ),
+"links": {
+0: 9
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>That is definely great idea, we should do it right away</dialog>",
+"type": "line"
+},
+9: {
+"graph_offset": Vector2( 2936.91, -532.82 ),
+"links": {
+
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<end>",
+"type": "line"
+}
+}
+},
+2: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "New Dialog - Enter Human Readable Description.",
+"name": "Interaction1",
+"nodes": {
+
+}
+},
+3: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "New Dialog - Enter Human Readable Description.",
+"name": "Interaction2",
+"nodes": {
+
+}
+},
+4: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "New Dialog - Enter Human Readable Description.",
+"name": "Interaction3",
+"nodes": {
+
+}
+}
+}
+available_dids = [  ]
+groups = [  ]
