@@ -6,6 +6,7 @@
 script = ExtResource( 1 )
 TYPE = "EXP_Story_editor"
 names = {
+"Ending": 7,
 "Interaction1": 2,
 "Interaction2": 3,
 "Interaction3": 4,
@@ -142,6 +143,303 @@ story = {
 "name": "Interaction3",
 "nodes": {
 
+}
+},
+5: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "New Dialog - Enter Human Readable Description.",
+"nodes": {
+
+}
+},
+6: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "New Dialog - Enter Human Readable Description.",
+"nodes": {
+
+}
+},
+7: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "Wasteland/Ending",
+"name": "Ending",
+"nodes": {
+1: {
+"graph_offset": Vector2( -3120, -280 ),
+"links": {
+0: 2
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<start>",
+"type": "line"
+},
+2: {
+"graph_offset": Vector2( -2560, -280 ),
+"links": {
+0: 3
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Great, we found all the parts required to fix the ship</dialog> ",
+"type": "line"
+},
+3: {
+"graph_offset": Vector2( -2000, -280 ),
+"links": {
+0: 4
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Let's fix the ship right away, TinHeart,, 
+do the fixing</dialog>",
+"type": "line"
+},
+4: {
+"graph_offset": Vector2( -1420, -280 ),
+"links": {
+0: 5
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Okay</dialog>",
+"type": "line"
+},
+5: {
+"graph_offset": Vector2( -900, -280 ),
+"links": {
+0: 6
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog>Sounds of fixing</dialog>",
+"type": "line"
+},
+6: {
+"graph_offset": Vector2( -380, -280 ),
+"links": {
+0: 7
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>The ship should be now fixed...
+ and look, the door also opened</dialog>",
+"type": "line"
+},
+7: {
+"graph_offset": Vector2( 140, -280 ),
+"links": {
+0: 8
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>This is great, lets go in right away</dialog>",
+"type": "line"
+},
+8: {
+"graph_offset": Vector2( 660, -280 ),
+"links": {
+0: 9
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>The ship looks amazing, but what should we now next, 
+maybe head to the space without any direction...</dialog>",
+"type": "line"
+},
+9: {
+"graph_offset": Vector2( 1180, -280 ),
+"links": {
+0: 10
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Calm down O'Beep, we do not even know how it operates,
+ I think that the instructions for controlling this ship are 
+somewhere, lets look for them</dialog>",
+"type": "line"
+},
+10: {
+"graph_offset": Vector2( 1700, -280 ),
+"links": {
+0: 11
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Cool, there they are. Hey wise one, do you know 
+how to read these</dialog>",
+"type": "line"
+},
+11: {
+"graph_offset": Vector2( 2220, -280 ),
+"links": {
+0: 12
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Hmmm. Let me see</dialog>",
+"type": "line"
+},
+12: {
+"graph_offset": Vector2( 2780, -280 ),
+"links": {
+0: 13
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait, what it this paper that fell from the book, it says:</dialog>",
+"type": "line"
+},
+13: {
+"graph_offset": Vector2( 3300, -280 ),
+"links": {
+0: 14
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog>A treasure is hidden in the deep seas of...</dialog>",
+"type": "line"
+},
+14: {
+"graph_offset": Vector2( 3820, -280 ),
+"links": {
+0: 15
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Apparently, the location is not told, 
+maybe we should go searching this treasure</dialog>",
+"type": "line"
+},
+15: {
+"graph_offset": Vector2( 4340, -280 ),
+"links": {
+0: 16
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>That is certainly a good goal, because we
+ have nothing else to do</dialog>",
+"type": "line"
+},
+16: {
+"graph_offset": Vector2( 4860, -280 ),
+"links": {
+0: 17
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>The only problem is that the treasure location is not told</dialog>",
+"type": "line"
+},
+17: {
+"graph_offset": Vector2( 5380, -280 ),
+"links": {
+0: 18
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Wait for a moment, the paper has a signature 
+of the Spurffs from the planet Ostrog. 
+Maybe that would be a good place to start</dialog>",
+"type": "line"
+},
+18: {
+"graph_offset": Vector2( 5900, -280 ),
+"links": {
+0: 19
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>At first we have to start the ship. Let's see...</dialog>",
+"type": "line"
+},
+19: {
+"graph_offset": Vector2( 6420, -280 ),
+"links": {
+0: 20
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Remove steering wheel, pull the Fuzzy Dices 
+for three times, remove half of the gasoline and 
+press the big red button</dialog>",
+"type": "line"
+},
+20: {
+"graph_offset": Vector2( 6940, -280 ),
+"links": {
+0: 21
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<<<<speaker>TinHeart</speaker>
+<<<<dialog>Ok, the ship is ready to launch</dialog>",
+"type": "line"
+},
+21: {
+"graph_offset": Vector2( 7460, -280 ),
+"links": {
+0: 22
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>That is great, but where is the Spurffs planet?</dialog>",
+"type": "line"
+},
+22: {
+"graph_offset": Vector2( 7980, -280 ),
+"links": {
+0: 23
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>If I remember correctly, it is one closest to our planet. 
+Yes that was surely the case</dialog>",
+"type": "line"
+},
+23: {
+"graph_offset": Vector2( 8500, -280 ),
+"links": {
+0: 24
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Everyone</speaker>
+<dialog>Let's go. Three, two, one, GO!</dialog>",
+"type": "line"
+},
+24: {
+"graph_offset": Vector2( 9020, -280 ),
+"links": {
+
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<end>",
+"type": "line"
+}
 }
 }
 }

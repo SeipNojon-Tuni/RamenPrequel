@@ -23,7 +23,7 @@ func _ready():
 	_Dialog_Box.visible = false
 	_SpaceBar_Icon.visible = false
 	
-	play_dialog("Tralala")
+	play_dialog("Ending")
 
 
 func _input(event):

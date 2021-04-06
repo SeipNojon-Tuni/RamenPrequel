@@ -19,52 +19,42 @@ story = {
 0: 3
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Tralala, tralala, a life in the wasteland is so boring 
-that you can not do anything else, but sing</dialog>"
+<dialog>Tralala, tralala, a life in the wasteland is so boring that you can not do anything else, but sing</dialog>"
 },
 3: {
 "links": {
 0: 4
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>A wasteland life is definely boring, but I do not have 
-anything else in my mind, that we could do, but to search 
-the scrap for food etc. so that we do not die</dialog>"
+<dialog>A wasteland life is definely boring, but I do not have anything else in my mind, that we could do, but to search the scrap for food etc. so that we do not die</dialog>"
 },
 4: {
 "links": {
 0: 5
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait a second, you old TinHeart, there is a spaceship 
-, I think it will definely have some scrap for us</dialog>"
+<dialog>Wait a second, you old TinHeart, there is a spaceship over there, I think it will definely have some scrap for us</dialog>"
 },
 5: {
 "links": {
 0: 6
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>You Youngster, Think around the box, perhaps this 
-spaceship could be our way out of this situation, 
-we head to the space and start a life elsewhere</dialog> "
+<dialog>You Youngster, Think around the box, perhaps this spaceship could be our way out of this situation, we head to the space and start a life elsewhere</dialog> "
 },
 6: {
 "links": {
 0: 7
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>That is definely a good idea from you, old TinHeart. 
-The only problem is that the ship seems to be broken 
-and we can not get inside of it</dialog>"
+<dialog>That is definely a good idea from you, old TinHeart. The only problem is that the ship seems to be broken and we can not get inside of it</dialog>"
 },
 7: {
 "links": {
 0: 8
 },
-"text": "<speaker>TinHeart</speaker>
-<dialog>It is definely missing some parts, it seems to be missing   
-, maybe we should head to the wasteland and see 
-if we find them</dialog>"
+"text": "<speaker>TinHeart</speaker
+<dialog>It is definely missing some parts, it seems to be missing   , maybe we should head to the wasteland and see if we find them</dialog>"
 },
 8: {
 "links": {
@@ -95,9 +85,201 @@ if we find them</dialog>"
 "nodes": {
 
 }
+},
+5: {
+"nodes": {
+
+}
+},
+6: {
+"nodes": {
+
+}
+},
+7: {
+"nodes": {
+1: {
+"links": {
+0: 2
+},
+"text": "<start>"
+},
+2: {
+"links": {
+0: 3
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Great, we found all the parts required to fix the ship</dialog> "
+},
+3: {
+"links": {
+0: 4
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Let's fix the ship right away, TinHeart,, 
+do the fixing</dialog>"
+},
+4: {
+"links": {
+0: 5
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Okay</dialog>"
+},
+5: {
+"links": {
+0: 6
+},
+"text": "<dialog>Sounds of fixing</dialog>"
+},
+6: {
+"links": {
+0: 7
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>The ship should be now fixed...
+ and look, the door also opened</dialog>"
+},
+7: {
+"links": {
+0: 8
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>This is great, lets go in right away</dialog>"
+},
+8: {
+"links": {
+0: 9
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>The ship looks amazing, but what should we now next, 
+maybe head to the space without any direction...</dialog>"
+},
+9: {
+"links": {
+0: 10
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Calm down O'Beep, we do not even know how it operates,
+ I think that the instructions for controlling this ship are 
+somewhere, lets look for them</dialog>"
+},
+10: {
+"links": {
+0: 11
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Cool, there they are. Hey wise one, do you know 
+how to read these</dialog>"
+},
+11: {
+"links": {
+0: 12
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Hmmm. Let me see</dialog>"
+},
+12: {
+"links": {
+0: 13
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait, what it this paper that fell from the book, it says:</dialog>"
+},
+13: {
+"links": {
+0: 14
+},
+"text": "<dialog>A treasure is hidden in the deep seas of...</dialog>"
+},
+14: {
+"links": {
+0: 15
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Apparently, the location is not told, 
+maybe we should go searching this treasure</dialog>"
+},
+15: {
+"links": {
+0: 16
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>That is certainly a good goal, because we
+ have nothing else to do</dialog>"
+},
+16: {
+"links": {
+0: 17
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>The only problem is that the treasure location is not told</dialog>"
+},
+17: {
+"links": {
+0: 18
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Wait for a moment, the paper has a signature 
+of the Spurffs from the planet Ostrog. 
+Maybe that would be a good place to start</dialog>"
+},
+18: {
+"links": {
+0: 19
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>At first we have to start the ship. Let's see...</dialog>"
+},
+19: {
+"links": {
+0: 20
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Remove steering wheel, pull the Fuzzy Dices 
+for three times, remove half of the gasoline and 
+press the big red button</dialog>"
+},
+20: {
+"links": {
+0: 21
+},
+"text": "<<<<speaker>TinHeart</speaker>
+<<<<dialog>Ok, the ship is ready to launch</dialog>"
+},
+21: {
+"links": {
+0: 22
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>That is great, but where is the Spurffs planet?</dialog>"
+},
+22: {
+"links": {
+0: 23
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>If I remember correctly, it is one closest to our planet. 
+Yes that was surely the case</dialog>"
+},
+23: {
+"links": {
+0: 24
+},
+"text": "<speaker>Everyone</speaker>
+<dialog>Let's go. Three, two, one, GO!</dialog>"
+},
+24: {
+"links": {
+
+},
+"text": "<end>"
+}
+}
 }
 }
 names = {
+"Ending": 7,
 "Interaction1": 2,
 "Interaction2": 3,
 "Interaction3": 4,
