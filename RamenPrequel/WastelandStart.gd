@@ -17,13 +17,13 @@ func _ready():
 	var Story_Reader_Class = load("res://addons/EXP-System-Dialog/Reference_StoryReader/EXP_StoryReader.gd")
 	_Story_Reader = Story_Reader_Class.new()
 	
-	var story = load("res://Startfinalbaked.tres")
+	var story = load("res://Wastelandbaked.tres")
 	_Story_Reader.read(story)
 	
 	_Dialog_Box.visible = false
 	_SpaceBar_Icon.visible = false
 	
-	play_dialog("SparkyStart")
+	play_dialog("Tralala")
 
 
 func _input(event):
@@ -69,7 +69,6 @@ func _get_next_node():
 	
 	if _nid == _final_nid:
 		_Dialog_Box.visible = false
-		get_tree().change_scene("res://Scenes/Wasteland.tscn")
 
 
 func _get_tagged_text(tag : String, text : String):

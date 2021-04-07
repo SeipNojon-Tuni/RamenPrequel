@@ -19,42 +19,53 @@ story = {
 0: 3
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Tralala, tralala, a life in the wasteland is so boring that you can not do anything else, but sing</dialog>"
+<dialog>Tralala, tralala, a life in the wasteland is so boring, 
+that you can not do anything else, but sing</dialog>"
 },
 3: {
 "links": {
 0: 4
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>A wasteland life is definely boring, but I do not have anything else in my mind, that we could do, but to search the scrap for food etc. so that we do not die</dialog>"
+<dialog>A wasteland life is definely boring, but I do not 
+have anything else in my mind, that we could do, 
+but to search the scrap for food etc. so that we 
+do not die</dialog>"
 },
 4: {
 "links": {
 0: 5
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait a second, you old TinHeart, there is a spaceship over there, I think it will definely have some scrap for us</dialog>"
+<dialog>Wait a second, you old TinHeart, there is a spaceship.
+ I think it will definely have some scrap for us</dialog>"
 },
 5: {
 "links": {
 0: 6
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>You Youngster, Think around the box, perhaps this spaceship could be our way out of this situation, we head to the space and start a life elsewhere</dialog> "
+<dialog>Think around the box, perhaps this spaceship 
+could be our way out of this situation, let's head 
+to the space and start a new life elsewhere</dialog> "
 },
 6: {
 "links": {
 0: 7
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>That is definely a good idea from you, old TinHeart. The only problem is that the ship seems to be broken and we can not get inside of it</dialog>"
+<dialog>That is definely a good idea from you, old TinHeart. 
+The only problem is, that the ship seems to be broken and
+ we can not get inside of it</dialog>"
 },
 7: {
 "links": {
 0: 8
 },
-"text": "<speaker>TinHeart</speaker
-<dialog>It is definely missing some parts, it seems to be missing   , maybe we should head to the wasteland and see if we find them</dialog>"
+"text": "<speaker>TinHeart</speaker>
+<dialog>It is definely missing some parts. It seems to be missing,
+ Maybe we should head to the wasteland and 
+see if we find them</dialog>"
 },
 8: {
 "links": {

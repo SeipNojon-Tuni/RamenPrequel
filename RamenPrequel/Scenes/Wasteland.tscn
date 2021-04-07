@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://ObjectClicked.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/MicrawaWaste/battery.png" type="Texture" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://Sprites/MicrawaWaste/rocket_fuel.png" type="Texture" id=8]
 [ext_resource path="res://Sprites/MicrawaWaste/cable_bunch.png" type="Texture" id=9]
 [ext_resource path="res://Sprites/MicrawaWaste/space_drive.png" type="Texture" id=10]
+[ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=11]
+[ext_resource path="res://WastelandStart.gd" type="Script" id=12]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 10.0918
@@ -146,6 +148,9 @@ texture = ExtResource( 10 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="SpaceDrive"]
 position = Vector2( 232.871, 524.722 )
 shape = SubResource( 7 )
+
+[node name="Dialog_Player" parent="." instance=ExtResource( 11 )]
+script = ExtResource( 12 )
 [connection signal="input_event" from="Wires" to="Wires" method="_on_Object_input_event"]
 [connection signal="mouse_entered" from="Wires" to="Wires" method="_on_Object_mouse_entered"]
 [connection signal="mouse_exited" from="Wires" to="Wires" method="_on_Object_mouse_exited"]
