@@ -1,0 +1,161 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/EXP-System-Dialog/Resource_BakedStory/EXP_BakedStory.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+TYPE = "EXP_Baked_Story"
+story = {
+1: {
+"nodes": {
+1: {
+"links": {
+0: 2
+},
+"text": "<start>"
+},
+2: {
+"links": {
+0: 3
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Hey TinHeart, what is this place... is this the Earth? 
+is the treasure in here?</dialog> "
+},
+3: {
+"links": {
+0: 4
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>No, I do not thing, that this is the Earth, hmmm.</dialog>"
+},
+4: {
+"links": {
+0: 5
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Oh my, I think we have stumbled upon 
+the creators of our galaxy on our journey to the treasure</dialog>"
+},
+5: {
+"links": {
+0: 6
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait, our creators! I was thinking that our universe 
+has simply born by itself</dialog>"
+},
+6: {
+"links": {
+0: 7
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>One could thing many things. Wait, based on these names, 
+our universe is not only created but also artificial and
+ not real... In fact, it seems that we are living simply 
+inside the game</dialog>"
+},
+7: {
+"links": {
+0: 8
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>That can't be true, our universe must be real</dialog>"
+},
+8: {
+"links": {
+0: 9
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>The truth can hurt. Anyway, I do thing that 
+we still should search the treasure, as we are still living. </dialog>"
+},
+9: {
+"links": {
+0: 10
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Let's still enjoy from the 
+presentation of our creators, as probably no one has 
+witnessed this before</dialog>"
+},
+10: {
+"links": {
+0: 11
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>I agree. Let's grab the popcorn and enjoy the show</dialog>"
+},
+11: {
+"links": {
+0: 12
+},
+"text": "<dialog>The Spurffs Gaming Co. Presents</dialog>"
+},
+12: {
+"links": {
+0: 13
+},
+"text": "<dialog>Blackbeard's Treasure: Tales From the Outer Space</dialog>"
+},
+13: {
+"links": {
+0: 14
+},
+"text": "<dialog>Writing and Narrative:
+Teemu Kanerva</dialog>"
+},
+14: {
+"links": {
+0: 15
+},
+"text": "<dialog> Programmers:
+Pasi Pulkkinen</dialog>"
+},
+15: {
+"links": {
+0: 16
+},
+"text": "<dialog> Producers:
+Nevena Sicevic</dialog>"
+},
+16: {
+"links": {
+0: 17
+},
+"text": "<dialog> Graphics: 
+Sipi Yla-Nojonen</dialog>"
+},
+17: {
+"links": {
+0: 18
+},
+"text": "<dialog>Designers:
+Lassi Nieminen</dialog>"
+},
+18: {
+"links": {
+0: 19
+},
+"text": "<dialog> Audio:
+Sipi Yla-Nojonen</dialog>"
+},
+19: {
+"links": {
+0: 20
+},
+"text": "<dialog> QA:
+Everyone</dialog>"
+},
+20: {
+"links": {
+
+},
+"text": "<end>"
+}
+}
+}
+}
+names = {
+"Credits": 1
+}
