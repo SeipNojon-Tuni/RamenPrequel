@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://ObjectClicked.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/MicrawaWaste/battery.png" type="Texture" id=2]
@@ -15,6 +15,7 @@
 [ext_resource path="res://AudioPlayer.gd" type="Script" id=13]
 [ext_resource path="res://Scenes/PowerPylon.tscn" type="PackedScene" id=14]
 [ext_resource path="res://Sprites/MicrawaWaste/micrawa_waste_pile.png" type="Texture" id=15]
+[ext_resource path="res://Audio/ambience/wasteland/Wasteland_ambience.wav" type="AudioStream" id=16]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 10.0918
@@ -171,6 +172,12 @@ script = ExtResource( 12 )
 
 [node name="AudioPlayer" type="AudioStreamPlayer" parent="."]
 script = ExtResource( 13 )
+
+[node name="Ambience" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 16 )
+volume_db = -6.964
+pitch_scale = 0.43
+autoplay = true
 [connection signal="input_event" from="Wires" to="Wires" method="_on_Object_input_event"]
 [connection signal="mouse_entered" from="Wires" to="Wires" method="_on_Object_mouse_entered"]
 [connection signal="mouse_exited" from="Wires" to="Wires" method="_on_Object_mouse_exited"]

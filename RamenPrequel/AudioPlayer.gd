@@ -2,7 +2,7 @@ extends AudioStreamPlayer
 
 
 # Declare member variables here. Examples:
-var cid = 0;
+var cid = 1;
 var current_bank = ""
 
 
