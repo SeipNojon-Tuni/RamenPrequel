@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://ObjectClicked.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/MicrawaWaste/battery.png" type="Texture" id=2]
@@ -13,6 +13,8 @@
 [ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=11]
 [ext_resource path="res://WastelandStart.gd" type="Script" id=12]
 [ext_resource path="res://AudioPlayer.gd" type="Script" id=13]
+[ext_resource path="res://Scenes/PowerPylon.tscn" type="PackedScene" id=14]
+[ext_resource path="res://Sprites/MicrawaWaste/micrawa_waste_pile.png" type="Texture" id=15]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 10.0918
@@ -48,6 +50,20 @@ texture = ExtResource( 3 )
 __meta__ = {
 "_edit_lock_": true
 }
+
+[node name="PowerPylon" parent="." instance=ExtResource( 14 )]
+modulate = Color( 1, 1, 1, 0.427451 )
+position = Vector2( 38.4791, 185.99 )
+scale = Vector2( 0.106104, 0.141205 )
+
+[node name="PowerPylon2" parent="." instance=ExtResource( 14 )]
+position = Vector2( 318.885, 168.614 )
+scale = Vector2( 0.3, 0.3 )
+
+[node name="micrawa_waste_pile" type="Sprite" parent="."]
+position = Vector2( 513.503, 307.993 )
+scale = Vector2( 0.354, 0.471 )
+texture = ExtResource( 15 )
 
 [node name="Wires" type="Area2D" parent="."]
 position = Vector2( -7.07104, 11.3137 )
