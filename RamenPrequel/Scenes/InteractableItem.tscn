@@ -7,13 +7,12 @@
 script = ExtResource( 2 )
 
 [node name="MouseTrigger" type="Area2D" parent="."]
-position = Vector2( 0, 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MouseTrigger"]
 polygon = PoolVector2Array( -23.3357, -44.3175, -104.093, -5.60715, -101.424, 51.791, 46.7434, 84.4945, 71.438, 47.7864, 91.4606, 12.4132, 90.7932, -6.94199, 84.7864, -7.60941, 84.119, -31.6365 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( -0.288651, 0.711365 )
+position = Vector2( -0.288651, -0.288635 )
 scale = Vector2( 0.310163, 0.384572 )
 texture = ExtResource( 1 )
 [connection signal="mouse_entered" from="MouseTrigger" to="." method="_on_MouseTrigger_mouse_entered"]
