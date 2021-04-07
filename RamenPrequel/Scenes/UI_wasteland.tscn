@@ -1,0 +1,123 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Font/new_dynamicfont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Font/Ubuntu-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Scenes/battery.gd" type="Script" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+outline_size = 1
+outline_color = Color( 0.117647, 0.0784314, 0.0784314, 1 )
+font_data = ExtResource( 2 )
+
+[node name="UI" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.54555
+margin_top = -3.00931
+margin_right = 5.54553
+margin_bottom = -3.00928
+__meta__ = {
+"_edit_horizontal_guides_": [ 23.3555, 48.3288, 73.3022, 98.2755, 123.249, 148.222, 173.196 ],
+"_edit_use_anchors_": false,
+"_edit_vertical_guides_": [ 123.092 ]
+}
+
+[node name="battery" type="Label" parent="."]
+margin_left = 77.4317
+margin_top = 11.4051
+margin_right = 155.432
+margin_bottom = 38.4051
+rect_pivot_offset = Vector2( 55.5748, 20.8027 )
+custom_fonts/font = SubResource( 1 )
+text = "battery"
+align = 1
+valign = 1
+clip_text = true
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cables" type="Label" parent="."]
+margin_left = 78.3447
+margin_top = 38.0204
+margin_right = 156.345
+margin_bottom = 65.0204
+rect_pivot_offset = Vector2( 55.5748, 20.8027 )
+custom_fonts/font = ExtResource( 1 )
+text = "cables"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="catalytic_converter" type="Label" parent="."]
+margin_left = 52.3373
+margin_top = 62.0923
+margin_right = 183.337
+margin_bottom = 89.0923
+rect_pivot_offset = Vector2( 55.5748, 20.8027 )
+custom_fonts/font = ExtResource( 1 )
+text = "catalytic converter"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="gas_bottle" type="Label" parent="."]
+margin_left = 78.7577
+margin_top = 86.7969
+margin_right = 156.758
+margin_bottom = 113.797
+rect_pivot_offset = Vector2( 55.5748, 20.8027 )
+custom_fonts/font = ExtResource( 1 )
+text = "gas bottle"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="metal_plate" type="Label" parent="."]
+margin_left = 77.9919
+margin_top = 111.431
+margin_right = 158.992
+margin_bottom = 138.431
+rect_pivot_offset = Vector2( 55.5748, 20.8027 )
+custom_fonts/font = ExtResource( 1 )
+text = "metal plate"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="rocket_fuel" type="Label" parent="."]
+margin_left = 79.0174
+margin_top = 135.962
+margin_right = 157.017
+margin_bottom = 162.962
+rect_pivot_offset = Vector2( 55.5748, 20.8027 )
+custom_fonts/font = ExtResource( 1 )
+text = "rocket fuel"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="space_drive" type="Label" parent="."]
+margin_left = 77.4947
+margin_top = 161.881
+margin_right = 157.495
+margin_bottom = 188.881
+rect_pivot_offset = Vector2( 55.5748, 20.8027 )
+custom_fonts/font = ExtResource( 1 )
+text = "space drive"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
