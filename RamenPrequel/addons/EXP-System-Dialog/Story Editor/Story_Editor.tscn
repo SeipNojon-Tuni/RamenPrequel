@@ -222,7 +222,7 @@ margin_left = 69.0
 margin_right = 233.0
 margin_bottom = 24.0
 text = "Human Readable LBL"
-items = [ "Human Readable LBL", null, false, 0, null, "DID", null, false, 1, null ]
+items = [ "Human Readable LBL", null, false, 0, null, "DID", null, false, 1, null, "Record Name", null, false, 2, null ]
 selected = 0
 
 [node name="Search_LineEdit" type="LineEdit" parent="VBoxContainer/HBoxContainer2"]

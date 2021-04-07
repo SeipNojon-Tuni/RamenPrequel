@@ -6,8 +6,6 @@ onready var _Dialog_Box = self.find_node("Dialog_Box")
 onready var _Speaker_LBL = self.find_node("Speaker_Label")
 onready var _SpaceBar_Icon = self.find_node("SpaceBar_NinePatchRect")
 
-onready var _audio_player = get_tree().get_current_scene().get_node("AudioPlayer")
-
 var _did = 0
 var _nid = 0
 var _final_nid = 0
@@ -19,13 +17,13 @@ func _ready():
 	var Story_Reader_Class = load("res://addons/EXP-System-Dialog/Reference_StoryReader/EXP_StoryReader.gd")
 	_Story_Reader = Story_Reader_Class.new()
 	
-	var story = load("res://Wastelandbaked.tres")
+	var story = load("res://CreditsBaked.tres")
 	_Story_Reader.read(story)
 	
 	_Dialog_Box.visible = false
 	_SpaceBar_Icon.visible = false
 	
-	play_dialog("Tralala")
+	play_dialog("Credits")
 
 
 func _input(event):
@@ -55,12 +53,6 @@ func play_dialog(record_name : String):
 	_get_next_node()
 	_play_node()
 	_Dialog_Box.visible = true
-	
-	print(_did)
-	
-	if(_audio_player):
-		# Set audio bank and index
-		_audio_player.set_dialogue_audio("wasteland_start", _did)
 
 # Private Methods
 
@@ -77,6 +69,7 @@ func _get_next_node():
 	
 	if _nid == _final_nid:
 		_Dialog_Box.visible = false
+		get_tree().change_scene("res://Scenes/MainMenu.tscn")
 
 
 func _get_tagged_text(tag : String, text : String):
@@ -96,7 +89,3 @@ func _play_node():
 	_Speaker_LBL.text = speaker
 	_Body_LBL.text = dialog
 	_Body_AnimationPlayer.play("TextDisplay")
-	
-	if(_audio_player):
-		# Play current audio track
-		_audio_player.play_next_dialogue()

@@ -1,0 +1,247 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/EXP-System-Dialog/Resource_EditorStory/EXP_EditorStory.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+TYPE = "EXP_Story_editor"
+names = {
+"Credits": 1
+}
+story = {
+1: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "Credits/Dialoque",
+"name": "Credits",
+"nodes": {
+1: {
+"graph_offset": Vector2( -440, -280 ),
+"links": {
+0: 2
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<start>",
+"type": "line"
+},
+2: {
+"graph_offset": Vector2( 20, -280 ),
+"links": {
+0: 3
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Hey TinHeart, what is this place... is this the Earth? 
+is the treasure in here?</dialog> ",
+"type": "line"
+},
+3: {
+"graph_offset": Vector2( 480, -280 ),
+"links": {
+0: 4
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>No, I do not thing, that this is the Earth, hmmm.</dialog>",
+"type": "line"
+},
+4: {
+"graph_offset": Vector2( 940, -280 ),
+"links": {
+0: 5
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Oh my, I think we have stumbled upon 
+the creators of our galaxy on our journey to the treasure</dialog>",
+"type": "line"
+},
+5: {
+"graph_offset": Vector2( 1400, -280 ),
+"links": {
+0: 6
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait, our creators! I was thinking that our universe 
+has simply born by itself</dialog>",
+"type": "line"
+},
+6: {
+"graph_offset": Vector2( 1860, -280 ),
+"links": {
+0: 7
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>One could thing many things. Wait, based on these names, 
+our universe is not only created but also artificial and
+ not real... In fact, it seems that we are living simply 
+inside the game</dialog>",
+"type": "line"
+},
+7: {
+"graph_offset": Vector2( 2320, -280 ),
+"links": {
+0: 8
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>That can't be true, our universe must be real</dialog>",
+"type": "line"
+},
+8: {
+"graph_offset": Vector2( 2900, -280 ),
+"links": {
+0: 9
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>The truth can hurt. Anyway, I do thing that 
+we still should search the treasure, as we are still living. </dialog>",
+"type": "line"
+},
+9: {
+"graph_offset": Vector2( 4020, -280 ),
+"links": {
+0: 10
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Let's still enjoy from the 
+presentation of our creators, as probably no one has 
+witnessed this before</dialog>",
+"type": "line"
+},
+10: {
+"graph_offset": Vector2( 4740, -280 ),
+"links": {
+0: 11
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>I agree. Let's grab the popcorn and enjoy the show</dialog>",
+"type": "line"
+},
+11: {
+"graph_offset": Vector2( 5200, -280 ),
+"links": {
+0: 12
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog>The Spurffs Gaming Co. Presents</dialog>",
+"type": "line"
+},
+12: {
+"graph_offset": Vector2( 5660, -280 ),
+"links": {
+0: 13
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog>Blackbeard's Treasure: Tales From the Outer Space</dialog>",
+"type": "line"
+},
+13: {
+"graph_offset": Vector2( 6120, -280 ),
+"links": {
+0: 14
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog>Writing and Narrative:
+Teemu Kanerva</dialog>",
+"type": "line"
+},
+14: {
+"graph_offset": Vector2( 6580, -280 ),
+"links": {
+0: 15
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog> Programmers:
+Pasi Pulkkinen</dialog>",
+"type": "line"
+},
+15: {
+"graph_offset": Vector2( 7040, -280 ),
+"links": {
+0: 16
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog> Producers:
+Nevena Sicevic</dialog>",
+"type": "line"
+},
+16: {
+"graph_offset": Vector2( 7500, -280 ),
+"links": {
+0: 17
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog> Graphics: 
+Sipi Yla-Nojonen</dialog>",
+"type": "line"
+},
+17: {
+"graph_offset": Vector2( 7960, -280 ),
+"links": {
+0: 18
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog>Designers:
+Lassi Nieminen</dialog>",
+"type": "line"
+},
+18: {
+"graph_offset": Vector2( 8420, -280 ),
+"links": {
+0: 19
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog> Audio:
+Sipi Yla-Nojonen</dialog>",
+"type": "line"
+},
+19: {
+"graph_offset": Vector2( 8900, -280 ),
+"links": {
+0: 20
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog> QA:
+Everyone</dialog>",
+"type": "line"
+},
+20: {
+"graph_offset": Vector2( 9400, -280 ),
+"links": {
+
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<end>",
+"type": "line"
+}
+}
+}
+}
+available_dids = [ 2, 3 ]
+groups = [  ]

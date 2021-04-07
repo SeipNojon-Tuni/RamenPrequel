@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Space.png" type="Texture" id=1]
 [ext_resource path="res://Sprites/PrequelTitle.png" type="Texture" id=2]
 [ext_resource path="res://Scenes/StartButton.gd" type="Script" id=3]
 [ext_resource path="res://Scenes/QuitButton.gd" type="Script" id=4]
+[ext_resource path="res://AudioPlayer.gd" type="Script" id=5]
+[ext_resource path="res://CreditsButton.gd" type="Script" id=6]
 
 [node name="MainMenu" type="Control"]
 __meta__ = {
@@ -48,6 +50,7 @@ margin_left = 445.081
 margin_top = 420.705
 margin_right = 583.081
 margin_bottom = 454.705
+script = ExtResource( 6 )
 __meta__ = {
 "_edit_use_anchors_": false,
 "_editor_description_": ""
@@ -103,5 +106,9 @@ texture = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="AudioPlayer" type="AudioStreamPlayer" parent="."]
+script = ExtResource( 5 )
 [connection signal="pressed" from="StartButton" to="StartButton" method="_on_StartButton_pressed"]
+[connection signal="pressed" from="CreditsButton" to="CreditsButton" method="_on_CreditsButton_pressed"]
 [connection signal="pressed" from="QuitButton" to="QuitButton" method="_on_QuitButton_pressed"]
