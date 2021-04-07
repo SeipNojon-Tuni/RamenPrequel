@@ -6,6 +6,8 @@ onready var _Dialog_Box = self.find_node("Dialog_Box")
 onready var _Speaker_LBL = self.find_node("Speaker_Label")
 onready var _SpaceBar_Icon = self.find_node("SpaceBar_NinePatchRect")
 
+onready var _audio_player = get_tree().get_scene().get_node("AudioPlayer")
+
 var _did = 0
 var _nid = 0
 var _final_nid = 0
@@ -53,6 +55,12 @@ func play_dialog(record_name : String):
 	_get_next_node()
 	_play_node()
 	_Dialog_Box.visible = true
+	
+	print(_did)
+	
+	if(_audio_player):
+		# Set audio bank and index
+		_audio_player.set_dialogue_audio("wasteland_start", _did)
 
 # Private Methods
 
@@ -88,3 +96,7 @@ func _play_node():
 	_Speaker_LBL.text = speaker
 	_Body_LBL.text = dialog
 	_Body_AnimationPlayer.play("TextDisplay")
+	
+	if(_audio_player):
+		# Play current audio track
+		_audio_player.play_next_dialogue()
