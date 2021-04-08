@@ -63,8 +63,10 @@ The only problem is, that the ship seems to be broken and
 0: 8
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>It is definely missing some parts. It seems to be missing,
- Maybe we should head to the wasteland and 
+<dialog>It is definely missing some parts. It seems 
+to be missing:  battery, cables, catalytic converter, 
+gas bottle, metal plate, rocket fuel and space drive.
+Maybe we should head to the wasteland and 
 see if we find them</dialog>"
 },
 8: {
