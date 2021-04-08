@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://ObjectClicked.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/MicrawaWaste/battery.png" type="Texture" id=2]
@@ -16,6 +16,7 @@
 [ext_resource path="res://Scenes/PowerPylon.tscn" type="PackedScene" id=14]
 [ext_resource path="res://Sprites/MicrawaWaste/micrawa_waste_pile.png" type="Texture" id=15]
 [ext_resource path="res://Audio/ambience/wasteland/Wasteland_ambience.wav" type="AudioStream" id=16]
+[ext_resource path="res://Scenes/UI_wasteland.tscn" type="PackedScene" id=17]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 10.0918
@@ -43,6 +44,8 @@ extents = Vector2( 8.35217, 4.03604 )
 [node name="Control" type="Node2D"]
 position = Vector2( 2.99664, -5.99323 )
 
+[node name="UI_wasteland" parent="." instance=ExtResource( 17 )]
+
 [node name="Background" type="Sprite" parent="."]
 position = Vector2( 510.232, 308.048 )
 scale = Vector2( 0.353681, 0.470683 )
@@ -66,16 +69,16 @@ position = Vector2( 513.503, 307.993 )
 scale = Vector2( 0.354, 0.471 )
 texture = ExtResource( 15 )
 
-[node name="Wires" type="Area2D" parent="."]
+[node name="Cables" type="Area2D" parent="."]
 position = Vector2( -7.07104, 11.3137 )
 script = ExtResource( 1 )
 
-[node name="Sprite" type="Sprite" parent="Wires"]
+[node name="Sprite" type="Sprite" parent="Cables"]
 position = Vector2( 263.038, 551.761 )
 scale = Vector2( 0.0287547, 0.0259754 )
 texture = ExtResource( 9 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wires"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cables"]
 position = Vector2( 263.461, 550.235 )
 shape = SubResource( 1 )
 
@@ -111,17 +114,17 @@ position = Vector2( 232.177, 523.176 )
 rotation = 0.760963
 shape = SubResource( 3 )
 
-[node name="Canister" type="Area2D" parent="."]
+[node name="Gas" type="Area2D" parent="."]
 position = Vector2( 236.88, -21.3569 )
 script = ExtResource( 1 )
 
-[node name="Sprite" type="Sprite" parent="Canister"]
+[node name="Sprite" type="Sprite" parent="Gas"]
 position = Vector2( 231.96, 519.07 )
 rotation = 0.253073
 scale = Vector2( 0.0287547, 0.0259754 )
 texture = ExtResource( 6 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Canister"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Gas"]
 position = Vector2( 230.395, 520.28 )
 shape = SubResource( 4 )
 
@@ -178,18 +181,18 @@ stream = ExtResource( 16 )
 volume_db = -6.964
 pitch_scale = 0.43
 autoplay = true
-[connection signal="input_event" from="Wires" to="Wires" method="_on_Object_input_event"]
-[connection signal="mouse_entered" from="Wires" to="Wires" method="_on_Object_mouse_entered"]
-[connection signal="mouse_exited" from="Wires" to="Wires" method="_on_Object_mouse_exited"]
+[connection signal="input_event" from="Cables" to="Cables" method="_on_Object_input_event"]
+[connection signal="mouse_entered" from="Cables" to="Cables" method="_on_Object_mouse_entered"]
+[connection signal="mouse_exited" from="Cables" to="Cables" method="_on_Object_mouse_exited"]
 [connection signal="input_event" from="Battery" to="Battery" method="_on_Object_input_event"]
 [connection signal="mouse_entered" from="Battery" to="Battery" method="_on_Object_mouse_entered"]
 [connection signal="mouse_exited" from="Battery" to="Battery" method="_on_Object_mouse_exited"]
 [connection signal="input_event" from="Catalysator" to="Catalysator" method="_on_Object_input_event"]
 [connection signal="mouse_entered" from="Catalysator" to="Catalysator" method="_on_Object_mouse_entered"]
 [connection signal="mouse_exited" from="Catalysator" to="Catalysator" method="_on_Object_mouse_exited"]
-[connection signal="input_event" from="Canister" to="Canister" method="_on_Object_input_event"]
-[connection signal="mouse_entered" from="Canister" to="Canister" method="_on_Object_mouse_entered"]
-[connection signal="mouse_exited" from="Canister" to="Canister" method="_on_Object_mouse_exited"]
+[connection signal="input_event" from="Gas" to="Gas" method="_on_Object_input_event"]
+[connection signal="mouse_entered" from="Gas" to="Gas" method="_on_Object_mouse_entered"]
+[connection signal="mouse_exited" from="Gas" to="Gas" method="_on_Object_mouse_exited"]
 [connection signal="input_event" from="Fuel" to="Fuel" method="_on_Object_input_event"]
 [connection signal="mouse_entered" from="Fuel" to="Fuel" method="_on_Object_mouse_entered"]
 [connection signal="mouse_exited" from="Fuel" to="Fuel" method="_on_Object_mouse_exited"]
