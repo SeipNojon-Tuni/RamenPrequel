@@ -6,10 +6,10 @@
 [node name="UI_wasteland" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -0.829038
-margin_top = -1.44802
-margin_right = -0.829041
-margin_bottom = -1.44794
+margin_left = -53.686
+margin_top = -0.976081
+margin_right = -53.686
+margin_bottom = -0.976013
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_horizontal_guides_": [ 23.3555, 48.3288, 73.3022, 98.2755, 123.249, 148.222, 173.196 ],
@@ -18,10 +18,10 @@ __meta__ = {
 }
 
 [node name="Battery" type="RichTextLabel" parent="."]
-margin_left = 95.0
-margin_top = 10.0
-margin_right = 198.0
-margin_bottom = 35.0
+margin_left = 96.3243
+margin_top = 8.67567
+margin_right = 199.324
+margin_bottom = 33.6757
 rect_pivot_offset = Vector2( 55.5748, 20.8027 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
@@ -32,10 +32,10 @@ __meta__ = {
 }
 
 [node name="Cables" type="RichTextLabel" parent="."]
-margin_left = 98.0
-margin_top = 33.0
-margin_right = 190.0
-margin_bottom = 66.0
+margin_left = 98.7946
+margin_top = 34.3243
+margin_right = 190.795
+margin_bottom = 67.3243
 rect_pivot_offset = Vector2( 55.5748, 20.8027 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
@@ -46,10 +46,10 @@ __meta__ = {
 }
 
 [node name="Catalysator" type="RichTextLabel" parent="."]
-margin_left = 55.0
-margin_top = 60.0
-margin_right = 243.0
-margin_bottom = 87.0
+margin_left = 60.5622
+margin_top = 57.8811
+margin_right = 248.562
+margin_bottom = 84.8811
 rect_pivot_offset = Vector2( 55.5748, 20.8027 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
@@ -61,9 +61,9 @@ __meta__ = {
 
 [node name="Gas" type="RichTextLabel" parent="."]
 margin_left = 86.0
-margin_top = 86.0
+margin_top = 83.6216
 margin_right = 201.0
-margin_bottom = 112.0
+margin_bottom = 109.622
 rect_pivot_offset = Vector2( 55.5748, 20.8027 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
@@ -74,10 +74,10 @@ __meta__ = {
 }
 
 [node name="CarHood" type="RichTextLabel" parent="."]
-margin_left = 81.0
-margin_top = 110.0
-margin_right = 204.0
-margin_bottom = 137.0
+margin_left = 83.1189
+margin_top = 108.676
+margin_right = 206.119
+margin_bottom = 135.676
 rect_pivot_offset = Vector2( 55.5748, 20.8027 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
@@ -88,10 +88,10 @@ __meta__ = {
 }
 
 [node name="Fuel" type="RichTextLabel" parent="."]
-margin_left = 84.0
-margin_top = 136.0
-margin_right = 200.0
-margin_bottom = 164.0
+margin_left = 83.6464
+margin_top = 133.348
+margin_right = 199.646
+margin_bottom = 161.348
 rect_pivot_offset = Vector2( 55.5748, 20.8027 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
@@ -102,12 +102,15 @@ __meta__ = {
 }
 
 [node name="SpaceDrive" type="RichTextLabel" parent="."]
-margin_left = 82.0
-margin_top = 161.0
-margin_right = 192.0
-margin_bottom = 194.0
+margin_left = 82.5297
+margin_top = 157.557
+margin_right = 192.53
+margin_bottom = 190.557
 rect_pivot_offset = Vector2( 55.5748, 20.8027 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
 bbcode_text = "space drive"
 text = "space drive"
+__meta__ = {
+"_edit_use_anchors_": false
+}
