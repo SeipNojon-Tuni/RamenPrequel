@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://ObjectClicked.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/MicrawaWaste/battery.png" type="Texture" id=2]
@@ -17,34 +17,14 @@
 [ext_resource path="res://Sprites/MicrawaWaste/micrawa_waste_pile.png" type="Texture" id=15]
 [ext_resource path="res://Audio/ambience/wasteland/Wasteland_ambience.wav" type="AudioStream" id=16]
 [ext_resource path="res://Scenes/UI_wasteland.tscn" type="PackedScene" id=17]
-
-[sub_resource type="CircleShape2D" id=1]
-radius = 10.0918
-
-[sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 10.2174, 4.88477 )
-
-[sub_resource type="CapsuleShape2D" id=3]
-radius = 4.44385
-
-[sub_resource type="CapsuleShape2D" id=4]
-radius = 5.31952
-height = 10.7209
-
-[sub_resource type="CapsuleShape2D" id=5]
-radius = 4.04828
-height = 9.89526
-
-[sub_resource type="RectangleShape2D" id=6]
-extents = Vector2( 5.31308, 8.68026 )
-
-[sub_resource type="RectangleShape2D" id=7]
-extents = Vector2( 8.35217, 4.03604 )
+[ext_resource path="res://Sprites/MicrawaWaste/Clutter/rock2.png" type="Texture" id=18]
+[ext_resource path="res://Sprites/MicrawaWaste/Clutter/microwave.png" type="Texture" id=19]
+[ext_resource path="res://Sprites/MicrawaWaste/Clutter/rock1.png" type="Texture" id=20]
+[ext_resource path="res://Sprites/MicrawaWaste/Clutter/home_appliances.png" type="Texture" id=21]
+[ext_resource path="res://Sprites/MicrawaWaste/Clutter/sofa.png" type="Texture" id=22]
 
 [node name="Control" type="Node2D"]
 position = Vector2( 2.99664, -5.99323 )
-
-[node name="UI_wasteland" parent="." instance=ExtResource( 17 )]
 
 [node name="Background" type="Sprite" parent="."]
 position = Vector2( 510.232, 308.048 )
@@ -69,6 +49,8 @@ position = Vector2( 513.503, 307.993 )
 scale = Vector2( 0.354, 0.471 )
 texture = ExtResource( 15 )
 
+[node name="UI_wasteland" parent="." instance=ExtResource( 17 )]
+
 [node name="Cables" type="Area2D" parent="."]
 position = Vector2( -7.07104, 11.3137 )
 script = ExtResource( 1 )
@@ -78,9 +60,9 @@ position = Vector2( 263.038, 551.761 )
 scale = Vector2( 0.0287547, 0.0259754 )
 texture = ExtResource( 9 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Cables"]
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="Cables"]
 position = Vector2( 263.461, 550.235 )
-shape = SubResource( 1 )
+polygon = PoolVector2Array( 4.91171, -1.81976, 7.92831, -2.66162, 8.84033, -0.837646, 9.40155, 1.47748, 8.70001, 3.65222, 8.20892, 5.82703, 6.31479, 8.49286, 4.6311, 9.68549, 2.0354, 9.82574, 1.05325, 9.40485, -4.13814, 8.84363, -7.50552, 6.94946, -8.9086, 5.54639, -9.11906, 3.93286 )
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 264.304, 526.372 )
@@ -96,23 +78,24 @@ position = Vector2( 233.742, 523.301 )
 scale = Vector2( 0.0287547, 0.0259754 )
 texture = ExtResource( 2 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Battery"]
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="Battery"]
 position = Vector2( 232.4, 524.958 )
-shape = SubResource( 2 )
+polygon = PoolVector2Array( 4.35043, -4.95297, -5.56026, -4.00912, -6.38614, -4.48105, -7.448, -4.36307, -9.57172, -3.53717, -10.1616, 2.83398, -5.08832, 5.07568, -1.07684, 4.48575, -0.13298, 0.120331, 0.338959, -2.35733 )
 
 [node name="Catalysator" type="Area2D" parent="."]
 position = Vector2( 735.253, 45.9908 )
 script = ExtResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Catalysator"]
-position = Vector2( 233.742, 523.301 )
+position = Vector2( 233.074, 523.97 )
+rotation = 0.380482
 scale = Vector2( 0.0287547, 0.0259754 )
 texture = ExtResource( 5 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Catalysator"]
-position = Vector2( 232.177, 523.176 )
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="Catalysator"]
+position = Vector2( 231.954, 523.176 )
 rotation = 0.760963
-shape = SubResource( 3 )
+polygon = PoolVector2Array( -3.78308, -2.31656, -6.91919, 5.27805, -6.70642, 6.22745, -5.89514, 6.8374, -3.37512, 7.54807, -3.97363, 10.3069, -3.76074, 11.2563, -2.10388, 13.4801, -1.57446, 13.5521, -1.03369, 13.1522, -1.25806, 12.6747, -2.10376, 11.0607, -2.37402, 10.0509, -1.67493, 8.00269, 1.00342, 7.06497, 1.85791, 5.90567, 2.81604, 2.91956, 0.267334, 0.968994, -1.38672, -1.37283 )
 
 [node name="Gas" type="Area2D" parent="."]
 position = Vector2( 236.88, -21.3569 )
@@ -124,9 +107,9 @@ rotation = 0.253073
 scale = Vector2( 0.0287547, 0.0259754 )
 texture = ExtResource( 6 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Gas"]
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="Gas"]
 position = Vector2( 230.395, 520.28 )
-shape = SubResource( 4 )
+polygon = PoolVector2Array( -4.44464, 7.60593, -3.15488, 6.01852, 3.59155, 2.24844, 0.912842, -3.70432, 3.78998, -6.68069, 2.50024, -7.4744, 1.80573, -7.67282, 1.70654, -9.45865, -0.674561, -11.2445, -1.5675, -11.0461, -1.66669, -9.95471, -3.05566, -9.26022, -2.75803, -7.17676, -4.84149, -4.89487, -5.33755, -3.90274, -5.33755, -0.231873, -4.9407, 4.13348, -4.44464, 5.72089 )
 
 [node name="Fuel" type="Area2D" parent="."]
 position = Vector2( 594.714, -393.42 )
@@ -138,10 +121,10 @@ rotation = 1.01578
 scale = Vector2( 0.0287547, 0.0259754 )
 texture = ExtResource( 8 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Fuel"]
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="Fuel"]
 position = Vector2( 232.4, 521.981 )
 rotation = 1.52367
-shape = SubResource( 5 )
+polygon = PoolVector2Array( -5.21204, 5.94275, -4.24142, 7.09216, -2.70166, 7.87427, -1.06097, 8.18811, 1.54956, 7.99585, 3.23848, 7.28723, 5.11066, 6.03534, 4.12892, 5.12189, 3.34076, -6.58246, 4.0034, -7.2608, 3.50104, -8.30927, 1.41066, -9.11731, -0.645569, -8.97778, -2.41684, -8.19415, -3.82822, -6.68414, -3.87273, -5.74023, -3.49057, -5.48566, -3.99507, 5.21173 )
 
 [node name="CarHood" type="Area2D" parent="."]
 position = Vector2( -100.187, -300.766 )
@@ -152,10 +135,10 @@ position = Vector2( 233.742, 523.301 )
 scale = Vector2( 0.0287547, 0.0259754 )
 texture = ExtResource( 4 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CarHood"]
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="CarHood"]
 position = Vector2( 232.003, 523.172 )
 rotation = 0.762709
-shape = SubResource( 6 )
+polygon = PoolVector2Array( -2.71149, -4.37305, 1.2182, -8.25787, 5.30594, -10.3508, 5.87622, -9.2119, 6.09895, -7.35232, 5.97415, -4.77203, 5.21602, -0.550308, 4.89111, 2.09167, 4.98749, 3.68346, -0.881546, 8.38532, -3.14734, 8.99623, -5.73363, 9.13625, -4.23239, 1.35476 )
 
 [node name="SpaceDrive" type="Area2D" parent="."]
 position = Vector2( 728.377, -47.5521 )
@@ -166,9 +149,9 @@ position = Vector2( 233.742, 523.301 )
 scale = Vector2( 0.0287547, 0.0259754 )
 texture = ExtResource( 10 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="SpaceDrive"]
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="SpaceDrive"]
 position = Vector2( 232.871, 524.722 )
-shape = SubResource( 7 )
+polygon = PoolVector2Array( -1.21008, -4.38162, -8.82495, -1.79919, -8.4939, 2.10757, -4.25604, 2.83597, -0.547913, 1.90894, 1.4386, 0.518402, 3.5575, 0.187317, 3.68994, -0.541077, 5.47778, -3.71945 )
 
 [node name="Dialog_Player" parent="." instance=ExtResource( 11 )]
 script = ExtResource( 12 )
@@ -181,6 +164,37 @@ stream = ExtResource( 16 )
 volume_db = -6.964
 pitch_scale = 0.43
 autoplay = true
+
+[node name="Rock1" type="Sprite" parent="."]
+position = Vector2( 977.127, 468.938 )
+scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 20 )
+
+[node name="Rock2" type="Sprite" parent="."]
+position = Vector2( 481.738, 496.243 )
+scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 18 )
+
+[node name="Microwave" type="Sprite" parent="."]
+position = Vector2( 803.055, 542.419 )
+rotation = 0.270526
+scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 19 )
+flip_h = true
+flip_v = true
+
+[node name="HomeAppliances" type="Sprite" parent="."]
+position = Vector2( 988.997, 563.805 )
+rotation = 0.127409
+scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 21 )
+
+[node name="Sofa" type="Sprite" parent="."]
+position = Vector2( 244.755, 479.653 )
+scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 22 )
+flip_h = true
+flip_v = true
 [connection signal="input_event" from="Cables" to="Cables" method="_on_Object_input_event"]
 [connection signal="mouse_entered" from="Cables" to="Cables" method="_on_Object_mouse_entered"]
 [connection signal="mouse_exited" from="Cables" to="Cables" method="_on_Object_mouse_exited"]
