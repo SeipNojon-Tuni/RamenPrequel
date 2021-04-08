@@ -1,0 +1,202 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/EXP-System-Dialog/Resource_BakedStory/EXP_BakedStory.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+TYPE = "EXP_Baked_Story"
+story = {
+1: {
+"nodes": {
+1: {
+"links": {
+0: 2
+},
+"text": "<start>"
+},
+2: {
+"links": {
+0: 3
+},
+"text": "
+<dialog>Sounds of landing</dialog>"
+},
+3: {
+"links": {
+0: 4
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Great, we have succefully landed to the SpurffVille,
+ the capital of the planet Ostrog and also, 
+the home of Spurffs</dialog>"
+},
+4: {
+"links": {
+0: 5
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Whew, it feels good to be back on the land after long, 
+almost two second trip in the space</dialog>"
+},
+5: {
+"links": {
+0: 6
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>On to the topic, where should we exactly go in here</dialog>"
+},
+6: {
+"links": {
+0: 7
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>If I remember correctly, the leader of the Spurffs 
+has the only rights to use this signature</dialog>"
+},
+7: {
+"links": {
+0: 8
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>The leader hut should be somewhere in the SpurffVille,
+ perhaps we should start looking it</dialog>"
+},
+8: {
+"links": {
+0: 9
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>That is a great idea, but why the everyone seems 
+to be scared in the SpurffVille</dialog>"
+},
+9: {
+"links": {
+0: 10
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>That is a good guestion indeed, but we should not care 
+about it and just find the leader, let's go!</dialog>"
+},
+10: {
+"links": {
+0: 11
+},
+"text": "<dialog>After 30 minutes</dialog>"
+},
+11: {
+"links": {
+0: 12
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>There is the leader's hut, let's go in right away</dialog>"
+},
+12: {
+"links": {
+0: 13
+},
+"text": "<speaker>Guard</speaker>
+<dialog>Stop right there you tinheads. Don't you know
+ that our leader does not allow currently any visitors. 
+Who even are you?</dialog>"
+},
+13: {
+"links": {
+0: 14
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>I am TinHeart and this is O'beep, and we are coming 
+from the Planet Micrawa Ramen to meet your leader. 
+Why exactly visitors are not allowed</dialog>"
+},
+14: {
+"links": {
+0: 15
+},
+"text": "<speaker>Guard</speaker>
+<dialog>(I thought the whole planet died in the war)</dialog>"
+},
+15: {
+"links": {
+0: 16
+},
+"text": "<speaker>Guard</speaker>
+<dialog>Anyway, a day ago, a lumpy Spurff servant accidentally 
+dropped the most valuable treasure of our planet: 
+The diamond Eye. Our leader declared a state of 
+emergency and the leader has not accepted 
+visitors since</dialog>"
+},
+16: {
+"links": {
+0: 17
+},
+"text": "<speaker>Guard</speaker>
+<dialog>Another Diamond Eye is on the ancient temple, but it is 
+too dangerous to go there and there are no volunteers</dialog>"
+},
+17: {
+"links": {
+0: 18
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>That explains why everyone is so scared... 
+I just got an great idea! Perhaps we could get the 
+Eye from the temple as we have to see the leader 
+and we do not have anything left to fail</dialog>"
+},
+18: {
+"links": {
+0: 19
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Let's not do that... Althought, now after thinking more. 
+We can do that as we can not otherwise progress in 
+our journey</dialog>"
+},
+19: {
+"links": {
+0: 20
+},
+"text": "<speaker>Guard</speaker>
+<dialog>You Rusty TinHeads want to help us? It is okay
+ until you return the new Eye to the us
+ (If they fail, we gets robots parts). 
+The temple is on the left side of the town</dialog>"
+},
+20: {
+"links": {
+0: 21
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>What are they calling us? Anyway let's go</dialog>"
+},
+21: {
+"links": {
+
+},
+"text": "<end>"
+}
+}
+},
+2: {
+"nodes": {
+
+}
+},
+3: {
+"nodes": {
+
+}
+},
+4: {
+"nodes": {
+
+}
+}
+}
+names = {
+"Landing": 1,
+"Return/Ending": 4,
+"Temple 2": 3,
+"Temple1": 2
+}
