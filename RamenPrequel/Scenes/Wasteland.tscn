@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://ObjectClicked.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/MicrawaWaste/battery.png" type="Texture" id=2]
@@ -22,9 +22,11 @@
 [ext_resource path="res://Sprites/MicrawaWaste/Clutter/rock1.png" type="Texture" id=20]
 [ext_resource path="res://Sprites/MicrawaWaste/Clutter/home_appliances.png" type="Texture" id=21]
 [ext_resource path="res://Sprites/MicrawaWaste/Clutter/sofa.png" type="Texture" id=22]
+[ext_resource path="res://Scenes/Wasteland.gd" type="Script" id=23]
 
 [node name="Control" type="Node2D"]
 position = Vector2( 2.99664, -5.99323 )
+script = ExtResource( 23 )
 
 [node name="Background" type="Sprite" parent="."]
 position = Vector2( 510.232, 308.048 )
