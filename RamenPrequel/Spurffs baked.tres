@@ -190,7 +190,306 @@ The temple is on the left side of the town</dialog>"
 },
 4: {
 "nodes": {
+1: {
+"links": {
+0: 2
+},
+"text": "<start>"
+},
+2: {
+"links": {
+0: 3
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Whew, that was a close call. We were close to
+ coming only bolts and wires</dialog>"
+},
+3: {
+"links": {
+0: 4
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Luckily, that did not happen and we got The Diamond Eye</dialog>"
+},
+4: {
+"links": {
+0: 5
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>We should go see the leader right away</dialog>"
+},
+5: {
+"links": {
+0: 6
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Yes we should, but my legs feel like an rusted metal</dialog>"
+},
+6: {
+"links": {
+0: 7
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>(The youngster has a bad fitness). Anyway, I will start
+ heading back to the leader, come behind me</dialog>"
+},
+7: {
+"links": {
+0: 8
+},
+"text": "<dialog>At the leader's hut</dialog>"
+},
+8: {
+"links": {
+0: 9
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>There is the one and only Diamond Eye you were looking for</dialog>"
+},
+9: {
+"links": {
+0: 10
+},
+"text": "<speaker>Guard</speaker>
+<dialog>You Rusty TinHeads really managed to get The Diamond Eye.
+(Too sad that we did not get robots parts)</dialog>"
+},
+10: {
+"links": {
+0: 11
+},
+"text": "<speaker>Guard</speaker>
+<dialog>Anyway, I can take it back to it's place.
+It is not like, that clumsy guard can destroy the eye again</dialog>"
+},
+11: {
+"links": {
+0: 12
+},
+"text": "<speaker>Guard</speaker>
+<dialog>You are now free to go see our leader. In fact, 
+he wants to meet you</dialog>"
+},
+12: {
+"links": {
+0: 13
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Then we should go in right away, behave O'Beep</dialog>"
+},
+13: {
+"links": {
+0: 14
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Okay, I try</dialog>"
+},
+14: {
+"links": {
+0: 15
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Excuse me, the leader of the Spurffs</dialog>"
+},
+15: {
+"links": {
+0: 16
+},
+"text": "<speaker>The leader</speaker>
+<dialog>Yes, that's me. i am Greet the leader</dialog>"
+},
+16: {
+"links": {
+0: 17
+},
+"text": "<speaker>Greet</speaker>
+<dialog>Oh,, you are the ones who brought back The Diamond Eye. 
+You are the heroes of our planet, and we owe you 
+everything you want</dialog>"
+},
+17: {
+"links": {
+0: 18
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Well, the large amount of money and a place to stay 
+would be nice</dialog>"
+},
+18: {
+"links": {
+0: 19
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>We are not looking any of that. In fact, we would like to know
+more about his paper with your signature on it, 
+which we found from our ship</dialog>"
+},
+19: {
+"links": {
+0: 20
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>It says: \"A treasure is hidden in the deep seas of...</dialog>"
+},
+20: {
+"links": {
+0: 21
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Unfortunately, that is only thing told in this paper. 
+It has a Spurffs signature and we though that you, 
+the leader could know something about the
+treasure location</dialog>"
+},
+21: {
+"links": {
+0: 22
+},
+"text": "<speaker>Greet</speaker>
+<dialog>I will definely remember that paper. 
+Unfortunately I can only add to that information, 
+that the treasure is located in the Milky Way galaxy, 
+on the planet, which name starts with E</dialog>"
+},
+22: {
+"links": {
+0: 23
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>So this dangerous journey was for nothing?</dialog>"
+},
+23: {
+"links": {
+0: 24
+},
+"text": "<speaker>Greet</speaker>
+<dialog>That is not exaxtly the case. I know that 
+the rest of the clue is located in the lavas of 
+Planet Hot Tomato</dialog>"
+},
+24: {
+"links": {
+0: 25
+},
+"text": "<speaker>Greet</speaker>
+<dialog>I even have tracker for the clue, which I can give to you,
+as a reward of saving our planet. I do not have 
+anymore use to it</dialog>"
+},
+25: {
+"links": {
+0: 26
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>That is great</dialog>"
+},
+26: {
+"links": {
+0: 27
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Journey is never for nothing. Thanks Spurffs and
+ Greet the leader for your generosity</dialog>"
+},
+27: {
+"links": {
+0: 28
+},
+"text": "<speaker>Greet</speaker>
+<dialog>Same to you</dialog>"
+},
+28: {
+"links": {
+0: 29
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>That is all we have to ask. I think we can 
+return to the spaceship now</dialog>"
+},
+29: {
+"links": {
+0: 30
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Oh yeah, I think. Bye bye Spurffs</dialog>"
+},
+30: {
+"links": {
+0: 31
+},
+"text": "<dialog>At the spaceship</dialog>"
+},
+31: {
+"links": {
+0: 32
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>So, the leader said, that the final piece of the clue 
+is located in the Planet Hot Tomato</dialog>"
+},
+32: {
+"links": {
+0: 33
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Luckily we have an tracker. Otherwise it would be 
+nearly impossible to locate the clue</dialog>"
+},
+33: {
+"links": {
+0: 34
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait a second, where this planet is located?</dialog>"
+},
+34: {
+"links": {
+0: 35
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>The Planet Hot Tomato is the planet that is 
+most distant from our own</dialog>"
+},
+35: {
+"links": {
+0: 36
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>That is great, but where do you know that information</dialog>"
+},
+36: {
+"links": {
+0: 37
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>I read space geography books when I was younger</dialog>"
+},
+37: {
+"links": {
+0: 38
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Anyway, let's head to the Planet Hot Tomato right away</dialog>"
+},
+38: {
+"links": {
+0: 39
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Yeah, let's go</dialog>"
+},
+39: {
+"links": {
+0: 40
+},
+"text": "<dialog>Sounds of launch</dialog>"
+},
+40: {
+"links": {
 
+},
+"text": "<end>"
+}
 }
 }
 }

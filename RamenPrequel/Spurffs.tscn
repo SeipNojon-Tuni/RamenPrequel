@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://DialogSpurffs.gd" type="Script" id=1]
+[ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=2]
+
+[node name="Control" type="Node2D"]
+
+[node name="Dialog_Player" parent="." instance=ExtResource( 2 )]
+script = ExtResource( 1 )
