@@ -30,7 +30,7 @@ func _ready():
 	_Dialog_Box.visible = false
 	_SpaceBar_Icon.visible = false
 	
-	play_dialog("Return/Ending")
+	play_dialog("ThirdPuzzle")
 
 
 func _input(event):

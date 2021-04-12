@@ -6,10 +6,11 @@
 script = ExtResource( 1 )
 TYPE = "EXP_Story_editor"
 names = {
+"FirstPuzzle": 2,
 "Landing": 1,
-"Return/Ending": 4,
-"Temple 2": 3,
-"Temple1": 2
+"SecondPuzzle": 3,
+"TempleReturn/Guard": 4,
+"ThirdPuzzle": 5
 }
 story = {
 1: {
@@ -95,8 +96,8 @@ has the only rights to use this signature</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>The leader hut should be somewhere in the SpurffVille,
- perhaps we should start looking it</dialog>",
+<dialog>The leader hut should be somewhere in the main town of SpurffVille.
+ Perhaps we should head there</dialog>",
 "type": "line"
 },
 8: {
@@ -108,7 +109,7 @@ has the only rights to use this signature</dialog>",
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>That is a great idea, but why the everyone seems 
-to be scared in the SpurffVille</dialog>",
+to be so scared here</dialog>",
 "type": "line"
 },
 9: {
@@ -130,7 +131,7 @@ about it and just find the leader, let's go!</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog>After 30 minutes</dialog>",
+"text": "<dialog>Near the main town of the SpurffVille</dialog>",
 "type": "line"
 },
 11: {
@@ -141,7 +142,7 @@ about it and just find the leader, let's go!</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>There is the leader's hut, let's go in right away</dialog>",
+<dialog>The main town of the SpurffVille is just beyond that bridge. Let's cross it</dialog>",
 "type": "line"
 },
 12: {
@@ -153,7 +154,7 @@ about it and just find the leader, let's go!</dialog>",
 "slot_amount": 1,
 "text": "<speaker>Guard</speaker>
 <dialog>Stop right there you tinheads. Don't you know
- that our leader does not allow currently any visitors. 
+that now one is allowed to enter or leave the SpurffVille
 Who even are you?</dialog>",
 "type": "line"
 },
@@ -191,9 +192,8 @@ Why exactly visitors are not allowed</dialog>",
 "text": "<speaker>Guard</speaker>
 <dialog>Anyway, a day ago, a lumpy Spurff servant accidentally 
 dropped the most valuable treasure of our planet: 
-The diamond Eye. Our leader declared a state of 
-emergency and the leader has not accepted 
-visitors since</dialog>",
+The Diamond Eye. Our leader declared a state of 
+emergency and since then, no one has not been allowed to enter or exit the SpurffVille</dialog>",
 "type": "line"
 },
 16: {
@@ -215,11 +215,10 @@ too dangerous to go there and there are no volunteers</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
+"text": "<sp<speaker>O'Beep</speaker>
 <dialog>That explains why everyone is so scared... 
 I just got an great idea! Perhaps we could get the 
-Eye from the temple as we have to see the leader 
-and we do not have anything left to fail</dialog>",
+Eye from the temple as we have to enter the town and see the leader</dialog>",
 "type": "line"
 },
 18: {
@@ -244,9 +243,9 @@ our journey</dialog>",
 "slot_amount": 1,
 "text": "<speaker>Guard</speaker>
 <dialog>You Rusty TinHeads want to help us? It is okay
- until you return the new Eye to the us
+ until you return the new Eye to me.
  (If they fail, we gets robots parts). 
-The temple is on the left side of the town</dialog>",
+The temple is just behind that corner</dialog>",
 "type": "line"
 },
 20: {
@@ -273,28 +272,408 @@ The temple is on the left side of the town</dialog>",
 }
 },
 2: {
-"available_nid": [  ],
+"available_nid": [ 19 ],
 "groups": [  ],
-"human_readable_description": "New Dialog - Enter Human Readable Description.",
-"name": "Temple1",
+"human_readable_description": "Spurffs/Temple/First",
+"name": "FirstPuzzle",
 "nodes": {
+1: {
+"graph_offset": Vector2( -3840, 0 ),
+"links": {
+0: 2
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<start>",
+"type": "line"
+},
+2: {
+"graph_offset": Vector2( -3320, 0 ),
+"links": {
+0: 3
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>So there is the temple. Let's go in right away</dialog>",
+"type": "line"
+},
+3: {
+"graph_offset": Vector2( -2820, 0 ),
+"links": {
+0: 4
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait, the temple is blocked...</dialog>",
+"type": "line"
+},
+4: {
+"graph_offset": Vector2( -2320, 0 ),
+"links": {
+0: 5
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>And the door does not open no matter how hard you push it</dialog>",
+"type": "line"
+},
+5: {
+"graph_offset": Vector2( -1780, 0 ),
+"links": {
+0: 6
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>You can not often simply walk into the temple</dialog>",
+"type": "line"
+},
+6: {
+"graph_offset": Vector2( -1300, 20 ),
+"links": {
+0: 7
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Anyway, temples often have mechanism that have to 
+be opened in someway... Let me see</dialog>",
+"type": "line"
+},
+7: {
+"graph_offset": Vector2( -820, 20 ),
+"links": {
+0: 8
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>TinHeart, look. These wheels on the door move</dialog>",
+"type": "line"
+},
+8: {
+"graph_offset": Vector2( -340, 20 ),
+"links": {
+0: 9
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Be careful O'beep, doing something wrong might cause 
+a trap to trigger</dialog>",
+"type": "line"
+},
+9: {
+"graph_offset": Vector2( 140, 20 ),
+"links": {
+0: 10
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Although now after thinking, those wheels might be 
+our solution to getting The Diamond Eye</dialog>",
+"type": "line"
+},
+10: {
+"graph_offset": Vector2( 620, 20 ),
+"links": {
+0: 11
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>We should first look around to see if we find 
+some instructions to open the door</dialog>",
+"type": "line"
+},
+11: {
+"graph_offset": Vector2( 1100, 20 ),
+"links": {
+0: 12
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait, what are these weird symbols next to the door</dialog>",
+"type": "line"
+},
+12: {
+"graph_offset": Vector2( 1560, 20 ),
+"links": {
+0: 13
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Let me see hmmm...</dialog>",
+"type": "line"
+},
+13: {
+"graph_offset": Vector2( 2040, 20 ),
+"links": {
+0: 14
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Those symbols seems to match ones on the wheel. 
+This must be the solution to opening the door.
+Great job O'Beep</dialog>",
+"type": "line"
+},
+14: {
+"graph_offset": Vector2( 2520, 20 ),
+"links": {
+0: 15
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>(Glad to see my work getting appreciated)</dialog>",
+"type": "line"
+},
+15: {
+"graph_offset": Vector2( 3000, 20 ),
+"links": {
+0: 16
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>But what should we exaxtly do with these symbols. 
+Just try random things?</dialog>",
+"type": "line"
+},
+16: {
+"graph_offset": Vector2( 3500, 20 ),
+"links": {
+0: 17
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>That is not helpful. There has to be some pattern. 
+Let's try to figure it out!</dialog>",
+"type": "line"
+},
+17: {
+"graph_offset": Vector2( 4000, 20 ),
+"links": {
+0: 18
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>(Isn't that just trying random things).
+ Okay, let's try to figure this out</dialog>",
+"type": "line"
+},
+18: {
+"graph_offset": Vector2( 4500, 20 ),
+"links": {
 
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<end>",
+"type": "line"
+}
 }
 },
 3: {
 "available_nid": [  ],
 "groups": [  ],
-"human_readable_description": "New Dialog - Enter Human Readable Description.",
-"name": "Temple 2",
+"human_readable_description": "Spurffs/Temple/Second",
+"name": "SecondPuzzle",
 "nodes": {
+1: {
+"graph_offset": Vector2( -4160, -840 ),
+"links": {
+0: 2
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<start>",
+"type": "line"
+},
+2: {
+"graph_offset": Vector2( -3600, -840 ),
+"links": {
+0: 3
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>So that was the solution to opening the door!</dialog>",
+"type": "line"
+},
+3: {
+"graph_offset": Vector2( -3080, -840 ),
+"links": {
+0: 4
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Let's go to get The Diamond Eye right away</dialog>",
+"type": "line"
+},
+4: {
+"graph_offset": Vector2( -2580, -840 ),
+"links": {
+0: 5
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Autch, that hurt my head</dialog>",
+"type": "line"
+},
+5: {
+"graph_offset": Vector2( -2060, -840 ),
+"links": {
+0: 6
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait, there is another door. But where is The Diamond Eye?</dialog>",
+"type": "line"
+},
+6: {
+"graph_offset": Vector2( -1560, -860 ),
+"links": {
+0: 7
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Temples often have many puzzles</dialog>",
+"type": "line"
+},
+7: {
+"graph_offset": Vector2( -1080, -1020 ),
+"links": {
+0: 8
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>This door must also have some specific solution 
+to opening it</dialog>",
+"type": "line"
+},
+8: {
+"graph_offset": Vector2( -580, -1020 ),
+"links": {
+0: 9
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Look TinHeart, there is a keypad. Let's press on it</dialog>",
+"type": "line"
+},
+9: {
+"graph_offset": Vector2( -40, -1020 ),
+"links": {
+0: 10
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Keypad</speaker>
+<dialog>Wrong password. Two attemps remaining before 
+the temple collapses</dialog>",
+"type": "line"
+},
+10: {
+"graph_offset": Vector2( -340, -780 ),
+"links": {
+0: 11
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Do not press it anymore</dialog>",
+"type": "line"
+},
+11: {
+"graph_offset": Vector2( 180, -780 ),
+"links": {
+0: 12
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Keypad</speaker>
+<dialog>One attempt remaining before the temple collapses</dialog>",
+"type": "line"
+},
+12: {
+"graph_offset": Vector2( -440, -360 ),
+"links": {
+0: 13
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Okay, I won't</dialog>",
+"type": "line"
+},
+13: {
+"graph_offset": Vector2( 0, -140 ),
+"links": {
+0: 14
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>(We have only one attempt remaining). This keypad 
+must be solution to opening the door</dialog>",
+"type": "line"
+},
+14: {
+"graph_offset": Vector2( 520, -120 ),
+"links": {
+0: 15
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>We should look for the clues</dialog>",
+"type": "line"
+},
+15: {
+"graph_offset": Vector2( 1020, -260 ),
+"links": {
+0: 16
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Okay, let's try took for clues</dialog>",
+"type": "line"
+},
+16: {
+"graph_offset": Vector2( 1520, -260 ),
+"links": {
 
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<end>",
+"type": "line"
+}
 }
 },
 4: {
-"available_nid": [  ],
+"available_nid": [ 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ],
 "groups": [  ],
-"human_readable_description": "Spirffs/Ending",
-"name": "Return/Ending",
+"human_readable_description": "TempleReturn/Guard",
+"name": "TempleReturn/Guard",
 "nodes": {
 1: {
 "graph_offset": Vector2( -200, -1020 ),
@@ -337,7 +716,7 @@ The temple is on the left side of the town</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>We should go see the leader right away</dialog>",
+<dialog>We should return to that guard right away</dialog>",
 "type": "line"
 },
 5: {
@@ -360,7 +739,7 @@ The temple is on the left side of the town</dialog>",
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>(The youngster has a bad fitness). Anyway, I will start
- heading back to the leader, come behind me</dialog>",
+ heading back to the guard post. Come behind me</dialog>",
 "type": "line"
 },
 7: {
@@ -370,7 +749,7 @@ The temple is on the left side of the town</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog>At the leader's hut</dialog>",
+"text": "<dialog>At the guard's post</dialog>",
 "type": "line"
 },
 8: {
@@ -416,8 +795,8 @@ It is not like, that clumsy guard can destroy the eye again</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Guard</speaker>
-<dialog>You are now free to go see our leader. In fact, 
-he wants to meet you</dialog>",
+<dialog>You are now free to cross the bridge 
+and head to the main town</dialog>",
 "type": "line"
 },
 12: {
@@ -428,326 +807,111 @@ he wants to meet you</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Then we should go in right away, behave O'Beep</dialog>",
+<dialog>Then we should leave right away</dialog>",
 "type": "line"
 },
 13: {
 "graph_offset": Vector2( 260, -280 ),
 "links": {
-0: 14
+
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<end>",
+"type": "line"
+}
+}
+},
+5: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "Spurffs/Temple/Third",
+"name": "ThirdPuzzle",
+"nodes": {
+1: {
+"graph_offset": Vector2( -1660, -580 ),
+"links": {
+0: 2
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<start>",
+"type": "line"
+},
+2: {
+"graph_offset": Vector2( -1180, -580 ),
+"links": {
+0: 3
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Okay, I try</dialog>",
+<dialog>That was a close call. Anyway, the door opened 
+and we can proceed</dialog>",
 "type": "line"
 },
-14: {
-"graph_offset": Vector2( 720, -280 ),
+3: {
+"graph_offset": Vector2( -700, -580 ),
 "links": {
-0: 15
+0: 4
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Excuse me, the leader of the Spurffs</dialog>",
+<dialog>O'Beep. I think we have reached our destination 
+as The Diamond Eye is up ahead</dialog>",
 "type": "line"
 },
-15: {
-"graph_offset": Vector2( -200, -100 ),
+4: {
+"graph_offset": Vector2( -200, -580 ),
 "links": {
-0: 16
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>The leader</speaker>
-<dialog>Yes, that's me. i am Greet the leader</dialog>",
-"type": "line"
-},
-16: {
-"graph_offset": Vector2( 260, -100 ),
-"links": {
-0: 17
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>Greet</speaker>
-<dialog>Oh,, you are the ones who brought back The Diamond Eye. 
-You are the heroes of our planet, and we owe you 
-everything you want</dialog>",
-"type": "line"
-},
-17: {
-"graph_offset": Vector2( 720, -100 ),
-"links": {
-0: 18
+0: 5
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Well, the large amount of money and a place to stay 
-would be nice</dialog>",
+<dialog>The Diamond Eye is so beautiful. Let's get it right away</dialog>",
 "type": "line"
 },
-18: {
-"graph_offset": Vector2( -200, 60 ),
+5: {
+"graph_offset": Vector2( 280, -580 ),
 "links": {
-0: 19
+0: 6
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>We are not looking any of that. In fact, we would like to know
-more about his paper with your signature on it, 
-which we found from our ship</dialog>",
+<dialog>O'Beep wait, those tiles with the symbols seems to be
+ the last obstacle. I think if you step on the wrong one, 
+you fall to your death</dialog>",
 "type": "line"
 },
-19: {
-"graph_offset": Vector2( 260, 60 ),
+6: {
+"graph_offset": Vector2( 740, -580 ),
 "links": {
-0: 20
+0: 7
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>No way, so there is still one puzzle left. 
+Based on the previous puzzles, there has to be 
+solution somwhere here</dialog>",
+"type": "line"
+},
+7: {
+"graph_offset": Vector2( 1200, -580 ),
+"links": {
+0: 8
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>It says: \"A treasure is hidden in the deep seas of...</dialog>",
+<dialog>That is great deduction O'Beep. Let's look for the clue</dialog>",
 "type": "line"
 },
-20: {
-"graph_offset": Vector2( 720, 60 ),
-"links": {
-0: 21
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>Unfortunately, that is only thing told in this paper. 
-It has a Spurffs signature and we though that you, 
-the leader could know something about the
-treasure location</dialog>",
-"type": "line"
-},
-21: {
-"graph_offset": Vector2( -200, 240 ),
-"links": {
-0: 22
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>Greet</speaker>
-<dialog>I will definely remember that paper. 
-Unfortunately I can only add to that information, 
-that the treasure is located in the Milky Way galaxy, 
-on the planet, which name starts with E</dialog>",
-"type": "line"
-},
-22: {
-"graph_offset": Vector2( 260, 240 ),
-"links": {
-0: 23
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>So this dangerous journey was for nothing?</dialog>",
-"type": "line"
-},
-23: {
-"graph_offset": Vector2( 720, 240 ),
-"links": {
-0: 24
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>Greet</speaker>
-<dialog>That is not exaxtly the case. I know that 
-the rest of the clue is located in the lavas of 
-Planet Hot Tomato</dialog>",
-"type": "line"
-},
-24: {
-"graph_offset": Vector2( -200, 420 ),
-"links": {
-0: 25
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>Greet</speaker>
-<dialog>I even have tracker for the clue, which I can give to you,
-as a reward of saving our planet. I do not have 
-anymore use to it</dialog>",
-"type": "line"
-},
-25: {
-"graph_offset": Vector2( 260, 420 ),
-"links": {
-0: 26
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>That is great</dialog>",
-"type": "line"
-},
-26: {
-"graph_offset": Vector2( 720, 420 ),
-"links": {
-0: 27
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>TinHeart</speaker>
-<dialog>Journey is never for nothing. Thanks Spurffs and
- Greet the leader for your generosity</dialog>",
-"type": "line"
-},
-27: {
-"graph_offset": Vector2( -200, 600 ),
-"links": {
-0: 28
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>Greet</speaker>
-<dialog>Same to you</dialog>",
-"type": "line"
-},
-28: {
-"graph_offset": Vector2( 260, 600 ),
-"links": {
-0: 29
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>TinHeart</speaker>
-<dialog>That is all we have to ask. I think we can 
-return to the spaceship now</dialog>",
-"type": "line"
-},
-29: {
-"graph_offset": Vector2( 720, 600 ),
-"links": {
-0: 30
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>Oh yeah, I think. Bye bye Spurffs</dialog>",
-"type": "line"
-},
-30: {
-"graph_offset": Vector2( -200, 760 ),
-"links": {
-0: 31
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<dialog>At the spaceship</dialog>",
-"type": "line"
-},
-31: {
-"graph_offset": Vector2( 260, 760 ),
-"links": {
-0: 32
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>So, the leader said, that the final piece of the clue 
-is located in the Planet Hot Tomato</dialog>",
-"type": "line"
-},
-32: {
-"graph_offset": Vector2( 720, 760 ),
-"links": {
-0: 33
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>Luckily we have an tracker. Otherwise it would be 
-nearly impossible to locate the clue</dialog>",
-"type": "line"
-},
-33: {
-"graph_offset": Vector2( -200, 940 ),
-"links": {
-0: 34
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>Wait a second, where this planet is located?</dialog>",
-"type": "line"
-},
-34: {
-"graph_offset": Vector2( 260, 940 ),
-"links": {
-0: 35
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>TinHeart</speaker>
-<dialog>The Planet Hot Tomato is the planet that is 
-most distant from our own</dialog>",
-"type": "line"
-},
-35: {
-"graph_offset": Vector2( 720, 940 ),
-"links": {
-0: 36
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>That is great, but where do you know that information</dialog>",
-"type": "line"
-},
-36: {
-"graph_offset": Vector2( -200, 1120 ),
-"links": {
-0: 37
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>TinHeart</speaker>
-<dialog>I read space geography books when I was younger</dialog>",
-"type": "line"
-},
-37: {
-"graph_offset": Vector2( 260, 1120 ),
-"links": {
-0: 38
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>TinHeart</speaker>
-<dialog>Anyway, let's head to the Planet Hot Tomato right away</dialog>",
-"type": "line"
-},
-38: {
-"graph_offset": Vector2( 720, 1120 ),
-"links": {
-0: 39
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>Yeah, let's go</dialog>",
-"type": "line"
-},
-39: {
-"graph_offset": Vector2( -200, 1300 ),
-"links": {
-0: 40
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<dialog>Sounds of launch</dialog>",
-"type": "line"
-},
-40: {
-"graph_offset": Vector2( 260, 1300 ),
+8: {
+"graph_offset": Vector2( 1660, -580 ),
 "links": {
 
 },
