@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://ObjectClicked.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/MicrawaWaste/battery.png" type="Texture" id=2]
@@ -23,6 +23,7 @@
 [ext_resource path="res://Sprites/MicrawaWaste/Clutter/home_appliances.png" type="Texture" id=21]
 [ext_resource path="res://Sprites/MicrawaWaste/Clutter/sofa.png" type="Texture" id=22]
 [ext_resource path="res://Scenes/Wasteland.gd" type="Script" id=23]
+[ext_resource path="res://rusted_shuttle.png" type="Texture" id=24]
 
 [node name="Control" type="Node2D"]
 position = Vector2( 2.99664, -5.99323 )
@@ -197,6 +198,11 @@ scale = Vector2( 0.05, 0.05 )
 texture = ExtResource( 22 )
 flip_h = true
 flip_v = true
+
+[node name="rusted_shuttle" type="Sprite" parent="."]
+position = Vector2( 616.442, 139.289 )
+scale = Vector2( 0.106025, 0.123829 )
+texture = ExtResource( 24 )
 [connection signal="input_event" from="Cables" to="Cables" method="_on_Object_input_event"]
 [connection signal="mouse_entered" from="Cables" to="Cables" method="_on_Object_mouse_entered"]
 [connection signal="mouse_exited" from="Cables" to="Cables" method="_on_Object_mouse_exited"]
