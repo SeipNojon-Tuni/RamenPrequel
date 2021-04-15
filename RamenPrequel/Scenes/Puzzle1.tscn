@@ -1,0 +1,66 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Sprites/SpurffWorld/Puzzles/Puzzle 1 without rings.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/SpurffWorld/Puzzles/Puzzle middle ring 2.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/SpurffWorld/Puzzles/Puzzle middle ring.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/SpurffWorld/Puzzles/Puzzle center ring.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/SpurffWorld/Puzzles/Puzzle outer ring.png" type="Texture" id=5]
+[ext_resource path="res://Puzzle1c.gd" type="Script" id=6]
+[ext_resource path="res://puzzled1.gd" type="Script" id=7]
+
+[node name="Puzzle1" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="Puzzle1bg" type="Sprite" parent="."]
+position = Vector2( 519.417, 298.989 )
+scale = Vector2( 0.404212, 0.415966 )
+texture = ExtResource( 1 )
+
+[node name="puz1" type="Area2D" parent="Puzzle1bg"]
+position = Vector2( -555, -3 )
+rotation = 1.74846e-07
+script = ExtResource( 7 )
+
+[node name="Puzzle outer ring" type="Sprite" parent="Puzzle1bg/puz1"]
+texture = ExtResource( 5 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Puzzle1bg/puz1"]
+position = Vector2( -4.94794, 0 )
+polygon = PoolVector2Array( 504.786, -514.014, 214.359, -669.355, 15.2792, -687.499, -185.517, -663.958, 242.128, -486.846, 428.469, -309.794, 525.374, -44.3013, 475.39, 230.94, 380.975, 376.656, -35.563, 516.975, -396.562, 371.259, -552.07, -28.1104, -363.239, -400.496, -107.763, -524.624, 181.036, -513.83, -268.824, -648.752, -529.855, -524.624, -677.427, -81.6809, -641.928, 255.486, -463.208, 506.181, -342.36, 570.847, -235.501, 657.294, -37.1217, 687.858, 256.777, 619.364, 507.154, 466.586, 639.559, 263.571, 701.538, -24.5312, 614.595, -359.066 )
+
+[node name="puz2" type="Area2D" parent="Puzzle1bg"]
+position = Vector2( -555, -2.66895 )
+rotation = 1.5708
+script = ExtResource( 7 )
+
+[node name="Puzzle middle ring" type="Sprite" parent="Puzzle1bg/puz2"]
+texture = ExtResource( 3 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Puzzle1bg/puz2"]
+polygon = PoolVector2Array( 324.145, -2.01025, 222.918, 257.862, -12.8699, 349.739, -248.746, 257.862, -341.563, 22.2487, -257.563, -256.159, 33.0441, -360.628, 24.4771, -523.727, -248.747, -474.618, -420.616, -321.415, -513.231, -178.265, -537.115, 42.4643, -455.926, 258.653, -349.885, 382.084, -217.89, 477.113, -10.7097, 519.948, 218.511, 477.112, 408.058, 318.622, 505.035, -11.2083, 474.179, -213.324, 372.793, -363.247, 28.9625, -534.588, 55.4111, -341.829, 249.367, -260.443 )
+
+[node name="puz3" type="Area2D" parent="Puzzle1bg"]
+position = Vector2( -555, -3 )
+rotation = 1.5708
+scale = Vector2( 2.47395, 2.40404 )
+script = ExtResource( 7 )
+
+[node name="Puzzle middle ring 2" type="Sprite" parent="Puzzle1bg/puz3"]
+position = Vector2( 0, 0.137695 )
+scale = Vector2( 0.404212, 0.415966 )
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="Puzzle1bg/puz3"]
+position = Vector2( -295.079, -297.741 )
+polygon = PoolVector2Array( 224.714, 304.489, 243.784, 348.986, 292.519, 372.294, 349.73, 353.224, 392.109, 194.304, 434.487, 296.013, 423.893, 357.462, 379.395, 410.435, 292.519, 442.219, 192.93, 406.197, 148.432, 300.251, 182.335, 190.067, 250.141, 162.521, 320.065, 149.807, 394.228, 190.067, 366.682, 274.824, 332.779, 230.326, 293.799, 230.769, 250.141, 232.445 )
+
+[node name="Puzzle center ring" type="Sprite" parent="Puzzle1bg"]
+position = Vector2( -555, -2.66895 )
+rotation = 3.49691e-07
+texture = ExtResource( 4 )
+[connection signal="input_event" from="Puzzle1bg/puz1" to="Puzzle1bg/puz1" method="_on_Puzzle1_input_event"]
+[connection signal="input_event" from="Puzzle1bg/puz1" to="Puzzle1bg/puz3" method="_on_Puzzle1_input_event"]
+[connection signal="input_event" from="Puzzle1bg/puz2" to="Puzzle1bg/puz2" method="_on_Puzzle1_input_event"]
+[connection signal="input_event" from="Puzzle1bg/puz2" to="Puzzle1bg/puz1" method="_on_Puzzle1_input_event"]
+[connection signal="input_event" from="Puzzle1bg/puz3" to="Puzzle1bg/puz2" method="_on_Puzzle1_input_event"]
+[connection signal="input_event" from="Puzzle1bg/puz3" to="Puzzle1bg/puz3" method="_on_Puzzle1_input_event"]
