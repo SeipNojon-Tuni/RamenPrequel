@@ -6,7 +6,8 @@
 script = ExtResource( 1 )
 TYPE = "EXP_Story_editor"
 names = {
-"SparkyStart": 1
+"SparkyStart": 1,
+"Start/TextureLibrary": 2
 }
 story = {
 1: {
@@ -36,6 +37,8 @@ story = {
 <dialog>A war between two battling robot factions: Cult of Ramen 
 and Noo Dle Syndicate in the Planet Micrawa Ramen
  has continued for nearby 100 years...</dialog>
+<image>Sparky</image>
+
 ",
 "type": "line"
 },
@@ -50,7 +53,8 @@ and Noo Dle Syndicate in the Planet Micrawa Ramen
 <dialog>Now Noo Dle Syndicate has won the war and 
 Cult of Ramen, which has fallen to just two robots 
 have been commanded to be exiled to the wasteland 
-from Shoyu, the capital of Planet Micrawa Ramen</dialog> ",
+from Shoyu, the capital of Planet Micrawa Ramen</dialog> 
+<image>Sparky</image>",
 "type": "line"
 },
 4: {
@@ -61,6 +65,26 @@ from Shoyu, the capital of Planet Micrawa Ramen</dialog> ",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<end>",
+"type": "line"
+}
+}
+},
+2: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "Sparky etc.",
+"name": "Start/TextureLibrary",
+"nodes": {
+1: {
+"graph_offset": Vector2( 40, 40 ),
+"links": {
+
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "{
+\"Sparky\" : \"res://Parrotresized.png\"
+}",
 "type": "line"
 }
 }

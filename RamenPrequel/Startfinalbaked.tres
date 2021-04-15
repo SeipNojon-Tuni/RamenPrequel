@@ -22,6 +22,8 @@ story = {
 <dialog>A war between two battling robot factions: Cult of Ramen 
 and Noo Dle Syndicate in the Planet Micrawa Ramen
  has continued for nearby 100 years...</dialog>
+<image>Sparky</image>
+
 "
 },
 3: {
@@ -32,7 +34,8 @@ and Noo Dle Syndicate in the Planet Micrawa Ramen
 <dialog>Now Noo Dle Syndicate has won the war and 
 Cult of Ramen, which has fallen to just two robots 
 have been commanded to be exiled to the wasteland 
-from Shoyu, the capital of Planet Micrawa Ramen</dialog> "
+from Shoyu, the capital of Planet Micrawa Ramen</dialog> 
+<image>Sparky</image>"
 },
 4: {
 "links": {
@@ -41,8 +44,21 @@ from Shoyu, the capital of Planet Micrawa Ramen</dialog> "
 "text": "<end>"
 }
 }
+},
+2: {
+"nodes": {
+1: {
+"links": {
+
+},
+"text": "{
+\"Sparky\" : \"res://Parrotresized.png\"
+}"
+}
+}
 }
 }
 names = {
-"SparkyStart": 1
+"SparkyStart": 1,
+"Start/TextureLibrary": 2
 }

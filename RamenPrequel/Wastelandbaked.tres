@@ -113,8 +113,8 @@ see if we find them</dialog>
 
 },
 "text": "{
-\"O'Beep\" : \"res://robot 2.png\",
-\"TinHeart\" : \"res://robot faction transparent background.png\"
+\"O'Beep\" : \"res://robot 2rescaled2.png\",
+\"TinHeart\" : \"res://robot faction transparent backgroundRezized.png\"
 }"
 }
 }

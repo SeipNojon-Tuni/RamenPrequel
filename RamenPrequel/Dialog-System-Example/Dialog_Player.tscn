@@ -153,8 +153,11 @@ autoplay = "Blink"
 anims/Blink = SubResource( 2 )
 
 [node name="Character_Texture" type="TextureRect" parent="Dialog_Box/Body_NinePatchRect"]
-margin_left = -16.0
-margin_top = -200.0
-margin_right = 144.0
-margin_bottom = -40.0
+margin_left = -7.36897
+margin_top = -173.928
+margin_right = 152.631
+margin_bottom = -13.9288
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="animation_finished" from="Dialog_Box/Body_NinePatchRect/MarginContainer/Body_Label/Body_AnimationPlayer" to="." method="_on_Body_AnimationPlayer_animation_finished"]

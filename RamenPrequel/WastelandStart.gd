@@ -2,6 +2,7 @@ extends Node
 
 onready var _Body_AnimationPlayer = self.find_node("Body_AnimationPlayer")
 onready var _Body_LBL = self.find_node("Body_Label")
+onready var _Character_Texture = find_node("Character_Texture")
 onready var _Dialog_Box = self.find_node("Dialog_Box")
 onready var _Speaker_LBL = self.find_node("Speaker_Label")
 onready var _SpaceBar_Icon = self.find_node("SpaceBar_NinePatchRect")
@@ -12,6 +13,7 @@ var _did = 0
 var _nid = 0
 var _final_nid = 0
 var _Story_Reader
+var _texture_library : Dictionary = {}
 
 # Virtual Methods
 
@@ -21,6 +23,8 @@ func _ready():
 	
 	var story = load("res://Wastelandbaked.tres")
 	_Story_Reader.read(story)
+	
+	_load_textures()
 	
 	_Dialog_Box.visible = false
 	_SpaceBar_Icon.visible = false
@@ -42,6 +46,7 @@ func _on_Body_AnimationPlayer_animation_finished(anim_name):
 func _on_Dialog_Player_pressed_spacebar():
 	if _is_waiting():
 		_SpaceBar_Icon.visible = false
+		_Character_Texture.visible = false
 		_get_next_node()
 		if _is_playing():
 			_play_node()
@@ -64,12 +69,27 @@ func play_dialog(record_name : String):
 
 # Private Methods
 
+func _display_image(key : String):
+	_Character_Texture.texture = _texture_library[key]
+	_Character_Texture.visible = true
+
 func _is_playing():
 	return _Dialog_Box.visible
 
 
 func _is_waiting():
 	return _SpaceBar_Icon.visible
+
+
+func _load_textures():
+	var did = _Story_Reader.get_did_via_record_name("Wasteland/TextureLibrary")
+	var json_text = _Story_Reader.get_text(did, 1)
+	var raw_texture_library : Dictionary = parse_json(json_text)
+
+	for key in raw_texture_library:
+		var texture_path = raw_texture_library[key]
+		var loaded_texture = load(texture_path)
+		_texture_library[key] = loaded_texture
 
 
 func _get_next_node():
@@ -92,6 +112,9 @@ func _play_node():
 	var text = _Story_Reader.get_text(_did, _nid)
 	var speaker = _get_tagged_text("speaker", text)
 	var dialog = _get_tagged_text("dialog", text)
+	if "<image>" in text:
+		var library_key = _get_tagged_text("image", text)
+		_display_image(library_key)
 		
 	_Speaker_LBL.text = speaker
 	_Body_LBL.text = dialog
