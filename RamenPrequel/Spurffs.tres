@@ -73,7 +73,7 @@ almost two second trip in the space</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>On to the topic, where should we exactly go in here</dialog>",
+<dialog>On to the topic, where should we exactly go in here?</dialog>",
 "type": "line"
 },
 6: {
@@ -96,8 +96,8 @@ has the only rights to use this signature</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>The leader hut should be somewhere in the main town of SpurffVille.
- Perhaps we should head there</dialog>",
+<dialog>The leader hut should be somewhere in the main town 
+of SpurffVille.  Perhaps we should head there</dialog>",
 "type": "line"
 },
 8: {
@@ -142,7 +142,8 @@ about it and just find the leader, let's go!</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>The main town of the SpurffVille is just beyond that bridge. Let's cross it</dialog>",
+<dialog>The main town of the SpurffVille is just beyond that bridge.
+ Let's cross it</dialog>",
 "type": "line"
 },
 12: {
@@ -153,8 +154,8 @@ about it and just find the leader, let's go!</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Guard</speaker>
-<dialog>Stop right there you tinheads. Don't you know
-that now one is allowed to enter or leave the SpurffVille
+<dialog>Stop right there you Tinheads. Don't you know
+that now one is allowed to enter or leave the SpurffVille.
 Who even are you?</dialog>",
 "type": "line"
 },
@@ -193,7 +194,8 @@ Why exactly visitors are not allowed</dialog>",
 <dialog>Anyway, a day ago, a lumpy Spurff servant accidentally 
 dropped the most valuable treasure of our planet: 
 The Diamond Eye. Our leader declared a state of 
-emergency and since then, no one has not been allowed to enter or exit the SpurffVille</dialog>",
+emergency and since then, no one has not 
+been allowed to enter or exit the SpurffVille</dialog>",
 "type": "line"
 },
 16: {
@@ -215,10 +217,11 @@ too dangerous to go there and there are no volunteers</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<sp<speaker>O'Beep</speaker>
+"text": "<speaker>O'Beep</speaker>
 <dialog>That explains why everyone is so scared... 
 I just got an great idea! Perhaps we could get the 
-Eye from the temple as we have to enter the town and see the leader</dialog>",
+Eye from the temple as we have to enter the town 
+and see the leader</dialog>",
 "type": "line"
 },
 18: {
