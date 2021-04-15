@@ -10,7 +10,8 @@ names = {
 "Interaction1": 2,
 "Interaction2": 3,
 "Interaction3": 4,
-"Tralala": 1
+"Tralala": 1,
+"Wasteland/TextureLibrary": 5
 }
 story = {
 1: {
@@ -38,7 +39,8 @@ story = {
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>Tralala, tralala, a life in the wasteland is so boring, 
-that you can not do anything else, but sing</dialog>",
+that you can not do anything else, but sing</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 3: {
@@ -52,7 +54,8 @@ that you can not do anything else, but sing</dialog>",
 <dialog>A wasteland life is definely boring, but I do not 
 have anything else in my mind, that we could do, 
 but to search the scrap for food etc. so that we 
-do not die</dialog>",
+do not die</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 4: {
@@ -64,7 +67,8 @@ do not die</dialog>",
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>Wait a second, you old TinHeart, there is a spaceship.
- I think it will definely have some scrap for us</dialog>",
+ I think it will definely have some scrap for us</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 5: {
@@ -77,7 +81,8 @@ do not die</dialog>",
 "text": "<speaker>TinHeart</speaker>
 <dialog>Think around the box, perhaps this spaceship 
 could be our way out of this situation, let's head 
-to the space and start a new life elsewhere</dialog> ",
+to the space and start a new life elsewhere</dialog> 
+<image>TinHeart</image>",
 "type": "line"
 },
 6: {
@@ -90,7 +95,8 @@ to the space and start a new life elsewhere</dialog> ",
 "text": "<speaker>O'Beep</speaker>
 <dialog>That is definely a good idea from you, old TinHeart. 
 The only problem is, that the ship seems to be broken and
- we can not get inside of it</dialog>",
+ we can not get inside of it</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 7: {
@@ -105,7 +111,8 @@ The only problem is, that the ship seems to be broken and
 to be missing:  battery, cables, catalytic converter, 
 gas bottle, metal plate, rocket fuel and space drive.
 Maybe we should head to the wasteland and 
-see if we find them</dialog>",
+see if we find them</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 8: {
@@ -116,7 +123,8 @@ see if we find them</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>That is definely great idea, we should do it right away</dialog>",
+<dialog>That is definely great idea, we should do it right away</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 9: {
@@ -161,9 +169,22 @@ see if we find them</dialog>",
 5: {
 "available_nid": [  ],
 "groups": [  ],
-"human_readable_description": "New Dialog - Enter Human Readable Description.",
+"human_readable_description": "A list of texture filepaths",
+"name": "Wasteland/TextureLibrary",
 "nodes": {
+1: {
+"graph_offset": Vector2( 40, 40 ),
+"links": {
 
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "{
+\"O'Beep\" : \"res://robot 2.png\",
+\"TinHeart\" : \"res://robot faction transparent background.png\"
+}",
+"type": "line"
+}
 }
 },
 6: {
@@ -453,6 +474,14 @@ Yes that was surely the case</dialog>",
 "text": "<end>",
 "type": "line"
 }
+}
+},
+8: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "New Dialog - Enter Human Readable Description.",
+"nodes": {
+
 }
 }
 }
