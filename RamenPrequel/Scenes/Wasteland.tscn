@@ -159,6 +159,16 @@ polygon = PoolVector2Array( -1.21008, -4.38162, -8.82495, -1.79919, -8.4939, 2.1
 [node name="Dialog_Player" parent="." instance=ExtResource( 11 )]
 script = ExtResource( 12 )
 
+[node name="Dialog_Box" parent="Dialog_Player" index="0"]
+margin_left = -22.0
+margin_top = 117.0
+margin_right = -22.0
+margin_bottom = 171.0
+
+[node name="Body_NinePatchRect" parent="Dialog_Player/Dialog_Box" index="0"]
+margin_top = -109.0
+margin_bottom = 147.0
+
 [node name="AudioPlayer" type="AudioStreamPlayer" parent="."]
 script = ExtResource( 13 )
 
@@ -224,3 +234,5 @@ texture = ExtResource( 24 )
 [connection signal="input_event" from="SpaceDrive" to="SpaceDrive" method="_on_Object_input_event"]
 [connection signal="mouse_entered" from="SpaceDrive" to="SpaceDrive" method="_on_Object_mouse_entered"]
 [connection signal="mouse_exited" from="SpaceDrive" to="SpaceDrive" method="_on_Object_mouse_exited"]
+
+[editable path="Dialog_Player"]
