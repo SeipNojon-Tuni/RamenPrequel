@@ -6,7 +6,7 @@ var cid = 1;
 var current_bank = ""
 var rng = RandomNumberGenerator.new()
 
-var banks = {"obeep": 8, "tinheart": 8}
+var banks = {"obeep": 8, "tinheart": 8, "elder": 5, "guard": 5}
 
 
 # Play audio linked to currently played dialogue node
