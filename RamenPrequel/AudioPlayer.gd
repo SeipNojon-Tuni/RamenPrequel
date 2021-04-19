@@ -4,6 +4,9 @@ extends AudioStreamPlayer
 # Declare member variables here. Examples:
 var cid = 1;
 var current_bank = ""
+var rng = RandomNumberGenerator.new()
+
+var banks = {"obeep": 8, "tinheart": 8}
 
 
 # Play audio linked to currently played dialogue node
@@ -17,7 +20,24 @@ func set_dialogue_audio(record_name, did):
 func play_next_dialogue():
 	reset_audio(current_bank, cid)
 	cid += 1
+
+func play_audio(bank):
+	if(self.playing):
+		self.stop()
 	
+	
+	var cleanBank = bank.replace("'", "")
+	cleanBank = cleanBank.to_lower()
+	
+	print("Current audio bank name " + cleanBank)
+		
+	if(cleanBank in banks):
+		
+		# Get random audio from sample bank by actor name
+		var id = rng.randi_range(1, banks[cleanBank])
+		
+		self.stream = load("res://Audio/dialogue/" + cleanBank + "/" + cleanBank + str(id) + ".wav")
+		self.play()
 
 # Stop audio if playing and start playing next audio by defined bank, id names
 func reset_audio(bank, id):
