@@ -7,6 +7,7 @@ var current_bank = ""
 var rng = RandomNumberGenerator.new()
 
 var banks = {"obeep": 8, "tinheart": 8, "elder": 5, "guard": 5}
+var translate = {"O'Beep": "obeep", "TinHeart": "tinheart", "Spurff Elder": "elder", "Spurff Guard": "guard"}
 
 
 # Play audio linked to currently played dialogue node
@@ -26,8 +27,7 @@ func play_audio(bank):
 		self.stop()
 	
 	
-	var cleanBank = bank.replace("'", "")
-	cleanBank = cleanBank.to_lower()
+	var cleanBank = translate[bank]
 	
 	print("Current audio bank name " + cleanBank)
 		
