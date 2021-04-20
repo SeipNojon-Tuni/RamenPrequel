@@ -34,7 +34,7 @@ func _ready():
 	_Dialog_Box.visible = false
 	_SpaceBar_Icon.visible = false
 	
-	play_dialog("ThirdPuzzle")
+	play_dialog("TempleReturn/Guard")
 
 
 func _input(event):

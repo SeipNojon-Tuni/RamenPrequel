@@ -28,7 +28,8 @@ story = {
 "text": "<speaker>TinHeart</speaker>
 <dialog>Great, we have succefully landed to the SpurffVille,
  the capital of the planet Ostrog and also, 
-the home of Spurffs</dialog>"
+the home of Spurffs</dialog>
+<image>TinHeart</image>"
 },
 4: {
 "links": {
@@ -36,14 +37,16 @@ the home of Spurffs</dialog>"
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>Whew, it feels good to be back on the land after long, 
-almost two second trip in the space</dialog>"
+almost two second trip in the space</dialog>
+<image>O'Beep</image>"
 },
 5: {
 "links": {
 0: 6
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>On to the topic, where should we exactly go in here?</dialog>"
+<dialog>On to the topic, where should we exactly go in here?</dialog>
+<image>O'Beep</image>"
 },
 6: {
 "links": {
@@ -51,7 +54,8 @@ almost two second trip in the space</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>If I remember correctly, the leader of the Spurffs 
-has the only rights to use this signature</dialog>"
+has the only rights to use this signature</dialog>
+<image>TinHeart</image>"
 },
 7: {
 "links": {
@@ -59,7 +63,8 @@ has the only rights to use this signature</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>The leader hut should be somewhere in the main town 
-of SpurffVille.  Perhaps we should head there</dialog>"
+of SpurffVille.  Perhaps we should head there</dialog>
+<image>TinHeart</image>"
 },
 8: {
 "links": {
@@ -67,7 +72,8 @@ of SpurffVille.  Perhaps we should head there</dialog>"
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>That is a great idea, but why the everyone seems 
-to be so scared here</dialog>"
+to be so scared here</dialog>
+<image>O'Beep</image>"
 },
 9: {
 "links": {
@@ -75,7 +81,8 @@ to be so scared here</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>That is a good guestion indeed, but we should not care 
-about it and just find the leader, let's go!</dialog>"
+about it and just find the leader, let's go!</dialog>
+<image>TinHeart</image>"
 },
 10: {
 "links": {
@@ -89,7 +96,8 @@ about it and just find the leader, let's go!</dialog>"
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>The main town of the SpurffVille is just beyond that bridge.
- Let's cross it</dialog>"
+ Let's cross it</dialog>
+<image>O'Beep</image>"
 },
 12: {
 "links": {
@@ -98,7 +106,8 @@ about it and just find the leader, let's go!</dialog>"
 "text": "<speaker>Guard</speaker>
 <dialog>Stop right there you Tinheads. Don't you know
 that now one is allowed to enter or leave the SpurffVille.
-Who even are you?</dialog>"
+Who even are you?</dialog>
+<image>Guard</image>"
 },
 13: {
 "links": {
@@ -107,14 +116,16 @@ Who even are you?</dialog>"
 "text": "<speaker>TinHeart</speaker>
 <dialog>I am TinHeart and this is O'beep, and we are coming 
 from the Planet Micrawa Ramen to meet your leader. 
-Why exactly visitors are not allowed</dialog>"
+Why exactly visitors are not allowed</dialog>
+<image>TinHeart</image>"
 },
 14: {
 "links": {
 0: 15
 },
 "text": "<speaker>Guard</speaker>
-<dialog>(I thought the whole planet died in the war)</dialog>"
+<dialog>(I thought the whole planet died in the war)</dialog>
+<image>Guard</image>"
 },
 15: {
 "links": {
@@ -125,7 +136,8 @@ Why exactly visitors are not allowed</dialog>"
 dropped the most valuable treasure of our planet: 
 The Diamond Eye. Our leader declared a state of 
 emergency and since then, no one has not 
-been allowed to enter or exit the SpurffVille</dialog>"
+been allowed to enter or exit the SpurffVille</dialog>
+<image>Guard</image>"
 },
 16: {
 "links": {
@@ -133,7 +145,8 @@ been allowed to enter or exit the SpurffVille</dialog>"
 },
 "text": "<speaker>Guard</speaker>
 <dialog>Another Diamond Eye is on the ancient temple, but it is 
-too dangerous to go there and there are no volunteers</dialog>"
+too dangerous to go there and there are no volunteers</dialog>
+<image>Guard</image>"
 },
 17: {
 "links": {
@@ -143,7 +156,8 @@ too dangerous to go there and there are no volunteers</dialog>"
 <dialog>That explains why everyone is so scared... 
 I just got an great idea! Perhaps we could get the 
 Eye from the temple as we have to enter the town 
-and see the leader</dialog>"
+and see the leader</dialog>
+<image>O'Beep</image>"
 },
 18: {
 "links": {
@@ -152,7 +166,8 @@ and see the leader</dialog>"
 "text": "<speaker>TinHeart</speaker>
 <dialog>Let's not do that... Althought, now after thinking more. 
 We can do that as we can not otherwise progress in 
-our journey</dialog>"
+our journey</dialog>
+<image>TinHeart</image>"
 },
 19: {
 "links": {
@@ -162,14 +177,16 @@ our journey</dialog>"
 <dialog>You Rusty TinHeads want to help us? It is okay
  until you return the new Eye to me.
  (If they fail, we gets robots parts). 
-The temple is just behind that corner</dialog>"
+The temple is just behind that corner</dialog>
+<image>Guard</image>"
 },
 20: {
 "links": {
 0: 21
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>What are they calling us? Anyway let's go</dialog>"
+<dialog>What are they calling us? Anyway let's go</dialog>
+<image>O'Beep</image>"
 },
 21: {
 "links": {
@@ -192,28 +209,32 @@ The temple is just behind that corner</dialog>"
 0: 3
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>So there is the temple. Let's go in right away</dialog>"
+<dialog>So there is the temple. Let's go in right away</dialog>
+<image>O'Beep</image>"
 },
 3: {
 "links": {
 0: 4
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, the temple is blocked...</dialog>"
+<dialog>Wait, the temple is blocked...</dialog>
+<image>O'Beep</image>"
 },
 4: {
 "links": {
 0: 5
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>And the door does not open no matter how hard you push it</dialog>"
+<dialog>And the door does not open no matter how hard you push it</dialog>
+<image>O'Beep</image>"
 },
 5: {
 "links": {
 0: 6
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>You can not often simply walk into the temple</dialog>"
+<dialog>You can not often simply walk into the temple</dialog>
+<image>TinHeart</image>"
 },
 6: {
 "links": {
@@ -221,14 +242,16 @@ The temple is just behind that corner</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>Anyway, temples often have mechanism that have to 
-be opened in someway... Let me see</dialog>"
+be opened in someway... Let me see</dialog>
+<image>TinHeart</image>"
 },
 7: {
 "links": {
 0: 8
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>TinHeart, look. These wheels on the door move</dialog>"
+<dialog>TinHeart, look. These wheels on the door move</dialog>
+<image>O'Beep</image>"
 },
 8: {
 "links": {
@@ -236,7 +259,8 @@ be opened in someway... Let me see</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>Be careful O'beep, doing something wrong might cause 
-a trap to trigger</dialog>"
+a trap to trigger</dialog>
+<image>TinHeart</image>"
 },
 9: {
 "links": {
@@ -244,7 +268,8 @@ a trap to trigger</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>Although now after thinking, those wheels might be 
-our solution to getting The Diamond Eye</dialog>"
+our solution to getting The Diamond Eye</dialog>
+<image>TinHeart</image>"
 },
 10: {
 "links": {
@@ -252,21 +277,24 @@ our solution to getting The Diamond Eye</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>We should first look around to see if we find 
-some instructions to open the door</dialog>"
+some instructions to open the door</dialog>
+<image>TinHeart</image>"
 },
 11: {
 "links": {
 0: 12
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, what are these weird symbols next to the door</dialog>"
+<dialog>Wait, what are these weird symbols next to the door</dialog>
+<image>O'Beep</image>"
 },
 12: {
 "links": {
 0: 13
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Let me see hmmm...</dialog>"
+<dialog>Let me see hmmm...</dialog>
+<image>TinHeart</image>"
 },
 13: {
 "links": {
@@ -275,14 +303,16 @@ some instructions to open the door</dialog>"
 "text": "<speaker>TinHeart</speaker>
 <dialog>Those symbols seems to match ones on the wheel. 
 This must be the solution to opening the door.
-Great job O'Beep</dialog>"
+Great job O'Beep</dialog>
+<image>TinHeart</image>"
 },
 14: {
 "links": {
 0: 15
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>(Glad to see my work getting appreciated)</dialog>"
+<dialog>(Glad to see my work getting appreciated)</dialog>
+<image>O'Beep</image>"
 },
 15: {
 "links": {
@@ -290,7 +320,8 @@ Great job O'Beep</dialog>"
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>But what should we exaxtly do with these symbols. 
-Just try random things?</dialog>"
+Just try random things?</dialog>
+<image>O'Beep</image>"
 },
 16: {
 "links": {
@@ -298,7 +329,8 @@ Just try random things?</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>That is not helpful. There has to be some pattern. 
-Let's try to figure it out!</dialog>"
+Let's try to figure it out!</dialog>
+<image>TinHeart</image>"
 },
 17: {
 "links": {
@@ -306,7 +338,8 @@ Let's try to figure it out!</dialog>"
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>(Isn't that just trying random things).
- Okay, let's try to figure this out</dialog>"
+ Okay, let's try to figure this out</dialog>
+<image>O'Beep</image>"
 },
 18: {
 "links": {
@@ -329,35 +362,40 @@ Let's try to figure it out!</dialog>"
 0: 3
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>So that was the solution to opening the door!</dialog>"
+<dialog>So that was the solution to opening the door!</dialog>
+<image>O'Beep</image>"
 },
 3: {
 "links": {
 0: 4
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Let's go to get The Diamond Eye right away</dialog>"
+<dialog>Let's go to get The Diamond Eye right away</dialog>
+<image>O'Beep</image>"
 },
 4: {
 "links": {
 0: 5
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Autch, that hurt my head</dialog>"
+<dialog>Autch, that hurt my head</dialog>
+<image>O'Beep</image>"
 },
 5: {
 "links": {
 0: 6
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, there is another door. But where is The Diamond Eye?</dialog>"
+<dialog>Wait, there is another door. But where is The Diamond Eye?</dialog>
+<image>O'Beep</image>"
 },
 6: {
 "links": {
 0: 7
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Temples often have many puzzles</dialog>"
+<dialog>Temples often have many puzzles</dialog>
+<image>TinHeart</image>"
 },
 7: {
 "links": {
@@ -365,14 +403,16 @@ Let's try to figure it out!</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>This door must also have some specific solution 
-to opening it</dialog>"
+to opening it</dialog>
+<image>TinHeart</image>"
 },
 8: {
 "links": {
 0: 9
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Look TinHeart, there is a keypad. Let's press on it</dialog>"
+<dialog>Look TinHeart, there is a keypad. Let's press on it</dialog>
+<image>O'Beep</image>"
 },
 9: {
 "links": {
@@ -387,7 +427,8 @@ the temple collapses</dialog>"
 0: 11
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Do not press it anymore</dialog>"
+<dialog>Do not press it anymore</dialog>
+<image>TinHeart</image>"
 },
 11: {
 "links": {
@@ -401,7 +442,8 @@ the temple collapses</dialog>"
 0: 13
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Okay, I won't</dialog>"
+<dialog>Okay, I won't</dialog>
+<image>O'Beep</image>"
 },
 13: {
 "links": {
@@ -409,23 +451,45 @@ the temple collapses</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>(We have only one attempt remaining). This keypad 
-must be solution to opening the door</dialog>"
+must be solution to opening the door</dialog>
+<image>TinHeart</image>"
 },
 14: {
 "links": {
 0: 15
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>We should look for the clues</dialog>"
+<dialog>O'Beep look, there is an rock painting, which has the icons 
+of the keyboard</dialog>
+<image>TinHeart</image>"
 },
 15: {
 "links": {
 0: 16
 },
-"text": "<speaker>O'Beep</speaker>
-<dialog>Okay, let's try took for clues</dialog>"
+"text": "<speaker>TinHeart </speaker>
+<dialog>It has to be the solution!</dialog>
+<image>TinHeart</image>"
 },
 16: {
+"links": {
+0: 17
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Yes it must be but how? Unfortunately we only have 
+one attempt to try so we have to be sure about it, or else
+we will be destroyed (And that is not a good think)</dialog>
+<image>O'Beep</image>"
+},
+17: {
+"links": {
+0: 18
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>That is a good point. Let's be careful</dialog>
+<image>TinHeart</image>"
+},
+18: {
 "links": {
 
 },
@@ -447,28 +511,32 @@ must be solution to opening the door</dialog>"
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>Whew, that was a close call. We were close to
- coming only bolts and wires</dialog>"
+ coming only bolts and wires</dialog>
+<image>O'Beep</image>"
 },
 3: {
 "links": {
 0: 4
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Luckily, that did not happen and we got The Diamond Eye</dialog>"
+<dialog>Luckily, that did not happen and we got The Diamond Eye</dialog>
+<image>TinHeart</image>"
 },
 4: {
 "links": {
 0: 5
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>We should return to that guard right away</dialog>"
+<dialog>We should return to that guard right away</dialog>
+<image>TinHeart</image>"
 },
 5: {
 "links": {
 0: 6
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Yes we should, but my legs feel like an rusted metal</dialog>"
+<dialog>Yes we should, but my legs feel like an rusted metal</dialog>
+<image>O'Beep</image>"
 },
 6: {
 "links": {
@@ -476,7 +544,8 @@ must be solution to opening the door</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>(The youngster has a bad fitness). Anyway, I will start
- heading back to the guard post. Come behind me</dialog>"
+ heading back to the guard post. Come behind me</dialog>
+<image>TinHeart</image>"
 },
 7: {
 "links": {
@@ -489,7 +558,8 @@ must be solution to opening the door</dialog>"
 0: 9
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>There is the one and only Diamond Eye you were looking for</dialog>"
+<dialog>There is the one and only Diamond Eye you were looking for</dialog>
+<image>O'Beep</image>"
 },
 9: {
 "links": {
@@ -497,7 +567,8 @@ must be solution to opening the door</dialog>"
 },
 "text": "<speaker>Guard</speaker>
 <dialog>You Rusty TinHeads really managed to get The Diamond Eye.
-(Too sad that we did not get robots parts)</dialog>"
+(Too sad that we did not get robots parts)</dialog>
+<image>Guard</image>"
 },
 10: {
 "links": {
@@ -505,7 +576,8 @@ must be solution to opening the door</dialog>"
 },
 "text": "<speaker>Guard</speaker>
 <dialog>Anyway, I can take it back to it's place.
-It is not like, that clumsy guard can destroy the eye again</dialog>"
+It is not like, that clumsy guard can destroy the eye again</dialog>
+<image>Guard</image>"
 },
 11: {
 "links": {
@@ -513,14 +585,16 @@ It is not like, that clumsy guard can destroy the eye again</dialog>"
 },
 "text": "<speaker>Guard</speaker>
 <dialog>You are now free to cross the bridge 
-and head to the main town</dialog>"
+and head to the main town</dialog>
+<image>Guard</image>"
 },
 12: {
 "links": {
 0: 13
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Then we should leave right away</dialog>"
+<dialog>Then we should leave right away</dialog>
+<image>TinHeart</image>"
 },
 13: {
 "links": {
@@ -544,7 +618,8 @@ and head to the main town</dialog>"
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>That was a close call. Anyway, the door opened 
-and we can proceed</dialog>"
+and we can proceed</dialog>
+<image>O'Beep</image>"
 },
 3: {
 "links": {
@@ -552,14 +627,16 @@ and we can proceed</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>O'Beep. I think we have reached our destination 
-as The Diamond Eye is up ahead</dialog>"
+as The Diamond Eye is up ahead</dialog>
+<image>TinHeart</image>"
 },
 4: {
 "links": {
 0: 5
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>The Diamond Eye is so beautiful. Let's get it right away</dialog>"
+<dialog>The Diamond Eye is so beautiful. Let's get it right away</dialog>
+<image>O'Beep</image>"
 },
 5: {
 "links": {
@@ -568,7 +645,8 @@ as The Diamond Eye is up ahead</dialog>"
 "text": "<speaker>TinHeart</speaker>
 <dialog>O'Beep wait, those tiles with the symbols seems to be
  the last obstacle. I think if you step on the wrong one, 
-you fall to your death</dialog>"
+you fall to your death</dialog>
+<image>TinHeart</image>"
 },
 6: {
 "links": {
@@ -577,14 +655,16 @@ you fall to your death</dialog>"
 "text": "<speaker>O'Beep</speaker>
 <dialog>No way, so there is still one puzzle left. 
 Based on the previous puzzles, there has to be 
-solution somwhere here</dialog>"
+solution somwhere here</dialog>
+<image>O'Beep</image>"
 },
 7: {
 "links": {
 0: 8
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>That is great deduction O'Beep. Let's look for the clue</dialog>"
+<dialog>That is great deduction O'Beep. Let's look for the clue</dialog>
+<image>TinHeart</image>"
 },
 8: {
 "links": {
@@ -593,12 +673,28 @@ solution somwhere here</dialog>"
 "text": "<end>"
 }
 }
+},
+6: {
+"nodes": {
+1: {
+"links": {
+
+},
+"text": "{
+\"O'Beep\" : \"res://robot 2rescaled4.png\",
+\"TinHeart\" : \"res://robot faction transparent backgroundRezized2.png\",
+\"Guard\" : \"res://Sprites/SpurffWorld/spurff_guardTest4.png\",
+\"Leader\" : \"res://Sprites/SpurffWorld/elder.png\"
+}"
+}
+}
 }
 }
 names = {
 "FirstPuzzle": 2,
 "Landing": 1,
 "SecondPuzzle": 3,
+"Spurffs/ImageMuseum": 6,
 "TempleReturn/Guard": 4,
 "ThirdPuzzle": 5
 }
