@@ -1,63 +1,71 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://Sprites/SpurffWorld/Spurff_Temple.png" type="Texture" id=1]
-[ext_resource path="res://diamond_eye.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Sprites/SpurffWorld/temple_mist.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/SpurffWorld/temple_foreground.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/SpurffWorld/Spurff_Temple.png" type="Texture" id=3]
+[ext_resource path="res://diamond_eye.tscn" type="PackedScene" id=4]
 [ext_resource path="res://MistMovement.gd" type="Script" id=5]
-[ext_resource path="res://Sprites/SpurffWorld/temple_foreground.png" type="Texture" id=6]
-[ext_resource path="res://Sprites/SpurffWorld/temple_mist.png" type="Texture" id=7]
+[ext_resource path="res://Audio/music/Eye Ever Watchful.wav" type="AudioStream" id=6]
+[ext_resource path="res://Scenes/AmbienceRepeater.gd" type="Script" id=7]
 
 [node name="InnerTempleBackground" type="Node2D"]
 
 [node name="Spurff_Temple" type="Sprite" parent="."]
 position = Vector2( 519.195, 302.597 )
 scale = Vector2( 0.269618, 0.285648 )
-texture = ExtResource( 1 )
+texture = ExtResource( 3 )
 
 [node name="temple_mist" type="Sprite" parent="Spurff_Temple"]
 modulate = Color( 1, 1, 1, 0.698039 )
 position = Vector2( -120.93, 137.505 )
 scale = Vector2( 1.02182, 1.06398 )
-texture = ExtResource( 7 )
+texture = ExtResource( 1 )
 script = ExtResource( 5 )
 
 [node name="temple_mist3" type="Sprite" parent="Spurff_Temple"]
 modulate = Color( 0.537255, 0.764706, 0.843137, 0.698039 )
 position = Vector2( -1362.4, 232.937 )
 scale = Vector2( 1.02182, 1.06398 )
-texture = ExtResource( 7 )
+texture = ExtResource( 1 )
 script = ExtResource( 5 )
 
 [node name="temple_mist4" type="Sprite" parent="Spurff_Temple"]
 modulate = Color( 0.537255, 0.764706, 0.843137, 0.698039 )
 position = Vector2( -2306.54, 312.152 )
 scale = Vector2( 1.02182, 1.06398 )
-texture = ExtResource( 7 )
+texture = ExtResource( 1 )
 script = ExtResource( 5 )
 
 [node name="temple_mist5" type="Sprite" parent="Spurff_Temple"]
 modulate = Color( 0.537255, 0.764706, 0.843137, 0.698039 )
 position = Vector2( -4413.23, 242.136 )
 scale = Vector2( 1.02182, 1.06398 )
-texture = ExtResource( 7 )
+texture = ExtResource( 1 )
 script = ExtResource( 5 )
 
 [node name="temple_mist6" type="Sprite" parent="Spurff_Temple"]
 modulate = Color( 0.537255, 0.764706, 0.843137, 0.698039 )
 position = Vector2( 1802.97, 340.158 )
 scale = Vector2( 1.02182, 1.06398 )
-texture = ExtResource( 7 )
+texture = ExtResource( 1 )
 script = ExtResource( 5 )
 
 [node name="temple_mist2" type="Sprite" parent="Spurff_Temple"]
 modulate = Color( 0.862745, 0.847059, 0.839216, 0.580392 )
 position = Vector2( 657.949, 305.544 )
 scale = Vector2( 1.02182, 1.06398 )
-texture = ExtResource( 7 )
+texture = ExtResource( 1 )
 script = ExtResource( 5 )
 
 [node name="temple_foreground" type="Sprite" parent="Spurff_Temple"]
 position = Vector2( 0.212034, -3.54952 )
 scale = Vector2( 1.0034, 0.998552 )
-texture = ExtResource( 6 )
+texture = ExtResource( 2 )
 
-[node name="diamond_eye" parent="." instance=ExtResource( 2 )]
+[node name="diamond_eye" parent="." instance=ExtResource( 4 )]
+
+[node name="Ambience" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -3.059
+autoplay = true
+script = ExtResource( 7 )

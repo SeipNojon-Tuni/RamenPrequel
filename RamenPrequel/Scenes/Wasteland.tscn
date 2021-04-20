@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=2]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://ObjectClicked.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/MicrawaWaste/battery.png" type="Texture" id=2]
@@ -24,6 +24,7 @@
 [ext_resource path="res://Sprites/MicrawaWaste/Clutter/sofa.png" type="Texture" id=22]
 [ext_resource path="res://Scenes/Wasteland.gd" type="Script" id=23]
 [ext_resource path="res://rusted_shuttle.png" type="Texture" id=24]
+[ext_resource path="res://Scenes/AmbienceRepeater.gd" type="Script" id=25]
 
 [node name="Control" type="Node2D"]
 position = Vector2( 2.99664, -5.99323 )
@@ -185,6 +186,7 @@ stream = ExtResource( 16 )
 volume_db = -6.964
 pitch_scale = 0.43
 autoplay = true
+script = ExtResource( 25 )
 
 [node name="Rock1" type="Sprite" parent="."]
 position = Vector2( 989.763, 449.559 )
