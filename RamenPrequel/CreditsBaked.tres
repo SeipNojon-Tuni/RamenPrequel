@@ -20,14 +20,16 @@ story = {
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>Hey TinHeart, what is this place... is this the Earth? 
-is the treasure in here?</dialog> "
+is the treasure in here?</dialog> 
+<image>O'Beep</image>"
 },
 3: {
 "links": {
 0: 4
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>No, I do not thing, that this is the Earth, hmmm.</dialog>"
+<dialog>No, I do not thing, that this is the Earth, hmmm.</dialog>
+<image>TinHeart</image>"
 },
 4: {
 "links": {
@@ -35,7 +37,8 @@ is the treasure in here?</dialog> "
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>Oh my, I think we have stumbled upon 
-the creators of our galaxy on our journey to the treasure</dialog>"
+the creators of our galaxy on our journey to the treasure</dialog>
+<image>TinHeart</image>"
 },
 5: {
 "links": {
@@ -43,7 +46,8 @@ the creators of our galaxy on our journey to the treasure</dialog>"
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>Wait, our creators! I was thinking that our universe 
-has simply born by itself</dialog>"
+has simply born by itself</dialog>
+<image>O'Beep</image>"
 },
 6: {
 "links": {
@@ -53,14 +57,16 @@ has simply born by itself</dialog>"
 <dialog>One could thing many things. Wait, based on these names, 
 our universe is not only created but also artificial and
  not real... In fact, it seems that we are living simply 
-inside the game</dialog>"
+inside the game</dialog>
+<image>TinHeart</image>"
 },
 7: {
 "links": {
 0: 8
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>That can't be true, our universe must be real</dialog>"
+<dialog>That can't be true, our universe must be real</dialog>
+<image>O'Beep</image>"
 },
 8: {
 "links": {
@@ -68,7 +74,9 @@ inside the game</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>The truth can hurt. Anyway, I do thing that 
-we still should search the treasure, as we are still living. </dialog>"
+we still should search the treasure, as we are still living</dialog>
+<image>TinHeart</image>
+"
 },
 9: {
 "links": {
@@ -77,14 +85,16 @@ we still should search the treasure, as we are still living. </dialog>"
 "text": "<speaker>TinHeart</speaker>
 <dialog>Let's still enjoy from the 
 presentation of our creators, as probably no one has 
-witnessed this before</dialog>"
+witnessed this before</dialog>
+<image>TinHeart</image>"
 },
 10: {
 "links": {
 0: 11
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>I agree. Let's grab the popcorn and enjoy the show</dialog>"
+<dialog>I agree. Let's grab the popcorn and enjoy the show</dialog>
+<image>O'Beep</image>"
 },
 11: {
 "links": {
@@ -154,8 +164,22 @@ Everyone</dialog>"
 "text": "<end>"
 }
 }
+},
+2: {
+"nodes": {
+1: {
+"links": {
+
+},
+"text": "{
+\"O'Beep\" : \"res://robot 2rescaled4.png\",
+\"TinHeart\" : \"res://robot faction transparent backgroundRezized2.png\"
+}"
+}
+}
 }
 }
 names = {
-"Credits": 1
+"Credits": 1,
+"Credits/PictureLibrary": 2
 }

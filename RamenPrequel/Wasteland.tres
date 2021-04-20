@@ -180,8 +180,9 @@ see if we find them</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "{
-\"O'Beep\" : \"res://robot 2rescaled2.png\",
-\"TinHeart\" : \"res://robot faction transparent backgroundRezized.png\"
+\"O'Beep\" : \"res://robot 2rescaled4.png\",
+\"TreasureScroll\" : \"res://Sprites/SpurffWorld/Puzzles/Scrollrezized2.png\",
+\"TinHeart\" : \"res://robot faction transparent backgroundRezized2.png\"
 }",
 "type": "line"
 }
@@ -219,7 +220,8 @@ see if we find them</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Great, we found all the parts required to fix the ship</dialog> ",
+<dialog>Great, we found all the parts required to fix the ship</dialog> 
+<image>O'Beep</image>",
 "type": "line"
 },
 3: {
@@ -231,7 +233,8 @@ see if we find them</dialog>
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>Let's fix the ship right away, TinHeart,, 
-do the fixing</dialog>",
+do the fixing</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 4: {
@@ -242,7 +245,8 @@ do the fixing</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Okay</dialog>",
+<dialog>Okay</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 5: {
@@ -264,7 +268,8 @@ do the fixing</dialog>",
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>The ship should be now fixed...
- and look, the door also opened</dialog>",
+ and look, the door also opened</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 7: {
@@ -275,7 +280,8 @@ do the fixing</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>This is great, lets go in right away</dialog>",
+<dialog>This is great, lets go in right away</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 8: {
@@ -287,7 +293,8 @@ do the fixing</dialog>",
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>The ship looks amazing, but what should we now next, 
-maybe head to the space without any direction...</dialog>",
+maybe head to the space without any direction...</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 9: {
@@ -300,7 +307,8 @@ maybe head to the space without any direction...</dialog>",
 "text": "<speaker>TinHeart</speaker>
 <dialog>Calm down O'Beep, we do not even know how it operates,
  I think that the instructions for controlling this ship are 
-somewhere, lets look for them</dialog>",
+somewhere, lets look for them</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 10: {
@@ -312,7 +320,8 @@ somewhere, lets look for them</dialog>",
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>Cool, there they are. Hey wise one, do you know 
-how to read these</dialog>",
+how to read these</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 11: {
@@ -323,7 +332,8 @@ how to read these</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Hmmm. Let me see</dialog>",
+<dialog>Hmmm. Let me see</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 12: {
@@ -334,7 +344,8 @@ how to read these</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, what it this paper that fell from the book, it says:</dialog>",
+<dialog>Wait, what it this paper that fell from the book, it says:</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 13: {
@@ -344,7 +355,8 @@ how to read these</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog>A treasure is hidden in the deep seas of...</dialog>",
+"text": "<dialog>A treasure is hidden in the deep seas of...</dialog>
+<image>TreasureScroll</image>",
 "type": "line"
 },
 14: {
@@ -356,7 +368,8 @@ how to read these</dialog>",
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>Apparently, the location is not told, 
-maybe we should go searching this treasure</dialog>",
+maybe we should go searching this treasure</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 15: {
@@ -368,7 +381,8 @@ maybe we should go searching this treasure</dialog>",
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>That is certainly a good goal, because we
- have nothing else to do</dialog>",
+ have nothing else to do</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 16: {
@@ -379,7 +393,8 @@ maybe we should go searching this treasure</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>The only problem is that the treasure location is not told</dialog>",
+<dialog>The only problem is that the treasure location is not told</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 17: {
@@ -392,7 +407,8 @@ maybe we should go searching this treasure</dialog>",
 "text": "<speaker>TinHeart</speaker>
 <dialog>Wait for a moment, the paper has a signature 
 of the Spurffs from the planet Ostrog. 
-Maybe that would be a good place to start</dialog>",
+Maybe that would be a good place to start</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 18: {
@@ -403,7 +419,8 @@ Maybe that would be a good place to start</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>At first we have to start the ship. Let's see...</dialog>",
+<dialog>At first we have to start the ship. Let's see...</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 19: {
@@ -416,7 +433,8 @@ Maybe that would be a good place to start</dialog>",
 "text": "<speaker>TinHeart</speaker>
 <dialog>Remove steering wheel, pull the Fuzzy Dices 
 for three times, remove half of the gasoline and 
-press the big red button</dialog>",
+press the big red button</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 20: {
@@ -426,8 +444,9 @@ press the big red button</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<<<<speaker>TinHeart</speaker>
-<<<<dialog>Ok, the ship is ready to launch</dialog>",
+"text": "<speaker>TinHeart</speaker>
+<dialog>Ok, the ship is ready to launch</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 21: {
@@ -438,7 +457,8 @@ press the big red button</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>That is great, but where is the Spurffs planet?</dialog>",
+<dialog>That is great, but where is the Spurffs planet?</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 22: {
@@ -450,7 +470,8 @@ press the big red button</dialog>",
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>If I remember correctly, it is one closest to our planet. 
-Yes that was surely the case</dialog>",
+Yes that was surely the case</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 23: {

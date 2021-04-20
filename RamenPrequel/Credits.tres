@@ -6,7 +6,8 @@
 script = ExtResource( 1 )
 TYPE = "EXP_Story_editor"
 names = {
-"Credits": 1
+"Credits": 1,
+"Credits/PictureLibrary": 2
 }
 story = {
 1: {
@@ -34,7 +35,8 @@ story = {
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>Hey TinHeart, what is this place... is this the Earth? 
-is the treasure in here?</dialog> ",
+is the treasure in here?</dialog> 
+<image>O'Beep</image>",
 "type": "line"
 },
 3: {
@@ -45,7 +47,8 @@ is the treasure in here?</dialog> ",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>No, I do not thing, that this is the Earth, hmmm.</dialog>",
+<dialog>No, I do not thing, that this is the Earth, hmmm.</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 4: {
@@ -57,7 +60,8 @@ is the treasure in here?</dialog> ",
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>Oh my, I think we have stumbled upon 
-the creators of our galaxy on our journey to the treasure</dialog>",
+the creators of our galaxy on our journey to the treasure</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 5: {
@@ -69,7 +73,8 @@ the creators of our galaxy on our journey to the treasure</dialog>",
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>Wait, our creators! I was thinking that our universe 
-has simply born by itself</dialog>",
+has simply born by itself</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 6: {
@@ -83,7 +88,8 @@ has simply born by itself</dialog>",
 <dialog>One could thing many things. Wait, based on these names, 
 our universe is not only created but also artificial and
  not real... In fact, it seems that we are living simply 
-inside the game</dialog>",
+inside the game</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 7: {
@@ -94,7 +100,8 @@ inside the game</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>That can't be true, our universe must be real</dialog>",
+<dialog>That can't be true, our universe must be real</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 8: {
@@ -106,7 +113,9 @@ inside the game</dialog>",
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>The truth can hurt. Anyway, I do thing that 
-we still should search the treasure, as we are still living. </dialog>",
+we still should search the treasure, as we are still living</dialog>
+<image>TinHeart</image>
+",
 "type": "line"
 },
 9: {
@@ -119,7 +128,8 @@ we still should search the treasure, as we are still living. </dialog>",
 "text": "<speaker>TinHeart</speaker>
 <dialog>Let's still enjoy from the 
 presentation of our creators, as probably no one has 
-witnessed this before</dialog>",
+witnessed this before</dialog>
+<image>TinHeart</image>",
 "type": "line"
 },
 10: {
@@ -130,7 +140,8 @@ witnessed this before</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>I agree. Let's grab the popcorn and enjoy the show</dialog>",
+<dialog>I agree. Let's grab the popcorn and enjoy the show</dialog>
+<image>O'Beep</image>",
 "type": "line"
 },
 11: {
@@ -241,7 +252,28 @@ Everyone</dialog>",
 "type": "line"
 }
 }
+},
+2: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "Picture paths for the credits",
+"name": "Credits/PictureLibrary",
+"nodes": {
+1: {
+"graph_offset": Vector2( 40, 40 ),
+"links": {
+
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "{
+\"O'Beep\" : \"res://robot 2rescaled4.png\",
+\"TinHeart\" : \"res://robot faction transparent backgroundRezized2.png\"
+}",
+"type": "line"
 }
 }
-available_dids = [ 2, 3 ]
+}
+}
+available_dids = [ 3 ]
 groups = [  ]

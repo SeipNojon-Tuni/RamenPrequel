@@ -113,8 +113,9 @@ see if we find them</dialog>
 
 },
 "text": "{
-\"O'Beep\" : \"res://robot 2rescaled2.png\",
-\"TinHeart\" : \"res://robot faction transparent backgroundRezized.png\"
+\"O'Beep\" : \"res://robot 2rescaled4.png\",
+\"TreasureScroll\" : \"res://Sprites/SpurffWorld/Puzzles/Scrollrezized2.png\",
+\"TinHeart\" : \"res://robot faction transparent backgroundRezized2.png\"
 }"
 }
 }
@@ -137,7 +138,8 @@ see if we find them</dialog>
 0: 3
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Great, we found all the parts required to fix the ship</dialog> "
+<dialog>Great, we found all the parts required to fix the ship</dialog> 
+<image>O'Beep</image>"
 },
 3: {
 "links": {
@@ -145,14 +147,16 @@ see if we find them</dialog>
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>Let's fix the ship right away, TinHeart,, 
-do the fixing</dialog>"
+do the fixing</dialog>
+<image>O'Beep</image>"
 },
 4: {
 "links": {
 0: 5
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Okay</dialog>"
+<dialog>Okay</dialog>
+<image>TinHeart</image>"
 },
 5: {
 "links": {
@@ -166,14 +170,16 @@ do the fixing</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>The ship should be now fixed...
- and look, the door also opened</dialog>"
+ and look, the door also opened</dialog>
+<image>TinHeart</image>"
 },
 7: {
 "links": {
 0: 8
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>This is great, lets go in right away</dialog>"
+<dialog>This is great, lets go in right away</dialog>
+<image>O'Beep</image>"
 },
 8: {
 "links": {
@@ -181,7 +187,8 @@ do the fixing</dialog>"
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>The ship looks amazing, but what should we now next, 
-maybe head to the space without any direction...</dialog>"
+maybe head to the space without any direction...</dialog>
+<image>O'Beep</image>"
 },
 9: {
 "links": {
@@ -190,7 +197,8 @@ maybe head to the space without any direction...</dialog>"
 "text": "<speaker>TinHeart</speaker>
 <dialog>Calm down O'Beep, we do not even know how it operates,
  I think that the instructions for controlling this ship are 
-somewhere, lets look for them</dialog>"
+somewhere, lets look for them</dialog>
+<image>TinHeart</image>"
 },
 10: {
 "links": {
@@ -198,27 +206,31 @@ somewhere, lets look for them</dialog>"
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>Cool, there they are. Hey wise one, do you know 
-how to read these</dialog>"
+how to read these</dialog>
+<image>O'Beep</image>"
 },
 11: {
 "links": {
 0: 12
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Hmmm. Let me see</dialog>"
+<dialog>Hmmm. Let me see</dialog>
+<image>TinHeart</image>"
 },
 12: {
 "links": {
 0: 13
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, what it this paper that fell from the book, it says:</dialog>"
+<dialog>Wait, what it this paper that fell from the book, it says:</dialog>
+<image>O'Beep</image>"
 },
 13: {
 "links": {
 0: 14
 },
-"text": "<dialog>A treasure is hidden in the deep seas of...</dialog>"
+"text": "<dialog>A treasure is hidden in the deep seas of...</dialog>
+<image>TreasureScroll</image>"
 },
 14: {
 "links": {
@@ -226,7 +238,8 @@ how to read these</dialog>"
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>Apparently, the location is not told, 
-maybe we should go searching this treasure</dialog>"
+maybe we should go searching this treasure</dialog>
+<image>O'Beep</image>"
 },
 15: {
 "links": {
@@ -234,14 +247,16 @@ maybe we should go searching this treasure</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>That is certainly a good goal, because we
- have nothing else to do</dialog>"
+ have nothing else to do</dialog>
+<image>TinHeart</image>"
 },
 16: {
 "links": {
 0: 17
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>The only problem is that the treasure location is not told</dialog>"
+<dialog>The only problem is that the treasure location is not told</dialog>
+<image>TinHeart</image>"
 },
 17: {
 "links": {
@@ -250,14 +265,16 @@ maybe we should go searching this treasure</dialog>"
 "text": "<speaker>TinHeart</speaker>
 <dialog>Wait for a moment, the paper has a signature 
 of the Spurffs from the planet Ostrog. 
-Maybe that would be a good place to start</dialog>"
+Maybe that would be a good place to start</dialog>
+<image>TinHeart</image>"
 },
 18: {
 "links": {
 0: 19
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>At first we have to start the ship. Let's see...</dialog>"
+<dialog>At first we have to start the ship. Let's see...</dialog>
+<image>TinHeart</image>"
 },
 19: {
 "links": {
@@ -266,21 +283,24 @@ Maybe that would be a good place to start</dialog>"
 "text": "<speaker>TinHeart</speaker>
 <dialog>Remove steering wheel, pull the Fuzzy Dices 
 for three times, remove half of the gasoline and 
-press the big red button</dialog>"
+press the big red button</dialog>
+<image>TinHeart</image>"
 },
 20: {
 "links": {
 0: 21
 },
-"text": "<<<<speaker>TinHeart</speaker>
-<<<<dialog>Ok, the ship is ready to launch</dialog>"
+"text": "<speaker>TinHeart</speaker>
+<dialog>Ok, the ship is ready to launch</dialog>
+<image>TinHeart</image>"
 },
 21: {
 "links": {
 0: 22
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>That is great, but where is the Spurffs planet?</dialog>"
+<dialog>That is great, but where is the Spurffs planet?</dialog>
+<image>O'Beep</image>"
 },
 22: {
 "links": {
@@ -288,7 +308,8 @@ press the big red button</dialog>"
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>If I remember correctly, it is one closest to our planet. 
-Yes that was surely the case</dialog>"
+Yes that was surely the case</dialog>
+<image>TinHeart</image>"
 },
 23: {
 "links": {
