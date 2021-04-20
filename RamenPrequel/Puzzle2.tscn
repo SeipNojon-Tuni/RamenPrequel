@@ -1,9 +1,15 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Puzzle2.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/SpurffWorld/spurffworld_panorama.jpg" type="Texture" id=3]
 
 [node name="Puzzle2" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 544.269, 303.065 )
+scale = Vector2( 0.296382, 0.296382 )
+texture = ExtResource( 3 )
 
 [node name="Dialog_Player" parent="." instance=ExtResource( 1 )]
 script = ExtResource( 2 )
