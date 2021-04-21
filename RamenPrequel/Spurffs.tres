@@ -9,6 +9,8 @@ names = {
 "FirstPuzzle": 2,
 "Landing": 1,
 "SecondPuzzle": 3,
+"Spurffs/Bugs/Intro": 7,
+"Spurffs/Ending": 8,
 "Spurffs/ImageMuseum": 6,
 "TempleReturn/Guard": 4,
 "ThirdPuzzle": 5
@@ -1035,6 +1037,477 @@ solution somwhere here</dialog>
 }",
 "type": "line"
 }
+}
+},
+7: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "Intro for the second part of the SpurffVille (Bugs catching)",
+"name": "Spurffs/Bugs/Intro",
+"nodes": {
+1: {
+"graph_offset": Vector2( -420, -80 ),
+"links": {
+0: 2
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<start>",
+"type": "line"
+},
+2: {
+"graph_offset": Vector2( 80, -100 ),
+"links": {
+0: 3
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog>In the market of SpurffVille</dialog>",
+"type": "line"
+},
+3: {
+"graph_offset": Vector2( 540, 40 ),
+"links": {
+0: 4
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait, all the Spurffs are still scared even thought
+ we retrieved The Diamond Eye</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+4: {
+"graph_offset": Vector2( 1020, 40 ),
+"links": {
+0: 5
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>That is truly weird...</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+5: {
+"graph_offset": Vector2( 1520, 40 ),
+"links": {
+0: 6
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>We should still see the leader. The leader's house should be 
+on the highest spot of the town</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+6: {
+"graph_offset": Vector2( 2020, 40 ),
+"links": {
+0: 7
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Coming after you, TinHeart</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+7: {
+"graph_offset": Vector2( 2520, 40 ),
+"links": {
+0: 8
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog>At the leader's house</dialog>",
+"type": "line"
+},
+8: {
+"graph_offset": Vector2( 3020, 40 ),
+"links": {
+0: 9
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Finally, we are at the leader's hut. Let's go in right away</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+9: {
+"graph_offset": Vector2( 3500, 60 ),
+"links": {
+0: 10
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Oh no, the door is locked tight with a lock. 
+I hope we don't have to solve another puzzle</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+10: {
+"graph_offset": Vector2( 4000, 60 ),
+"links": {
+0: 11
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>I suppose, that the leader is elsewhere</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+11: {
+"graph_offset": Vector2( 4500, 60 ),
+"links": {
+0: 12
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>O'Beep, look, someone is approaching</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+12: {
+"graph_offset": Vector2( 5020, 60 ),
+"links": {
+0: 13
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>So, The new Diamond Eye from the temple has been 
+retrieved by some TinHeads</dialog>",
+"type": "line"
+},
+13: {
+"graph_offset": Vector2( 5520, 60 ),
+"links": {
+0: 14
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>While it is a good place to start. It does not scare away 
+the Blight Bugs that are still on the town</dialog>",
+"type": "line"
+},
+14: {
+"graph_offset": Vector2( 6020, 60 ),
+"links": {
+0: 15
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>And therefore lockdown can not be lifted before 
+every bug is back on the nest</dialog>",
+"type": "line"
+},
+15: {
+"graph_offset": Vector2( 6500, 60 ),
+"links": {
+0: 16
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>As the bugs are so deadly, that even a little touch 
+from them can kill and they move very fast</dialog>",
+"type": "line"
+},
+16: {
+"graph_offset": Vector2( 7000, 60 ),
+"links": {
+0: 17
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>And no one can not do anything. The last 
+bug exterminator did run away with blue spaceship
+and apparently crash landed to the planet 
+Micrawa Ramen. Some say that the 
+exterminator was also a treasure hunter</dialog>",
+"type": "line"
+},
+17: {
+"graph_offset": Vector2( 7540, 60 ),
+"links": {
+0: 18
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>Oh those normal Spurffs who have to continue 
+their normal life in all this. Luckily our leader is safe 
+as he is so scared that he has locked himself up in the hut</dialog>",
+"type": "line"
+},
+18: {
+"graph_offset": Vector2( 8080, 60 ),
+"links": {
+0: 19
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>TinHeart, did you heard same as I. We can not see 
+the leader and we are at the risk of dying. 
+I am going to talk to that Spurff right away</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+19: {
+"graph_offset": Vector2( 8580, 60 ),
+"links": {
+0: 20
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>You Bilge-Sucking Spurffs. So we had to travel to
+that dangerous temple to get The Diamond Eye, 
+and we still can not see the leader and are at
+ the risk of death</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+20: {
+"graph_offset": Vector2( 9080, 60 ),
+"links": {
+0: 21
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>Wait other than Spurffs. I thought that no visitors have
+entered the SpurffVille after lockdown. Who even are you?</dialog>",
+"type": "line"
+},
+21: {
+"graph_offset": Vector2( 9640, 60 ),
+"links": {
+0: 22
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>We got your Diamond Eye from the temple</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+22: {
+"graph_offset": Vector2( 10180, 60 ),
+"links": {
+0: 23
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Allow me to introduce ourselves. I am TinHeart and this is 
+O'Beep. We are coming from the planet Micrawa Ramen 
+to see your leader</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+23: {
+"graph_offset": Vector2( 10720, 60 ),
+"links": {
+0: 24
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>Did you hear what did I speak? The leader is locked 
+into his hut and does not go out until those dangerous 
+Blight Bugs have returned to their den</dialog>",
+"type": "line"
+},
+24: {
+"graph_offset": Vector2( 11200, 60 ),
+"links": {
+0: 25
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Yes, we did heard it</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+25: {
+"graph_offset": Vector2( 11740, 60 ),
+"links": {
+0: 26
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>Wait, you are ROBOTS! And you have been made from metal!</dialog>",
+"type": "line"
+},
+26: {
+"graph_offset": Vector2( 12240, 60 ),
+"links": {
+0: 27
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>Metal is immune to the Blight Bugs poison! Please help us</dialog>",
+"type": "line"
+},
+27: {
+"graph_offset": Vector2( 12740, 60 ),
+"links": {
+0: 28
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Just open the door to the leader and we leave right away.
+We don't wanna help you</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+28: {
+"graph_offset": Vector2( 13240, 60 ),
+"links": {
+0: 29
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Calm down. Being angry does not help at all</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+29: {
+"graph_offset": Vector2( 13760, 80 ),
+"links": {
+0: 30
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>If we are immune to the poison, we could easily help 
+Spurffs and get to the leader that way</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+30: {
+"graph_offset": Vector2( 14300, 80 ),
+"links": {
+0: 31
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Are you serious?</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+31: {
+"graph_offset": Vector2( 14780, 80 ),
+"links": {
+0: 32
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Although now after thinking, that is probably our 
+only way to meet the leader</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+32: {
+"graph_offset": Vector2( 15280, 80 ),
+"links": {
+0: 33
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>We will help you, if you promise to take us to 
+the leader right after the bug problem has been solved</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+33: {
+"graph_offset": Vector2( 15860, -20 ),
+"links": {
+0: 34
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>I will</dialog>",
+"type": "line"
+},
+34: {
+"graph_offset": Vector2( 16360, -20 ),
+"links": {
+0: 35
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>Only problem now is that how many bugs there are, 
+where they are and how to catch them?</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+35: {
+"graph_offset": Vector2( 16860, 0 ),
+"links": {
+0: 36
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>Spurff</speaker>
+<dialog>They are located at the town. You can catch them 
+with this net. According to the scouts, there are 11 bugs</dialog>",
+"type": "line"
+},
+36: {
+"graph_offset": Vector2( 17400, 20 ),
+"links": {
+0: 37
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>That is great, O'Beep. Let's crab 
+the gears and catch those bugs!</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+37: {
+"graph_offset": Vector2( 17880, 20 ),
+"links": {
+
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<end>",
+"type": "line"
+}
+}
+},
+8: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "Meeting the leader and the end of Spurffs planet",
+"name": "Spurffs/Ending",
+"nodes": {
+
 }
 }
 }
