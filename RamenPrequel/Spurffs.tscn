@@ -1,9 +1,8 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://DialogSpurffs.gd" type="Script" id=1]
 [ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Sprites/SpurffWorld/spurffworld_panorama.jpg" type="Texture" id=3]
-[ext_resource path="res://Scenes/Lightning.gd" type="Script" id=4]
 [ext_resource path="res://Scenes/glow.gd" type="Script" id=5]
 [ext_resource path="res://Scenes/AmbienceRepeater.gd" type="Script" id=6]
 [ext_resource path="res://Scenes/Lightning.tscn" type="PackedScene" id=7]
@@ -61,32 +60,27 @@ script = ExtResource( 5 )
 maxVal = 0.5
 time = 0.513
 
-[node name="Lightning2" type="Node2D" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
+[node name="Lightning2" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
 position = Vector2( -1107.69, -560.107 )
 scale = Vector2( 0.4, 0.4 )
-script = ExtResource( 4 )
 num = 2
 
-[node name="Lightning5" type="Node2D" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
+[node name="Lightning5" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
 modulate = Color( 1, 1, 1, 0.909804 )
 position = Vector2( 301.998, -570.436 )
 scale = Vector2( 0.28, 0.28 )
-script = ExtResource( 4 )
 
-[node name="Lightning" type="Node2D" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
+[node name="Lightning" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
 position = Vector2( 660.075, -676.827 )
 scale = Vector2( 0.3, 0.3 )
-script = ExtResource( 4 )
 
-[node name="Lightning3" type="Node2D" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
+[node name="Lightning3" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
 position = Vector2( -30.3738, -664.784 )
 scale = Vector2( 0.5, 0.5 )
-script = ExtResource( 4 )
 
-[node name="Lightning4" type="Node2D" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
+[node name="Lightning4" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
 position = Vector2( -1472.11, -693.816 )
 scale = Vector2( 0.7, 0.7 )
-script = ExtResource( 4 )
 num = 2
 
 [node name="Tween" type="Tween" parent="Node2D/SpurffBackground/spurffworld_panorama"]
@@ -109,4 +103,10 @@ script = ExtResource( 6 )
 
 [node name="Dialog_Player" parent="." instance=ExtResource( 2 )]
 script = ExtResource( 1 )
+
+[node name="Body_NinePatchRect" parent="Dialog_Player/Dialog_Box" index="0"]
+margin_top = -137.0
+margin_bottom = 119.0
 [connection signal="tween_completed" from="Node2D/SpurffBackground/spurffworld_panorama/Tween" to="Node2D/SpurffBackground/spurffworld_panorama/doorglow" method="_on_Tween_tween_completed"]
+
+[editable path="Dialog_Player"]
