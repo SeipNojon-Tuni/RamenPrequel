@@ -1,0 +1,230 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/EXP-System-Dialog/Resource_BakedStory/EXP_BakedStory.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+TYPE = "EXP_Baked_Story"
+story = {
+1: {
+"nodes": {
+1: {
+"links": {
+0: 2
+},
+"text": "<start>"
+},
+2: {
+"links": {
+0: 3
+},
+"text": "<dialog>On the space, near the Planet Ostrog</dialog>"
+},
+3: {
+"links": {
+0: 4
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>So finally we have the treasure location discovered. 
+It is on:</dialog>
+<image>O'Beep</image>"
+},
+4: {
+"links": {
+0: 5
+},
+"text": "<dialog>The deep seas in the galaxy of Milky Way, 
+on the Planet Earth, located on the West Indies</dialog>
+<image>TreasureScroll</image>"
+},
+5: {
+"links": {
+0: 6
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Yes, our long journey is finally over</dialog>
+<image>TinHeart</image>"
+},
+6: {
+"links": {
+0: 7
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>We can start the new life, but what exactly 
+the treasure contains?</dialog>
+<image>TinHeart</image>
+"
+},
+7: {
+"links": {
+0: 8
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>I don't know, but luckily we will soon figure it out!</dialog>
+<image>O'Beep</image>"
+},
+8: {
+"links": {
+0: 9
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>What does the encyclopaedia of Cosmos say about 
+the treasure location?</dialog>
+<image>O'Beep</image>"
+},
+9: {
+"links": {
+0: 10
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>It says that, the area has been long under the influence 
+of someone named BlackBeard</dialog>
+<image>TinHeart</image>"
+},
+10: {
+"links": {
+0: 11
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Now this BlackBeard has died and left behind a treasure, 
+which is searched by pirates</dialog>
+<image>TinHeart</image>"
+},
+11: {
+"links": {
+0: 12
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>(Pirates certainly does not sound good)</dialog>
+<image>TinHeart</image>"
+},
+12: {
+"links": {
+0: 13
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>A treasure, that has to be it!</dialog>
+<image>O'Beep</image>"
+},
+13: {
+"links": {
+0: 14
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>But does the pirates mean battling for the treasure, 
+with a ship and pirate language?</dialog>
+<image>O'Beep</image>"
+},
+14: {
+"links": {
+0: 15
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Great thinking!</dialog>
+<image>TinHeart</image>"
+},
+15: {
+"links": {
+0: 16
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Unfortunately that seems to be the case. We have to 
+battle again</dialog>
+<image>TinHeart</image>"
+},
+16: {
+"links": {
+0: 17
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait, I remember seeing that the ship has a book 
+about pirates</dialog>
+<image>O'Beep</image>"
+},
+17: {
+"links": {
+0: 18
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Yes, there it is. Let's see...</dialog>
+<image>O'Beep</image>"
+},
+18: {
+"links": {
+0: 19
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>It has a pirate language dictionary, battle tips and 
+guide to transforming the spaceship to the pirate ship</dialog>
+<image>O'Beep</image>"
+},
+19: {
+"links": {
+0: 20
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Should we head to the Earth right away?</dialog>
+<image>O'Beep</image>"
+},
+20: {
+"links": {
+0: 21
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>I think we should as we have long journey ahead and 
+therefore, time to learn more about pirates</dialog>
+<image>TinHeart</image>"
+},
+21: {
+"links": {
+0: 22
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Let's go right away!</dialog>
+<image>O'Beep</image>"
+},
+22: {
+"links": {
+0: 23
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>So ye mates, prepare to learn about pirates and 
+to transform our spaceship to pirate ship as soon as we 
+enter the atmosphere of the earth!</dialog>
+<image>O'Beep</image>"
+},
+23: {
+"links": {
+0: 24
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Arrrrgh!</dialog>
+<image>TinHeart</image>"
+},
+24: {
+"links": {
+
+},
+"text": "<end>"
+}
+}
+},
+2: {
+"nodes": {
+1: {
+"links": {
+
+},
+"text": "{
+\"O'Beep\" : \"res://robot 2rescaled4.png\",
+\"TinHeart\" : \"res://robot faction transparent backgroundRezized2.png\",
+\"TreasureScroll\" : \"res://Sprites/SpurffWorld/Puzzles/Scrollrezized2.png\"
+}"
+}
+}
+}
+}
+names = {
+"Ending/Dialogue": 1,
+"Ending/PictureLibrary": 2
+}
