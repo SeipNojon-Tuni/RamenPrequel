@@ -101,7 +101,7 @@ func _get_next_node():
 	
 	if _nid == _final_nid:
 		_Dialog_Box.visible = false
-
+		get_tree().change_scene("res://Puzzle1Frontdoor.tscn")
 
 func _get_tagged_text(tag : String, text : String):
 	var start_tag = "<" + tag + ">"
