@@ -35,6 +35,7 @@ func _ready():
 	_SpaceBar_Icon.visible = false
 	
 	play_dialog("SecondPuzzle")
+	
 
 
 func _input(event):

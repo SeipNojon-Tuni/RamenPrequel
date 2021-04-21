@@ -1,0 +1,172 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Puzzle3.gd" type="Script" id=2]
+[ext_resource path="res://Puzzle3t.gd" type="Script" id=3]
+[ext_resource path="res://Sprites/SpurffWorld/bridge.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/SpurffWorld/instruction.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/SpurffWorld/Spurff_Temple.png" type="Texture" id=6]
+[ext_resource path="res://puzzlee2.gd" type="Script" id=7]
+[ext_resource path="res://DiamondGlow.gd" type="Script" id=8]
+[ext_resource path="res://Sprites/SpurffWorld/Diamond_glow.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/SpurffWorld/diamond_eye.png" type="Texture" id=10]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 47.6556
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 79.2661, 80.4554 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 60.4208, 519.399 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 82.5023, 150.463 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 82.0231, 503.057 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 64.6686, 161.409 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 76.0828, 150.463 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 69.7291, 157.628 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 74.4859, 169.792 )
+
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 83.4979, 165.827 )
+
+[node name="Puzzle3" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="diamond_eye" type="Sprite" parent="Node2D"]
+position = Vector2( 883.767, 127.879 )
+scale = Vector2( 0.212261, 0.22209 )
+texture = ExtResource( 10 )
+
+[node name="DiamondGlow" type="Light2D" parent="Node2D/diamond_eye"]
+position = Vector2( -81.248, 44.7476 )
+scale = Vector2( 1.28466, 1.28618 )
+texture = ExtResource( 9 )
+offset = Vector2( -1200, 500 )
+color = Color( 0.0117647, 0.713726, 0.533333, 1 )
+script = ExtResource( 8 )
+minVal = 0.5
+time = 2.5
+
+[node name="Tween" type="Tween" parent="Node2D/diamond_eye"]
+
+[node name="Dialog_Player" parent="." instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Dialog_Box" parent="Dialog_Player" index="0"]
+margin_left = -22.0
+margin_top = 21.0
+margin_right = -22.0
+margin_bottom = 171.0
+
+[node name="Body_NinePatchRect" parent="Dialog_Player/Dialog_Box" index="0"]
+margin_top = -64.0
+margin_bottom = 192.0
+
+[node name="Spurff_Temple" type="Sprite" parent="."]
+position = Vector2( 517.2, 297.302 )
+scale = Vector2( 0.267102, 0.279272 )
+texture = ExtResource( 6 )
+
+[node name="instruction" type="Sprite" parent="."]
+visible = false
+position = Vector2( 172.925, 388.57 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 5 )
+
+[node name="InstruArea" type="Area2D" parent="."]
+position = Vector2( 166.088, 394.655 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InstruArea"]
+position = Vector2( -4.7135, -0.142609 )
+shape = SubResource( 1 )
+
+[node name="DiamondArea" type="Area2D" parent="."]
+position = Vector2( 885.924, 145.083 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiamondArea"]
+position = Vector2( 4.27216, -16.8088 )
+shape = SubResource( 2 )
+
+[node name="bridge" type="Sprite" parent="."]
+visible = false
+position = Vector2( 502.874, 295.722 )
+scale = Vector2( 1, 0.586588 )
+texture = ExtResource( 4 )
+offset = Vector2( 8.15552, -0.526855 )
+
+[node name="deaths" type="Area2D" parent="bridge"]
+script = ExtResource( 7 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bridge/deaths"]
+position = Vector2( -250.081, 1.18619 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="bridge/deaths"]
+position = Vector2( -90.7144, 373.731 )
+shape = SubResource( 4 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="bridge/deaths"]
+position = Vector2( 226.786, 25.7745 )
+shape = SubResource( 5 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="bridge/deaths"]
+position = Vector2( 73.6411, -302.15 )
+shape = SubResource( 6 )
+
+[node name="1" type="Area2D" parent="bridge"]
+position = Vector2( 83.1547, 403.801 )
+script = ExtResource( 7 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bridge/1"]
+position = Vector2( -15.1191, -38.6616 )
+shape = SubResource( 7 )
+
+[node name="2" type="Area2D" parent="bridge"]
+position = Vector2( 72.584, 66.7593 )
+script = ExtResource( 7 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bridge/2"]
+position = Vector2( -9.5137, -29.3469 )
+shape = SubResource( 8 )
+
+[node name="3" type="Area2D" parent="bridge"]
+position = Vector2( -92.7581, 89.2025 )
+script = ExtResource( 7 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bridge/3"]
+position = Vector2( 0, -48.1736 )
+shape = SubResource( 9 )
+
+[node name="4" type="Area2D" parent="bridge"]
+position = Vector2( -96.6158, -329.664 )
+script = ExtResource( 7 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bridge/4"]
+position = Vector2( -5.18945, 21.4788 )
+shape = SubResource( 10 )
+[connection signal="mouse_entered" from="InstruArea" to="." method="_on_InstruArea_mouse_entered"]
+[connection signal="mouse_exited" from="InstruArea" to="." method="_on_InstruArea_mouse_exited"]
+[connection signal="input_event" from="DiamondArea" to="." method="_on_DiamondArea_input_event"]
+[connection signal="mouse_entered" from="DiamondArea" to="." method="_on_DiamondArea_mouse_entered"]
+[connection signal="mouse_exited" from="DiamondArea" to="." method="_on_DiamondArea_mouse_exited"]
+[connection signal="input_event" from="bridge/deaths" to="bridge/deaths" method="_on_puzzle3_input_event"]
+[connection signal="input_event" from="bridge/1" to="bridge/1" method="_on_puzzle3_input_event"]
+[connection signal="input_event" from="bridge/2" to="bridge/2" method="_on_puzzle3_input_event"]
+[connection signal="input_event" from="bridge/3" to="bridge/3" method="_on_puzzle3_input_event"]
+[connection signal="input_event" from="bridge/4" to="bridge/4" method="_on_puzzle3_input_event"]
+
+[editable path="Dialog_Player"]

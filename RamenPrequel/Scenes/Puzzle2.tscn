@@ -1,0 +1,130 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Puzzle2.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/SpurffWorld/Puzzles/Puzzle 2 resized.png" type="Texture" id=3]
+[ext_resource path="res://Puzzlem2.gd" type="Script" id=4]
+[ext_resource path="res://puzzlee2.gd" type="Script" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 53.4396, 46.0133 )
+
+[node name="Puzzle2" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="Dialog_Player" parent="." instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Puzzle 2 resized" type="Sprite" parent="."]
+position = Vector2( 264.345, 156.683 )
+scale = Vector2( 0.400193, 0.434731 )
+texture = ExtResource( 3 )
+offset = Vector2( 619.168, 339.235 )
+
+[node name="1" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="1"]
+position = Vector2( 17.4557, -1.18916 )
+shape = SubResource( 1 )
+
+[node name="2" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="2"]
+position = Vector2( 128.296, -1.18916 )
+shape = SubResource( 1 )
+
+[node name="3" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="3"]
+position = Vector2( 247.293, -2.68747 )
+shape = SubResource( 1 )
+
+[node name="4" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="4"]
+position = Vector2( 14.4251, 94.7025 )
+shape = SubResource( 1 )
+
+[node name="5" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="5"]
+position = Vector2( 129.795, 97.6991 )
+shape = SubResource( 1 )
+
+[node name="6" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="6"]
+position = Vector2( 245.164, 94.7025 )
+shape = SubResource( 1 )
+
+[node name="7" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="7"]
+position = Vector2( 12.9267, 195.089 )
+shape = SubResource( 1 )
+
+[node name="8" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="8"]
+position = Vector2( 129.795, 193.591 )
+shape = SubResource( 1 )
+
+[node name="9" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="9"]
+position = Vector2( 248.315, 191.783 )
+shape = SubResource( 1 )
+
+[node name="10" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="10"]
+position = Vector2( 12.1775, 291.389 )
+shape = SubResource( 1 )
+
+[node name="11" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="11"]
+position = Vector2( 129.045, 295.476 )
+shape = SubResource( 1 )
+
+[node name="12" type="Area2D" parent="."]
+position = Vector2( 156.683, 156.683 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="12"]
+position = Vector2( 247.085, 291.2 )
+shape = SubResource( 1 )
+[connection signal="input_event" from="1" to="1" method="_on_puzzle2_input_event"]
+[connection signal="input_event" from="2" to="2" method="_on_puzzle2_input_event"]
+[connection signal="input_event" from="3" to="3" method="_on_puzzle2_input_event"]
+[connection signal="input_event" from="4" to="4" method="_on_puzzle2_input_event"]
+[connection signal="input_event" from="5" to="5" method="_on_puzzle2_input_event"]
+[connection signal="input_event" from="6" to="6" method="_on_puzzle2_input_event"]
+[connection signal="input_event" from="7" to="7" method="_on_puzzle2_input_event"]
+[connection signal="input_event" from="8" to="8" method="_on_puzzle2_input_event"]
+[connection signal="input_event" from="9" to="9" method="_on_puzzle2_input_event"]
+[connection signal="input_event" from="10" to="10" method="_on_puzzle2_input_event"]
+[connection signal="input_event" from="11" to="11" method="_on_puzzle2_input_event"]
+[connection signal="input_event" from="12" to="12" method="_on_puzzle2_input_event"]

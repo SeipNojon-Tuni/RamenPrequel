@@ -1,15 +1,112 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://DialogSpurffs.gd" type="Script" id=1]
 [ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Sprites/SpurffWorld/spurff_village.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/SpurffWorld/spurffworld_panorama.jpg" type="Texture" id=3]
+[ext_resource path="res://Scenes/Lightning.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/glow.gd" type="Script" id=5]
+[ext_resource path="res://Scenes/AmbienceRepeater.gd" type="Script" id=6]
+[ext_resource path="res://Scenes/Lightning.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Sprites/SpurffWorld/door_glow.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/SpurffWorld/fungi_glow.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/SpurffWorld/sky_glow.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/SpurffWorld/houses_glow.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/SpurffWorld/spurff_gate.png" type="Texture" id=12]
+[ext_resource path="res://Audio/music/Echoes from the Void.wav" type="AudioStream" id=13]
+[ext_resource path="res://Sprites/SpurffWorld/foreground.png" type="Texture" id=14]
 
 [node name="Control" type="Node2D"]
 
-[node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 521.398, 296.461 )
-scale = Vector2( 0.565076, 0.565076 )
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="SpurffBackground" type="Node2D" parent="Node2D"]
+
+[node name="spurffworld_panorama" type="Sprite" parent="Node2D/SpurffBackground"]
+position = Vector2( 510.36, 268.113 )
+scale = Vector2( 0.284087, 0.307366 )
 texture = ExtResource( 3 )
+
+[node name="doorglow" type="Light2D" parent="Node2D/SpurffBackground/spurffworld_panorama"]
+position = Vector2( 2.56405, 9.04994 )
+scale = Vector2( 1.00259, 1.00369 )
+texture = ExtResource( 8 )
+energy = 0.62
+script = ExtResource( 5 )
+maxVal = 0.6
+
+[node name="housesglow" type="Light2D" parent="Node2D/SpurffBackground/spurffworld_panorama"]
+position = Vector2( 8.52637, -1.10443 )
+scale = Vector2( 1.00016, 1.01171 )
+texture = ExtResource( 11 )
+energy = 0.81
+script = ExtResource( 5 )
+maxVal = 1.2
+minVal = 0.8
+
+[node name="fungiglow" type="Light2D" parent="Node2D/SpurffBackground/spurffworld_panorama"]
+position = Vector2( 13.004, 0.258604 )
+scale = Vector2( 1.00634, 0.989724 )
+texture = ExtResource( 9 )
+script = ExtResource( 5 )
+maxVal = 0.95
+minVal = 0.7
+time = 2.7
+
+[node name="skyglow" type="Light2D" parent="Node2D/SpurffBackground/spurffworld_panorama"]
+position = Vector2( 9.26379, 11.48 )
+scale = Vector2( 1.00315, 0.996454 )
+texture = ExtResource( 10 )
+energy = 0.41
+script = ExtResource( 5 )
+maxVal = 0.5
+time = 0.513
+
+[node name="Lightning2" type="Node2D" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
+position = Vector2( -1107.69, -560.107 )
+scale = Vector2( 0.4, 0.4 )
+script = ExtResource( 4 )
+num = 2
+
+[node name="Lightning5" type="Node2D" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
+modulate = Color( 1, 1, 1, 0.909804 )
+position = Vector2( 301.998, -570.436 )
+scale = Vector2( 0.28, 0.28 )
+script = ExtResource( 4 )
+
+[node name="Lightning" type="Node2D" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
+position = Vector2( 660.075, -676.827 )
+scale = Vector2( 0.3, 0.3 )
+script = ExtResource( 4 )
+
+[node name="Lightning3" type="Node2D" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
+position = Vector2( -30.3738, -664.784 )
+scale = Vector2( 0.5, 0.5 )
+script = ExtResource( 4 )
+
+[node name="Lightning4" type="Node2D" parent="Node2D/SpurffBackground/spurffworld_panorama" instance=ExtResource( 7 )]
+position = Vector2( -1472.11, -693.816 )
+scale = Vector2( 0.7, 0.7 )
+script = ExtResource( 4 )
+num = 2
+
+[node name="Tween" type="Tween" parent="Node2D/SpurffBackground/spurffworld_panorama"]
+
+[node name="spurff_gate" type="Sprite" parent="Node2D/SpurffBackground"]
+position = Vector2( 504.858, 267.583 )
+scale = Vector2( 0.284703, 0.308371 )
+texture = ExtResource( 12 )
+
+[node name="foreground" type="Sprite" parent="Node2D/SpurffBackground"]
+modulate = Color( 0.933333, 1, 1, 1 )
+position = Vector2( 510.58, 267.72 )
+scale = Vector2( 0.284703, 0.308371 )
+texture = ExtResource( 14 )
+
+[node name="Ambience" type="AudioStreamPlayer" parent="Node2D/SpurffBackground"]
+stream = ExtResource( 13 )
+volume_db = -4.588
+script = ExtResource( 6 )
 
 [node name="Dialog_Player" parent="." instance=ExtResource( 2 )]
 script = ExtResource( 1 )
+[connection signal="tween_completed" from="Node2D/SpurffBackground/spurffworld_panorama/Tween" to="Node2D/SpurffBackground/spurffworld_panorama/doorglow" method="_on_Tween_tween_completed"]
