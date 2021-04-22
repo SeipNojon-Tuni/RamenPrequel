@@ -34,11 +34,11 @@ func add(name):
 	
 	if name=="deaths":
 		print("ee")
-		get_tree().change_scene("res://Scenes/Death.tscn")
+		get_tree().change_scene("res://Death.tscn")
 		
 	if name==code.substr(place,1):
 		place+=1
 	elif name!=code.substr(place,1):
-		get_tree().change_scene("res://Scenes/Death.tscn")
+		get_tree().change_scene("res://Death.tscn")
 	if place==4:
 		get_tree().change_scene("res://TheDiamondEye.tscn")
