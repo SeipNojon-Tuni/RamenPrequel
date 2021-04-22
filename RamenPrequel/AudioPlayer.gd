@@ -44,8 +44,6 @@ func play_audio(bank):
 	
 	var cleanBank = ""
 	
-	print(bank)
-	
 	if(bank == null):
 		print("No bank defined!")
 	elif(translate.has(bank)):

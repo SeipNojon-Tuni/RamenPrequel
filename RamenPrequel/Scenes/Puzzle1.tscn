@@ -60,7 +60,7 @@ rotation = 3.49691e-07
 texture = ExtResource( 4 )
 [connection signal="input_event" from="Puzzle1bg/puz1" to="Puzzle1bg/puz1" method="_on_Puzzle1_input_event"]
 [connection signal="input_event" from="Puzzle1bg/puz1" to="Puzzle1bg/puz3" method="_on_Puzzle1_input_event"]
-[connection signal="input_event" from="Puzzle1bg/puz2" to="Puzzle1bg/puz1" method="_on_Puzzle1_input_event"]
 [connection signal="input_event" from="Puzzle1bg/puz2" to="Puzzle1bg/puz2" method="_on_Puzzle1_input_event"]
-[connection signal="input_event" from="Puzzle1bg/puz3" to="Puzzle1bg/puz3" method="_on_Puzzle1_input_event"]
+[connection signal="input_event" from="Puzzle1bg/puz2" to="Puzzle1bg/puz1" method="_on_Puzzle1_input_event"]
 [connection signal="input_event" from="Puzzle1bg/puz3" to="Puzzle1bg/puz2" method="_on_Puzzle1_input_event"]
+[connection signal="input_event" from="Puzzle1bg/puz3" to="Puzzle1bg/puz3" method="_on_Puzzle1_input_event"]

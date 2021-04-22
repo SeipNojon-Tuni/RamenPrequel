@@ -1,16 +1,43 @@
 extends AudioStreamPlayer
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+var music_book = {"Wasteland": "Wasteland_ambience",
+				  "MainMenu": "Beyond the Stars", 
+				  "Credits": "Last of our kind",
+				  "SpurffCave": "Echoes from the Void",
+				  "Puzzle1": "Eye Ever Watchful",
+				  "Puzzle2": "Eye Ever Watchful",
+				  "Puzzle3": "Eye Ever Watchful",
+				  "SpurffVillage": "The Undertribe"}
+				
+var current_track = ""
 
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+func _process(_delta):
+	
+	# If song stops replay
+	if(!playing):
+		replay_current()
 
+func scene_loaded(name):
+	
+	if(!name):
+		print("No name for loaded scene in Ambience player!")
+	elif( music_book.has(name) ):
+		stop()
+		set_music(name)
+		play()
+		print("Playing music for " + name)
+	else:
+		print("No music for scene " + name)
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+# Set music stream by bank name
+func set_music(name):
+	var track = music_book[name]
+	if(track != current_track):
+		current_track = track
+		stream = load("res://Audio/music/" + track + ".wav")
+
+# Replay latest track
+func replay_current():
+	stream = load("res://Audio/music/" + current_track + ".wav")

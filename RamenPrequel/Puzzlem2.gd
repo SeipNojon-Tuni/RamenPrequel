@@ -1,6 +1,12 @@
 extends Node2D
 
 onready var _sound = get_node("/root/DialoguePlayer")
+onready var ambience = get_node("/root/Ambience")
+
+# Request to play ambience
+func _ready():
+	ambience.scene_loaded("Puzzle2")
+	pass
 
 var trycode = ""
 var code ="2-5-6-4-1-12-3-10-7-8-11-9-"

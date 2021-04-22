@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://ObjectClicked.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/MicrawaWaste/battery.png" type="Texture" id=2]
@@ -12,10 +12,9 @@
 [ext_resource path="res://Sprites/MicrawaWaste/space_drive.png" type="Texture" id=10]
 [ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=11]
 [ext_resource path="res://WastelandStart.gd" type="Script" id=12]
-[ext_resource path="res://AudioPlayer.gd" type="Script" id=13]
 [ext_resource path="res://Scenes/PowerPylon.tscn" type="PackedScene" id=14]
 [ext_resource path="res://Sprites/MicrawaWaste/micrawa_waste_pile.png" type="Texture" id=15]
-[ext_resource path="res://Audio/ambience/wasteland/Wasteland_ambience.wav" type="AudioStream" id=16]
+[ext_resource path="res://Audio/music/Wasteland_ambience.wav" type="AudioStream" id=16]
 [ext_resource path="res://Scenes/UI_wasteland.tscn" type="PackedScene" id=17]
 [ext_resource path="res://Sprites/MicrawaWaste/Clutter/rock2.png" type="Texture" id=18]
 [ext_resource path="res://Sprites/MicrawaWaste/Clutter/microwave.png" type="Texture" id=19]
@@ -24,7 +23,6 @@
 [ext_resource path="res://Sprites/MicrawaWaste/Clutter/sofa.png" type="Texture" id=22]
 [ext_resource path="res://Scenes/Wasteland.gd" type="Script" id=23]
 [ext_resource path="res://rusted_shuttle.png" type="Texture" id=24]
-[ext_resource path="res://Scenes/AmbienceRepeater.gd" type="Script" id=25]
 
 [node name="Control" type="Node2D"]
 position = Vector2( 2.99664, -5.99323 )
@@ -178,15 +176,10 @@ margin_bottom = 171.0
 margin_top = -109.0
 margin_bottom = 147.0
 
-[node name="AudioPlayer" type="AudioStreamPlayer" parent="."]
-script = ExtResource( 13 )
-
 [node name="Ambience" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 16 )
 volume_db = -6.964
 pitch_scale = 0.43
-autoplay = true
-script = ExtResource( 25 )
 
 [node name="Rock1" type="Sprite" parent="."]
 position = Vector2( 989.763, 449.559 )
