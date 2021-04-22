@@ -158,6 +158,16 @@ Everyone</dialog>"
 },
 20: {
 "links": {
+0: 21
+},
+"text": "<dialog>Dialog plug-in used for every dialog:
+Godot Dialog System by DaveTheDev. 
+Licensed under MIT License. 
+https://github.com/EXPWorlds/Godot-Dialog-System  
+(Link to the GitHub repository)</dialog>"
+},
+21: {
+"links": {
 
 },
 "text": "<end>"
