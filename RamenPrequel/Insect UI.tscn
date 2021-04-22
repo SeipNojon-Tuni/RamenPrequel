@@ -12,10 +12,12 @@ __meta__ = {
 }
 
 [node name="ScoreText" type="Label" parent="."]
-margin_right = 145.0
-margin_bottom = 50.0
+margin_left = 38.0
+margin_top = 17.0
+margin_right = 227.0
+margin_bottom = 67.0
 custom_fonts/font = ExtResource( 2 )
-text = "Blight bugs collected: 0/5"
+text = "Blight bugs collected: 0/11"
 __meta__ = {
 "_edit_use_anchors_": false
 }

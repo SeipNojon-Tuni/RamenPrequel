@@ -258,36 +258,42 @@ flip_h = true
 
 [node name="Control" parent="." instance=ExtResource( 12 )]
 script = ExtResource( 13 )
-[connection signal="input_event" from="Insect UI/Insect" to="Insect UI/Insect" method="_on_Insect_input_event"]
+
+[node name="Dialog_Box" parent="Control/Dialog_Player" index="0"]
+margin_left = 2.04883
+margin_top = 4.04086
+margin_right = -3.95117
+margin_bottom = 317.041
 [connection signal="input_event" from="Insect UI/Insect" to="Insect UI" method="_on_Insect_input_event"]
+[connection signal="input_event" from="Insect UI/Insect" to="Insect UI/Insect" method="_on_Insect_input_event"]
 [connection signal="mouse_entered" from="Insect UI/Insect" to="Insect UI/Insect" method="_on_Insect_mouse_entered"]
 [connection signal="mouse_exited" from="Insect UI/Insect" to="Insect UI/Insect" method="_on_Insect_mouse_exited"]
-[connection signal="input_event" from="Insect UI/BigInsect" to="Insect UI/BigInsect" method="_on_Insect_input_event"]
 [connection signal="input_event" from="Insect UI/BigInsect" to="Insect UI" method="_on_Insect_input_event"]
+[connection signal="input_event" from="Insect UI/BigInsect" to="Insect UI/BigInsect" method="_on_Insect_input_event"]
 [connection signal="mouse_entered" from="Insect UI/BigInsect" to="Insect UI/BigInsect" method="_on_Insect_mouse_entered"]
 [connection signal="mouse_exited" from="Insect UI/BigInsect" to="Insect UI/BigInsect" method="_on_Insect_mouse_exited"]
-[connection signal="input_event" from="Insect UI/BigInsect3" to="Insect UI/BigInsect3" method="_on_Insect_input_event"]
 [connection signal="input_event" from="Insect UI/BigInsect3" to="Insect UI" method="_on_Insect_input_event"]
+[connection signal="input_event" from="Insect UI/BigInsect3" to="Insect UI/BigInsect3" method="_on_Insect_input_event"]
 [connection signal="mouse_entered" from="Insect UI/BigInsect3" to="Insect UI/BigInsect3" method="_on_Insect_mouse_entered"]
 [connection signal="mouse_exited" from="Insect UI/BigInsect3" to="Insect UI/BigInsect3" method="_on_Insect_mouse_exited"]
-[connection signal="input_event" from="Insect UI/BigInsect2" to="Insect UI/BigInsect2" method="_on_Insect_input_event"]
 [connection signal="input_event" from="Insect UI/BigInsect2" to="Insect UI" method="_on_Insect_input_event"]
+[connection signal="input_event" from="Insect UI/BigInsect2" to="Insect UI/BigInsect2" method="_on_Insect_input_event"]
 [connection signal="mouse_entered" from="Insect UI/BigInsect2" to="Insect UI/BigInsect2" method="_on_Insect_mouse_entered"]
 [connection signal="mouse_exited" from="Insect UI/BigInsect2" to="Insect UI/BigInsect2" method="_on_Insect_mouse_exited"]
-[connection signal="input_event" from="Insect UI/Insect2" to="Insect UI/Insect2" method="_on_Insect2_input_event"]
 [connection signal="input_event" from="Insect UI/Insect2" to="Insect UI" method="_on_Insect2_input_event"]
+[connection signal="input_event" from="Insect UI/Insect2" to="Insect UI/Insect2" method="_on_Insect2_input_event"]
 [connection signal="mouse_entered" from="Insect UI/Insect2" to="Insect UI/Insect2" method="_on_Insect_mouse_entered"]
 [connection signal="mouse_exited" from="Insect UI/Insect2" to="Insect UI/Insect2" method="_on_Insect_mouse_exited"]
-[connection signal="input_event" from="Insect UI/Insect8" to="Insect UI/Insect8" method="_on_Insect2_input_event"]
 [connection signal="input_event" from="Insect UI/Insect8" to="Insect UI" method="_on_Insect2_input_event"]
+[connection signal="input_event" from="Insect UI/Insect8" to="Insect UI/Insect8" method="_on_Insect2_input_event"]
 [connection signal="mouse_entered" from="Insect UI/Insect8" to="Insect UI/Insect8" method="_on_Insect_mouse_entered"]
 [connection signal="mouse_exited" from="Insect UI/Insect8" to="Insect UI/Insect8" method="_on_Insect_mouse_exited"]
-[connection signal="input_event" from="Insect UI/Insect3" to="Insect UI/Insect3" method="_on_Insect3_input_event"]
 [connection signal="input_event" from="Insect UI/Insect3" to="Insect UI" method="_on_Insect3_input_event"]
+[connection signal="input_event" from="Insect UI/Insect3" to="Insect UI/Insect3" method="_on_Insect3_input_event"]
 [connection signal="mouse_entered" from="Insect UI/Insect3" to="Insect UI/Insect3" method="_on_Insect_mouse_entered"]
 [connection signal="mouse_exited" from="Insect UI/Insect3" to="Insect UI/Insect3" method="_on_Insect_mouse_exited"]
-[connection signal="input_event" from="Insect UI/Insect6" to="Insect UI/Insect6" method="_on_Insect3_input_event"]
 [connection signal="input_event" from="Insect UI/Insect6" to="Insect UI" method="_on_Insect3_input_event"]
+[connection signal="input_event" from="Insect UI/Insect6" to="Insect UI/Insect6" method="_on_Insect3_input_event"]
 [connection signal="mouse_entered" from="Insect UI/Insect6" to="Insect UI/Insect6" method="_on_Insect_mouse_entered"]
 [connection signal="mouse_exited" from="Insect UI/Insect6" to="Insect UI/Insect6" method="_on_Insect_mouse_exited"]
 [connection signal="input_event" from="Insect UI/Insect4" to="Insect UI/Insect4" method="_on_Insect4_input_event"]
@@ -302,3 +308,7 @@ script = ExtResource( 13 )
 [connection signal="input_event" from="Insect UI/Insect5" to="Insect UI" method="_on_Insect5_input_event"]
 [connection signal="mouse_entered" from="Insect UI/Insect5" to="Insect UI/Insect5" method="_on_Insect_mouse_entered"]
 [connection signal="mouse_exited" from="Insect UI/Insect5" to="Insect UI/Insect5" method="_on_Insect5_mouse_exited"]
+
+[editable path="Control"]
+
+[editable path="Control/Dialog_Player"]
