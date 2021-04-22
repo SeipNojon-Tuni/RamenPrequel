@@ -7,12 +7,7 @@ onready var _Dialog_Box = self.find_node("Dialog_Box")
 onready var _Speaker_LBL = self.find_node("Speaker_Label")
 onready var _SpaceBar_Icon = self.find_node("SpaceBar_NinePatchRect")
 
-onready var _audio_player = get_node("/root/AudioPlayer")
-
-onready var _video = get_parent().get_node("Video/VideoPlayer")
-
-# Background animation, only in story start sequence
-onready var _bg_anim = get_parent().get_node("IntroAnimation")
+onready var _audio_player = get_node("/root/DialoguePlayer")
 
 var _did = 0
 var _nid = 0
@@ -128,8 +123,4 @@ func _play_node():
 	if(_audio_player):
 		# Play current audio track
 		_audio_player.play_next_dialogue()
-	
-	# Change to video with second dialogue node
-	if(_nid == 3 && _bg_anim && _video):
-		_bg_anim.queue_free()
-		_video.play()
+
