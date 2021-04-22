@@ -8,6 +8,8 @@ func _ready():
 	ambience.scene_loaded("Puzzle2")
 	pass
 
+# Lets try again... Do you still refuse to lose??
+
 var trycode = "$"
 var code ="$2-5-6-4-1-12-3-10-7-8-11-9-"
 var numbers=12

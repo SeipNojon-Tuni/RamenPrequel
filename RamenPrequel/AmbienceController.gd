@@ -12,12 +12,10 @@ var music_book = {"Wasteland": "Wasteland_ambience",
 				
 var current_track = "Dark corners"
 
-var music_on = true
-
 func _process(_delta):
 	
 	# If song stops replay
-	if(!playing && music_on):
+	if(!playing):
 		replay_current()
 
 
