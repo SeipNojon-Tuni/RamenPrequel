@@ -24,8 +24,8 @@ func add(name):
 	elif(numbers==0):
 		# Play death sound
 		_sound.play_audio("Keypad")
-		get_tree().change_scene("res://Scenes/Puzzle1.tscn")
+		get_tree().change_scene("res://Death.tscn")
 	if (!trycode in code):
 		# Play death sound
 		_sound.play_audio("Keypad")
-		get_tree().change_scene("res://Scenes/Puzzle1.tscn")
+		get_tree().change_scene("res://Death.tscn")

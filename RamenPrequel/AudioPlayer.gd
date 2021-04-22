@@ -6,6 +6,8 @@ var cid = 1;
 var current_bank = ""
 var rng = RandomNumberGenerator.new()
 
+onready var secondary = $Secondary
+
 var banks = {"obeep": 8, "tinheart": 8, "elder": 5, 
 			 "guard": 5, "together": 1, "keypad": 2}
 			
@@ -78,6 +80,15 @@ func play_engine():
 func play_landing():
 	self.stream = load("res://Audio/effects/landing.wav")
 	self.play()
+
+func play_crash():
+	self.stream = load("res://Audio/effects/crash.wav")
+	self.play()
+
+func play_death():
+	secondary.stream = load("res://Audio/effects/RoboticDeath.wav")
+	secondary.play()
+	
 	
 # Stop audio if playing and start playing next audio by defined bank, id names
 func reset_audio(bank, id):

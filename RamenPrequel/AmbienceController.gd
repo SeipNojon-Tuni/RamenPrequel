@@ -26,9 +26,7 @@ func scene_loaded(name):
 	if(!name):
 		print("No name for loaded scene in Ambience player!")
 	elif( music_book.has(name) ):
-		stop()
 		set_music(name)
-		play()
 		print("Playing music for " + name)
 	else:
 		print("No music for scene " + name)
@@ -37,12 +35,15 @@ func scene_loaded(name):
 func set_music(name):
 	var track = music_book[name]
 	if(track != current_track):
-		current_track = track
+		current_track = track	
+		stop()
 		stream = load("res://Audio/music/" + track + ".wav")
+		play()
 
 # Replay latest track
 func replay_current():
 	stream = load("res://Audio/music/" + current_track + ".wav")
+	
 
 func set_volume(value):
 	volume_db = value

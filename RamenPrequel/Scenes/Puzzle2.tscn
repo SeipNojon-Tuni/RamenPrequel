@@ -15,12 +15,6 @@ script = ExtResource( 4 )
 [node name="Dialog_Player" parent="." instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 
-[node name="Dialog_Box" parent="Dialog_Player" index="0"]
-margin_left = -27.0397
-margin_top = -73.6944
-margin_right = -27.0397
-margin_bottom = 400.306
-
 [node name="Puzzle 2 resized" type="Sprite" parent="."]
 position = Vector2( 264.345, 156.683 )
 scale = Vector2( 0.400193, 0.434731 )
@@ -134,5 +128,3 @@ shape = SubResource( 1 )
 [connection signal="input_event" from="10" to="10" method="_on_puzzle2_input_event"]
 [connection signal="input_event" from="11" to="11" method="_on_puzzle2_input_event"]
 [connection signal="input_event" from="12" to="12" method="_on_puzzle2_input_event"]
-
-[editable path="Dialog_Player"]
