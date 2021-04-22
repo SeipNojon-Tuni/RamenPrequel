@@ -10,9 +10,10 @@ var banks = {"obeep": 8, "tinheart": 8, "elder": 5,
 			 "guard": 5, "together": 1, "keypad": 2}
 			
 var translate = {"O'Beep": "obeep", "TinHeart": "tinheart", 
-				 "Spurff Elder": "elder", "Guard": "guard", 
+				 "The Leader": "elder", "Guard": "guard", 
 				 "Everyone": "together", "Keypad": "keypad",
-				 "TinHeart ": "tinheart"}
+				 "TinHeart ": "tinheart", "Spurff": "guard",
+				 "Greet": "elder"}
 
 
 # Play audio linked to currently played dialogue node
