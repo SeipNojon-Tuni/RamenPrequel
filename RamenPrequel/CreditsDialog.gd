@@ -7,7 +7,7 @@ onready var _Dialog_Box = self.find_node("Dialog_Box")
 onready var _Speaker_LBL = self.find_node("Speaker_Label")
 onready var _SpaceBar_Icon = self.find_node("SpaceBar_NinePatchRect")
 
-onready var _audio_player = get_tree().get_current_scene().get_node("AudioPlayer")
+onready var _audio_player = get_node("/root/DialoguePlayer")
 onready var _music = get_tree().get_current_scene().get_node("Music")
 
 var _did = 0

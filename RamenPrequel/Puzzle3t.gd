@@ -1,4 +1,7 @@
 extends Node2D
+
+onready var _sound = get_node("/root/DialoguePlayer")
+
 var code="1234"
 var place=0
 func _on_InstruArea_mouse_entered():
@@ -18,6 +21,10 @@ func _on_DiamondArea_input_event(_viewport, event, _shape_idx):
 				get_node("InstruArea").visible=false
 				get_node("DiamondArea").visible=false
 func add(name):
+	
+	# Play sound effect
+	_sound.play_puzzle3()
+	
 	if name=="deaths":
 		print("ee")
 		get_tree().change_scene("res://Scenes/Puzzle1.tscn")

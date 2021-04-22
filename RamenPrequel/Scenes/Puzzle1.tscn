@@ -58,9 +58,9 @@ polygon = PoolVector2Array( 224.714, 304.489, 243.784, 348.986, 292.519, 372.294
 position = Vector2( -555, -2.66895 )
 rotation = 3.49691e-07
 texture = ExtResource( 4 )
-[connection signal="input_event" from="Puzzle1bg/puz1" to="Puzzle1bg/puz3" method="_on_Puzzle1_input_event"]
 [connection signal="input_event" from="Puzzle1bg/puz1" to="Puzzle1bg/puz1" method="_on_Puzzle1_input_event"]
-[connection signal="input_event" from="Puzzle1bg/puz2" to="Puzzle1bg/puz2" method="_on_Puzzle1_input_event"]
+[connection signal="input_event" from="Puzzle1bg/puz1" to="Puzzle1bg/puz3" method="_on_Puzzle1_input_event"]
 [connection signal="input_event" from="Puzzle1bg/puz2" to="Puzzle1bg/puz1" method="_on_Puzzle1_input_event"]
-[connection signal="input_event" from="Puzzle1bg/puz3" to="Puzzle1bg/puz2" method="_on_Puzzle1_input_event"]
+[connection signal="input_event" from="Puzzle1bg/puz2" to="Puzzle1bg/puz2" method="_on_Puzzle1_input_event"]
 [connection signal="input_event" from="Puzzle1bg/puz3" to="Puzzle1bg/puz3" method="_on_Puzzle1_input_event"]
+[connection signal="input_event" from="Puzzle1bg/puz3" to="Puzzle1bg/puz2" method="_on_Puzzle1_input_event"]

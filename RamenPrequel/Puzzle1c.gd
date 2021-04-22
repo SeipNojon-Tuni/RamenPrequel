@@ -1,10 +1,15 @@
 extends Node2D
 
+onready var _sound = get_node("/root/DialoguePlayer")
 
 var puz1=null
 var puz2=null
 var puz3=null
 func puzzle1(name,rottaa):
+	
+	# Play sound
+	_sound.play_puzzle1()
+	
 	if(name=="puz1"):
 		puz1=rottaa
 	if(name=="puz2"):

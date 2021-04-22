@@ -19,6 +19,11 @@ config/name="Black Beards Treasure: Tales from Outer Space"
 run/main_scene="res://Scenes/MainMenu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+DialoguePlayer="*res://Scenes/DialoguePlayer.tscn"
+Ambience="*res://Scenes/Ambience.tscn"
+
 [display]
 
 window/size/fullscreen=true

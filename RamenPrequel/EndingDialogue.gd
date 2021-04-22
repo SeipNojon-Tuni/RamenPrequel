@@ -7,12 +7,8 @@ onready var _Dialog_Box = self.find_node("Dialog_Box")
 onready var _Speaker_LBL = self.find_node("Speaker_Label")
 onready var _SpaceBar_Icon = self.find_node("SpaceBar_NinePatchRect")
 
-onready var _audio_player = get_tree().get_current_scene().get_node("AudioPlayer")
+onready var _audio_player = get_node("/root/DialoguePlayer")
 
-onready var _video = get_parent().get_node("Video/VideoPlayer")
-
-# Background animation, only in story start sequence
-onready var _bg_anim = get_parent().get_node("IntroAnimation")
 
 var _did = 0
 var _nid = 0
@@ -68,7 +64,7 @@ func play_dialog(record_name : String):
 	
 	if(_audio_player):
 		# Set audio bank and index
-		_audio_player.set_dialogue_audio("sparky_intro", _did)
+		_audio_player.play_engine()
 	
 
 # Private Methods
@@ -126,10 +122,9 @@ func _play_node():
 	
 	if(_audio_player):
 		# Play current audio track
-		_audio_player.play_next_dialogue()
-	
-	# Change to video with second dialogue node
-	if(_nid == 3 && _bg_anim && _video):
-		_bg_anim.queue_free()
-		_video.play()
+		if(_nid == 4):
+			_audio_player.play_treasure()
+		else:
+			_audio_player.play_audio(speaker)
+
 
