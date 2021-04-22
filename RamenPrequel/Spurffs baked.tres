@@ -684,7 +684,7 @@ solution somwhere here</dialog>
 \"O'Beep\" : \"res://robot 2rescaled4.png\",
 \"TinHeart\" : \"res://robot faction transparent backgroundRezized2.png\",
 \"Guard\" : \"res://Sprites/SpurffWorld/spurff_guardTest4.png\",
-\"Leader\" : \"res://Sprites/SpurffWorld/elder.png\"
+\"Leader\" : \"res://Sprites/SpurffWorld/elder5.png\"
 }"
 }
 }
@@ -782,7 +782,8 @@ I hope we don't have to solve another puzzle</dialog>
 },
 "text": "<speaker>Spurff</speaker>
 <dialog>So, The new Diamond Eye from the temple has been 
-retrieved by some TinHeads</dialog>"
+retrieved by some TinHeads</dialog>
+<image>Guard</image>"
 },
 13: {
 "links": {
@@ -790,7 +791,8 @@ retrieved by some TinHeads</dialog>"
 },
 "text": "<speaker>Spurff</speaker>
 <dialog>While it is a good place to start. It does not scare away 
-the Blight Bugs that are still on the town</dialog>"
+the Blight Bugs that are still on the town</dialog>
+<image>Guard</image>"
 },
 14: {
 "links": {
@@ -798,7 +800,8 @@ the Blight Bugs that are still on the town</dialog>"
 },
 "text": "<speaker>Spurff</speaker>
 <dialog>And therefore lockdown can not be lifted before 
-every bug is back on the nest</dialog>"
+every bug is back on the nest</dialog>
+<image>Guard</image>"
 },
 15: {
 "links": {
@@ -806,7 +809,8 @@ every bug is back on the nest</dialog>"
 },
 "text": "<speaker>Spurff</speaker>
 <dialog>As the bugs are so deadly, that even a little touch 
-from them can kill and they move very fast</dialog>"
+from them can kill and they move very fast</dialog>
+<image>Guard</image>"
 },
 16: {
 "links": {
@@ -817,7 +821,8 @@ from them can kill and they move very fast</dialog>"
 bug exterminator did run away with blue spaceship
 and apparently crash landed to the planet 
 Micrawa Ramen. Some say that the 
-exterminator was also a treasure hunter</dialog>"
+exterminator was also a treasure hunter</dialog>
+<image>Guard</image>"
 },
 17: {
 "links": {
@@ -826,7 +831,8 @@ exterminator was also a treasure hunter</dialog>"
 "text": "<speaker>Spurff</speaker>
 <dialog>Oh those normal Spurffs who have to continue 
 their normal life in all this. Luckily our leader is safe 
-as he is so scared that he has locked himself up in the hut</dialog>"
+as he is so scared that he has locked himself up in the hut</dialog>
+<image>Guard</image>"
 },
 18: {
 "links": {
@@ -855,7 +861,8 @@ and we still can not see the leader and are at
 },
 "text": "<speaker>Spurff</speaker>
 <dialog>Wait other than Spurffs. I thought that no visitors have
-entered the SpurffVille after lockdown. Who even are you?</dialog>"
+entered the SpurffVille after lockdown. Who even are you?</dialog>
+<image>Guard</image>"
 },
 21: {
 "links": {
@@ -882,7 +889,8 @@ to see your leader</dialog>
 "text": "<speaker>Spurff</speaker>
 <dialog>Did you hear what did I speak? The leader is locked 
 into his hut and does not go out until those dangerous 
-Blight Bugs have returned to their den</dialog>"
+Blight Bugs have returned to their den</dialog>
+<image>Guard</image>"
 },
 24: {
 "links": {
@@ -897,14 +905,16 @@ Blight Bugs have returned to their den</dialog>"
 0: 26
 },
 "text": "<speaker>Spurff</speaker>
-<dialog>Wait, you are ROBOTS! And you have been made from metal!</dialog>"
+<dialog>Wait, you are ROBOTS! And you have been made from metal!</dialog>
+<image>Guard</image>"
 },
 26: {
 "links": {
 0: 27
 },
 "text": "<speaker>Spurff</speaker>
-<dialog>Metal is immune to the Blight Bugs poison! Please help us</dialog>"
+<dialog>Metal is immune to the Blight Bugs poison! Please help us</dialog>
+<image>Guard</image>"
 },
 27: {
 "links": {
@@ -963,7 +973,8 @@ the leader right after the bug problem has been solved</dialog>
 0: 34
 },
 "text": "<speaker>Spurff</speaker>
-<dialog>I will</dialog>"
+<dialog>I will</dialog>
+<image>Guard</image>"
 },
 34: {
 "links": {
@@ -980,7 +991,8 @@ where they are and how to catch them?</dialog>
 },
 "text": "<speaker>Spurff</speaker>
 <dialog>They are located at the town. You can catch them 
-with this net. According to the scouts, there are 11 bugs</dialog>"
+with this net. According to the scouts, there are 11 bugs</dialog>
+<image>Guard</image>"
 },
 36: {
 "links": {
@@ -1001,7 +1013,330 @@ the gears and catch those bugs!</dialog>
 },
 8: {
 "nodes": {
+1: {
+"links": {
+0: 2
+},
+"text": "<start>"
+},
+2: {
+"links": {
+0: 3
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Those nasty bugs have now been dealt at!</dialog>
+<image>O'Beep</image>"
+},
+3: {
+"links": {
+0: 4
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>They certainly are, and look, the Spurff we met earlier 
+is approaching</dialog>
+<image>TinHeart</image>"
+},
+4: {
+"links": {
+0: 5
+},
+"text": "<speaker>Spurff</speaker>
+<dialog>Great job robots! The bugs have been dealt and 
+the lockdown can be lifted</dialog>
+<image>Guard</image>"
+},
+5: {
+"links": {
+0: 6
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Can we now go see the leader?</dialog>
+<image>O'Beep</image>"
+},
+6: {
+"links": {
+0: 7
+},
+"text": "<speaker>Spurff</speaker>
+<dialog>Yes you can. In fact, let me take you there so I can give 
+the leader the status update</dialog>
+<image>Guard</image>"
+},
+7: {
+"links": {
+0: 8
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Finally!</dialog>
+<image>O'Beep</image>"
+},
+8: {
+"links": {
+0: 9
+},
+"text": "<dialog>At the leader's hut </dialog>"
+},
+9: {
+"links": {
+0: 10
+},
+"text": "<speaker>Spurff</speaker>
+<dialog>Ahoy leader, The Diamond Eye has been returned, 
+and bugs have gone back to their den</dialog>
+<image>Guard</image>"
+},
+10: {
+"links": {
+0: 11
+},
+"text": "<speaker>Spurff</speaker>
+<dialog>The lockdown can now be lifted, and you can come out 
+of your hut</dialog>
+<image>Guard</image>"
+},
+11: {
+"links": {
+0: 12
+},
+"text": "<speaker>The Leader</speaker>
+<dialog>Hmm.. I am currently working, and therefore, do not 
+come out until the evening. Thanks anyway from 
+the information</dialog>
+<image>Leader</image>"
+},
+12: {
+"links": {
+0: 13
+},
+"text": "<speaker>Spurff</speaker>
+<dialog>I think you can now go see the leader. I actually think that 
+he is more than happy to meet you, after he heards what 
+you have done</dialog>
+<image>Guard</image>"
+},
+13: {
+"links": {
+0: 14
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Great. We will finally get to see the leader.
+(It's about the time)</dialog>
+<image>O'Beep</image>"
+},
+14: {
+"links": {
+0: 15
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Yes, our long and dangerous journey is at the end</dialog>
+<image>TinHeart</image>"
+},
+15: {
+"links": {
+0: 16
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Let's go in right away. Behave O'Beep</dialog>
+<image>TinHeart</image>"
+},
+16: {
+"links": {
+0: 17
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Excuse me, are you the leader of Spurffs</dialog>
+<image>TinHeart</image>"
+},
+17: {
+"links": {
+0: 18
+},
+"text": "<speaker>The Leader</speaker>
+<dialog>Yes, I am Greet The Leader. Who are you TinHeads?</dialog>
+<image>Leader</image>"
+},
+18: {
+"links": {
+0: 19
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>I am TinHeart and this is O'Beep. We come from the planet 
+Micrawa Ramen</dialog>
+<image>TinHeart</image>"
+},
+19: {
+"links": {
+0: 20
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>We retrieved The Diamond Eye and scared the bugs to 
+their den</dialog>
+<image>O'Beep</image>"
+},
+20: {
+"links": {
+0: 21
+},
+"text": "<speaker>Greet</speaker>
+<dialog>So you are the heroes that saved our town. 
+We are so grateful that we can give you robots anything 
+you want</dialog>
+<image>Leader</image>"
+},
+21: {
+"links": {
+0: 22
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Well, a house and a large amount of money would be nice</dialog>
+<image>O'Beep</image>"
+},
+22: {
+"links": {
+0: 23
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>We do not want that. In fact, we would like to ask you 
+about this paper we found on our ship.</dialog>
+<image>TinHeart</image>"
+},
+23: {
+"links": {
+0: 24
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>It says that the treasure is located: 
+In the deep seas of...</dialog>
+<image>TinHeart</image>"
+},
+24: {
+"links": {
+0: 25
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Unfortunately that is only thing that is told. It had 
+your signature in it, so we thought that you could know 
+something about it</dialog>
+<image>O'Beep</image>"
+},
+25: {
+"links": {
+0: 26
+},
+"text": "<speaker>Greet</speaker>
+<dialog>Yeah, I remember that paper. In fact, I can tell you 
+the rest of the clue as a reward for saving our kingdom. 
+I as a old do not have any use to it</dialog>
+<image>Leader</image>"
+},
+26: {
+"links": {
+0: 27
+},
+"text": "<speaker>Greet</speaker>
+<dialog>The complete clue is:</dialog>
+<image>Leader</image>"
+},
+27: {
+"links": {
+0: 28
+},
+"text": "<speaker>Greet</speaker>
+<dialog>In the deep seas, in the galaxy of Milky Way,
+on the planet Earth, 
+located on the West Indies</dialog>
+<image>Leader</image>"
+},
+28: {
+"links": {
+0: 29
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>So the complete clue has surprisingly precice instructions.
+(Good think we did not travel randomly in space)</dialog>
+<image>O'Beep</image>"
+},
+29: {
+"links": {
+0: 30
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>So the treasure is on the planet Earth, which is populated 
+by the humans</dialog>
+<image>TinHeart</image>"
+},
+30: {
+"links": {
+0: 31
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Thank you very much leader for your help.</dialog>
+<image>TinHeart</image>"
+},
+31: {
+"links": {
+0: 32
+},
+"text": "<speaker>Greet</speaker>
+<dialog>That was just a small thing for saving our town. 
+Do you want anything else?</dialog>
+<image>Leader</image>"
+},
+32: {
+"links": {
+0: 33
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>That is more than enough. I think we can leave now</dialog>
+<image>TinHeart</image>"
+},
+33: {
+"links": {
+0: 34
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Yeah, I am so interested, that I want to fly</dialog>
+<image>O'Beep</image>"
+},
+34: {
+"links": {
+0: 35
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>Then we leave right away. Thank you Spurffs,
+ and Greet for your generosity</dialog>
+<image>TinHeart</image>"
+},
+35: {
+"links": {
+0: 36
+},
+"text": "<speaker>Greet</speaker>
+<dialog>Thanks to you. Bye</dialog>
+<image>Leader</image>"
+},
+36: {
+"links": {
+0: 37
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Now we only need to walk to the ship, 
+and head to the Earth</dialog>
+<image>O'Beep</image>"
+},
+37: {
+"links": {
+0: 38
+},
+"text": "<dialog>Ship launching</dialog>
+"
+},
+38: {
+"links": {
 
+},
+"text": "<end>"
+}
 }
 }
 }

@@ -1033,7 +1033,7 @@ solution somwhere here</dialog>
 \"O'Beep\" : \"res://robot 2rescaled4.png\",
 \"TinHeart\" : \"res://robot faction transparent backgroundRezized2.png\",
 \"Guard\" : \"res://Sprites/SpurffWorld/spurff_guardTest4.png\",
-\"Leader\" : \"res://Sprites/SpurffWorld/elder5.png\"
+\"Leader\" : \"res://Sprites/SpurffWorld/elder.png\"
 }",
 "type": "line"
 }
@@ -1183,8 +1183,7 @@ I hope we don't have to solve another puzzle</dialog>
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
 <dialog>So, The new Diamond Eye from the temple has been 
-retrieved by some TinHeads</dialog>
-<image>Guard</image>",
+retrieved by some TinHeads</dialog>",
 "type": "line"
 },
 13: {
@@ -1196,8 +1195,7 @@ retrieved by some TinHeads</dialog>
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
 <dialog>While it is a good place to start. It does not scare away 
-the Blight Bugs that are still on the town</dialog>
-<image>Guard</image>",
+the Blight Bugs that are still on the town</dialog>",
 "type": "line"
 },
 14: {
@@ -1209,8 +1207,7 @@ the Blight Bugs that are still on the town</dialog>
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
 <dialog>And therefore lockdown can not be lifted before 
-every bug is back on the nest</dialog>
-<image>Guard</image>",
+every bug is back on the nest</dialog>",
 "type": "line"
 },
 15: {
@@ -1222,8 +1219,7 @@ every bug is back on the nest</dialog>
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
 <dialog>As the bugs are so deadly, that even a little touch 
-from them can kill and they move very fast</dialog>
-<image>Guard</image>",
+from them can kill and they move very fast</dialog>",
 "type": "line"
 },
 16: {
@@ -1238,8 +1234,7 @@ from them can kill and they move very fast</dialog>
 bug exterminator did run away with blue spaceship
 and apparently crash landed to the planet 
 Micrawa Ramen. Some say that the 
-exterminator was also a treasure hunter</dialog>
-<image>Guard</image>",
+exterminator was also a treasure hunter</dialog>",
 "type": "line"
 },
 17: {
@@ -1252,8 +1247,7 @@ exterminator was also a treasure hunter</dialog>
 "text": "<speaker>Spurff</speaker>
 <dialog>Oh those normal Spurffs who have to continue 
 their normal life in all this. Luckily our leader is safe 
-as he is so scared that he has locked himself up in the hut</dialog>
-<image>Guard</image>",
+as he is so scared that he has locked himself up in the hut</dialog>",
 "type": "line"
 },
 18: {
@@ -1294,8 +1288,7 @@ and we still can not see the leader and are at
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
 <dialog>Wait other than Spurffs. I thought that no visitors have
-entered the SpurffVille after lockdown. Who even are you?</dialog>
-<image>Guard</image>",
+entered the SpurffVille after lockdown. Who even are you?</dialog>",
 "type": "line"
 },
 21: {
@@ -1334,8 +1327,7 @@ to see your leader</dialog>
 "text": "<speaker>Spurff</speaker>
 <dialog>Did you hear what did I speak? The leader is locked 
 into his hut and does not go out until those dangerous 
-Blight Bugs have returned to their den</dialog>
-<image>Guard</image>",
+Blight Bugs have returned to their den</dialog>",
 "type": "line"
 },
 24: {
@@ -1358,8 +1350,7 @@ Blight Bugs have returned to their den</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>Wait, you are ROBOTS! And you have been made from metal!</dialog>
-<image>Guard</image>",
+<dialog>Wait, you are ROBOTS! And you have been made from metal!</dialog>",
 "type": "line"
 },
 26: {
@@ -1370,8 +1361,7 @@ Blight Bugs have returned to their den</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>Metal is immune to the Blight Bugs poison! Please help us</dialog>
-<image>Guard</image>",
+<dialog>Metal is immune to the Blight Bugs poison! Please help us</dialog>",
 "type": "line"
 },
 27: {
@@ -1458,8 +1448,7 @@ the leader right after the bug problem has been solved</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>I will</dialog>
-<image>Guard</image>",
+<dialog>I will</dialog>",
 "type": "line"
 },
 34: {
@@ -1484,8 +1473,7 @@ where they are and how to catch them?</dialog>
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
 <dialog>They are located at the town. You can catch them 
-with this net. According to the scouts, there are 11 bugs</dialog>
-<image>Guard</image>",
+with this net. According to the scouts, there are 11 bugs</dialog>",
 "type": "line"
 },
 36: {
@@ -1537,7 +1525,7 @@ the gears and catch those bugs!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Those nasty bugs have now been dealt at!</dialog>
+<dialog>Those nast bugs have now been dealt at</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -1549,9 +1537,8 @@ the gears and catch those bugs!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>They certainly are, and look, the Spurff we met earlier 
-is approaching</dialog>
-<image>TinHeart</image>",
+<dialog>They certainly are and look, the Spurff we met earlier is approaching</dialog>
+<image></image>",
 "type": "line"
 },
 4: {
@@ -1562,9 +1549,8 @@ is approaching</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>Great job robots! The bugs have been dealt and 
-the lockdown can be lifted</dialog>
-<image>Guard</image>",
+<dialog>Great job robots. The bugs have been dealt and the lockdown can be lifted</dialog>
+<image></image>",
 "type": "line"
 },
 5: {
@@ -1587,9 +1573,8 @@ the lockdown can be lifted</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>Yes you can. In fact, let me take you there so I can give 
-the leader the status update</dialog>
-<image>Guard</image>",
+<dialog>Yes you can. In fact, let me take you there so I can give the leader the status update</dialog>
+<image></image>",
 "type": "line"
 },
 7: {
@@ -1600,7 +1585,7 @@ the leader the status update</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Finally!</dialog>
+<dialog>Finally</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -1622,9 +1607,8 @@ the leader the status update</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>Ahoy leader, The Diamond Eye has been returned, 
-and bugs have gone back to their den</dialog>
-<image>Guard</image>",
+<dialog>Ahoy leader, The Diamond Eye has been returned, and bugs have gone back to their den. </dialog>
+<image></image>",
 "type": "line"
 },
 10: {
@@ -1635,9 +1619,8 @@ and bugs have gone back to their den</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>The lockdown can now be lifted, and you can come out 
-of your hut</dialog>
-<image>Guard</image>",
+<dialog>The lockdown can now be lifted and you can come out of your hut</dialog>
+<image></image>",
 "type": "line"
 },
 11: {
@@ -1648,10 +1631,8 @@ of your hut</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>The Leader</speaker>
-<dialog>Hmm.. I am currently working, and therefore, do not 
-come out until the evening. Thanks anyway from 
-the information</dialog>
-<image>Leader</image>",
+<dialog>Hmm.. i am currently working, and therefore do not come out until the evening. Thanks anyway from the information</dialog>
+<image></image>",
 "type": "line"
 },
 12: {
@@ -1662,10 +1643,8 @@ the information</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>I think you can now go see the leader. I actually think that 
-he is more than happy to meet you, after he heards what 
-you have done</dialog>
-<image>Guard</image>",
+<dialog>I think you can now go see the leader. I actually think that he is more than happy to meet you, after he heards what you have done</dialog>
+<image></image>",
 "type": "line"
 },
 13: {
@@ -1676,9 +1655,8 @@ you have done</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Great. We will finally get to see the leader.
-(It's about the time)</dialog>
-<image>O'Beep</image>",
+<dialog>Great. We will finaly get to see the leader(It's about the time)</dialog>
+<image></image>",
 "type": "line"
 },
 14: {
@@ -1689,8 +1667,8 @@ you have done</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Yes, our long and dangerous journey is at the end</dialog>
-<image>TinHeart</image>",
+<dialog>Yes, our long and dangerous journey is at the end </dialog>
+<image></image>",
 "type": "line"
 },
 15: {
@@ -1702,7 +1680,7 @@ you have done</dialog>
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>Let's go in right away. Behave O'Beep</dialog>
-<image>TinHeart</image>",
+<image></image>",
 "type": "line"
 },
 16: {
@@ -1714,7 +1692,7 @@ you have done</dialog>
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>Excuse me, are you the leader of Spurffs</dialog>
-<image>TinHeart</image>",
+<image></image>",
 "type": "line"
 },
 17: {
@@ -1725,8 +1703,8 @@ you have done</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>The Leader</speaker>
-<dialog>Yes, I am Greet The Leader. Who are you TinHeads?</dialog>
-<image>Leader</image>",
+<dialog>Yes, I am Greet The Leader. Who are you TinHeads</dialog>
+<image></image>",
 "type": "line"
 },
 18: {
@@ -1737,9 +1715,8 @@ you have done</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>I am TinHeart and this is O'Beep. We come from the planet 
-Micrawa Ramen</dialog>
-<image>TinHeart</image>",
+<dialog>I am TinHeart and this is O'Beep. We come from the planet Micrawa Ramen</dialog>
+<image></image>",
 "type": "line"
 },
 19: {
@@ -1750,9 +1727,8 @@ Micrawa Ramen</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>We retrieved The Diamond Eye and scared the bugs to 
-their den</dialog>
-<image>O'Beep</image>",
+<dialog>We retrieved The Diamond Eye and scared bugs to their den </dialog>
+<image></image>",
 "type": "line"
 },
 20: {
@@ -1763,10 +1739,8 @@ their den</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Greet</speaker>
-<dialog>So you are the heroes that saved our town. 
-We are so grateful that we can give you robots anything 
-you want</dialog>
-<image>Leader</image>",
+<dialog>So you are the heroes that saved our town. We are so grateful that we can give you robots anything you want</dialog>
+<image></image>",
 "type": "line"
 },
 21: {
@@ -1778,7 +1752,7 @@ you want</dialog>
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>Well, a house and a large amount of money would be nice</dialog>
-<image>O'Beep</image>",
+<image></image>",
 "type": "line"
 },
 22: {
@@ -1789,9 +1763,8 @@ you want</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>We do not want that. In fact, we would like to ask you 
-about this paper we found on our ship.</dialog>
-<image>TinHeart</image>",
+<dialog>We do not wan't that. In fact, we would like to ask you about this paper we found on our ship.</dialog>
+<image></image>",
 "type": "line"
 },
 23: {
@@ -1802,9 +1775,8 @@ about this paper we found on our ship.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>It says that the treasure is located: 
-In the deep seas of...</dialog>
-<image>TinHeart</image>",
+<dialog>It says that the treasure is located at: In the deep seas of </dialog>
+<image></image>",
 "type": "line"
 },
 24: {
@@ -1815,184 +1787,44 @@ In the deep seas of...</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Unfortunately that is only thing that is told. It had 
-your signature in it, so we thought that you could know 
-something about it</dialog>
-<image>O'Beep</image>",
+<dialog>Unforunately that is only thing that is told. It had your signature in it, so we thought that you could know something about it</dialog>
+<image></image>",
 "type": "line"
 },
 25: {
 "graph_offset": Vector2( 12260, 40 ),
 "links": {
-0: 26
+
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Greet</speaker>
-<dialog>Yeah, I remember that paper. In fact, I can tell you 
-the rest of the clue as a reward for saving our kingdom. 
-I as a old do not have any use to it</dialog>
-<image>Leader</image>",
+<dialog>Yeah, I remember that paper. In fact I can tell you the rest of the clue as a reward for saving our kingdom. I as a old do not have any use to it</dialog>
+<image></image>",
 "type": "line"
 },
 26: {
 "graph_offset": Vector2( 12780, 40 ),
 "links": {
-0: 27
+
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Greet</speaker>
 <dialog>The complete clue is:</dialog>
-<image>Leader</image>",
+<image></image>",
 "type": "line"
 },
 27: {
-"graph_offset": Vector2( 13280, 40 ),
-"links": {
-0: 28
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>Greet</speaker>
-<dialog>In the deep seas, in the galaxy of Milky Way,
-on the planet Earth, 
-located on the West Indies</dialog>
-<image>Leader</image>",
-"type": "line"
-},
-28: {
-"graph_offset": Vector2( 13800, 60 ),
-"links": {
-0: 29
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>So the complete clue has surprisingly precice instructions.
-(Good think we did not travel randomly in space)</dialog>
-<image>O'Beep</image>",
-"type": "line"
-},
-29: {
-"graph_offset": Vector2( 14300, 60 ),
-"links": {
-0: 30
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>TinHeart</speaker>
-<dialog>So the treasure is on the planet Earth, which is populated 
-by the humans</dialog>
-<image>TinHeart</image>",
-"type": "line"
-},
-30: {
-"graph_offset": Vector2( 14900, 60 ),
-"links": {
-0: 31
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>TinHeart</speaker>
-<dialog>Thank you very much leader for your help.</dialog>
-<image>TinHeart</image>",
-"type": "line"
-},
-31: {
-"graph_offset": Vector2( 15400, 60 ),
-"links": {
-0: 32
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>Greet</speaker>
-<dialog>That was just a small thing for saving our town. 
-Do you want anything else?</dialog>
-<image>Leader</image>",
-"type": "line"
-},
-32: {
-"graph_offset": Vector2( 15880, 60 ),
-"links": {
-0: 33
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>TinHeart</speaker>
-<dialog>That is more than enough. I think we can leave now</dialog>
-<image>TinHeart</image>",
-"type": "line"
-},
-33: {
-"graph_offset": Vector2( 16360, 60 ),
-"links": {
-0: 34
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>Yeah, I am so interested, that I want to fly</dialog>
-<image>O'Beep</image>",
-"type": "line"
-},
-34: {
-"graph_offset": Vector2( 16860, 60 ),
-"links": {
-0: 35
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>TinHeart</speaker>
-<dialog>Then we leave right away. Thank you Spurffs,
- and Greet for your generosity</dialog>
-<image>TinHeart</image>",
-"type": "line"
-},
-35: {
-"graph_offset": Vector2( 17340, 60 ),
-"links": {
-0: 36
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>Greet</speaker>
-<dialog>Thanks to you. Bye</dialog>
-<image>Leader</image>",
-"type": "line"
-},
-36: {
-"graph_offset": Vector2( 17840, 60 ),
-"links": {
-0: 37
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<speaker>O'Beep</speaker>
-<dialog>Now we only need to walk to the ship, 
-and head to the Earth</dialog>
-<image>O'Beep</image>",
-"type": "line"
-},
-37: {
-"graph_offset": Vector2( 18320, 60 ),
-"links": {
-0: 38
-},
-"rect_size": Vector2( 324, 137 ),
-"slot_amount": 1,
-"text": "<dialog>Ship launching</dialog>
-",
-"type": "line"
-},
-38: {
-"graph_offset": Vector2( 18860, 60 ),
+"graph_offset": Vector2( 40, 40 ),
 "links": {
 
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<end>",
+"text": "<speaker>Greet</speaker>
+<dialog></dialog>
+<image></image>",
 "type": "line"
 }
 }
