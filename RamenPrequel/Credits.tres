@@ -243,6 +243,20 @@ Everyone</dialog>",
 20: {
 "graph_offset": Vector2( 9400, -280 ),
 "links": {
+0: 21
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog>Dialog plug-in used for every dialog:
+Godot Dialog System by DaveTheDev. 
+Licensed under MIT License. 
+https://github.com/EXPWorlds/Godot-Dialog-System  
+(Link to the GitHub repository)</dialog>",
+"type": "line"
+},
+21: {
+"graph_offset": Vector2( 9920, -280 ),
+"links": {
 
 },
 "rect_size": Vector2( 324, 137 ),
