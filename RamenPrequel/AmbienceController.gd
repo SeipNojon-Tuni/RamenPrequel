@@ -10,14 +10,16 @@ var music_book = {"Wasteland": "Wasteland_ambience",
 				  "Puzzle3": "Eye Ever Watchful",
 				  "SpurffVillage": "The Undertribe"}
 				
-var current_track = ""
+var current_track = "Dark corners"
 
+var music_on = true
 
 func _process(_delta):
 	
 	# If song stops replay
-	if(!playing):
+	if(!playing && music_on):
 		replay_current()
+
 
 func scene_loaded(name):
 	
@@ -41,3 +43,6 @@ func set_music(name):
 # Replay latest track
 func replay_current():
 	stream = load("res://Audio/music/" + current_track + ".wav")
+
+func set_volume(value):
+	volume_db = value
