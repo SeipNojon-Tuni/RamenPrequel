@@ -1338,9 +1338,97 @@ and head to the Earth</dialog>
 "text": "<end>"
 }
 }
+},
+9: {
+"nodes": {
+1: {
+"links": {
+0: 2
+},
+"text": "<start>"
+},
+2: {
+"links": {
+0: 3
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>We have finally reached The Diamond Eye</dialog>
+<image>TinHeart</image>"
+},
+3: {
+"links": {
+0: 4
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Oh, it's shine is so calling. I need to crab it right away</dialog>
+<image>O'Beep</image>"
+},
+4: {
+"links": {
+0: 5
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>O'Beep, wait</dialog>
+<image>TinHeart</image>"
+},
+5: {
+"links": {
+0: 6
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Great, we got it. Let's return right away...</dialog>
+<image>O'Beep</image>"
+},
+6: {
+"links": {
+0: 7
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait. Why is the floor grumbling?</dialog>
+<image>O'Beep</image>"
+},
+7: {
+"links": {
+0: 8
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>It is a trap. The temple collapses (I tried to warn you)</dialog>
+<image>TinHeart</image>"
+},
+8: {
+"links": {
+0: 9
+},
+"text": "<speaker>TinHeart</speaker>
+<dialog>I now recommend running away as fast as possible</dialog>
+<image>TinHeart</image>"
+},
+9: {
+"links": {
+0: 10
+},
+"text": "<speaker>O'Beep</speaker>
+<dialog>I am already going!</dialog>
+<image>O'Beep</image>"
+},
+10: {
+"links": {
+0: 11
+},
+"text": "<dialog>Sounds of grumbling</dialog>
+"
+},
+11: {
+"links": {
+
+},
+"text": "<end>"
+}
+}
 }
 }
 names = {
+"DiamondEye": 9,
 "FirstPuzzle": 2,
 "Landing": 1,
 "SecondPuzzle": 3,

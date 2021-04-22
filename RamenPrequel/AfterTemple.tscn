@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://AfterTemple.gd" type="Script" id=1]
+[ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/SpurffBackground.tscn" type="PackedScene" id=3]
+
+[node name="AfterTemple" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SpurffBackground" parent="." instance=ExtResource( 3 )]
+
+[node name="Dialog_Player" parent="." instance=ExtResource( 2 )]
+script = ExtResource( 1 )

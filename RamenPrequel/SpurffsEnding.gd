@@ -34,7 +34,7 @@ func _ready():
 	_Dialog_Box.visible = false
 	_SpaceBar_Icon.visible = false
 	
-	play_dialog("DiamondEye")
+	play_dialog("Spurffs/Ending")
 
 
 func _input(event):
@@ -101,6 +101,7 @@ func _get_next_node():
 	
 	if _nid == _final_nid:
 		_Dialog_Box.visible = false
+		get_tree().change_scene("res://Ending.tscn")
 
 
 func _get_tagged_text(tag : String, text : String):
@@ -119,7 +120,6 @@ func _play_node():
 	if "<image>" in text:
 		var library_key = _get_tagged_text("image", text)
 		_display_image(library_key)
-	
 	_Speaker_LBL.text = speaker
 	_Body_LBL.text = dialog
 	_Body_AnimationPlayer.play("TextDisplay")
@@ -132,4 +132,5 @@ func _play_node():
 	if(_nid == 3 && _bg_anim && _video):
 		_bg_anim.queue_free()
 		_video.play()
+
 

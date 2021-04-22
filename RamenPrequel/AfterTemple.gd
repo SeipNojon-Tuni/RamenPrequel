@@ -34,7 +34,7 @@ func _ready():
 	_Dialog_Box.visible = false
 	_SpaceBar_Icon.visible = false
 	
-	play_dialog("DiamondEye")
+	play_dialog("TempleReturn/Guard")
 
 
 func _input(event):
@@ -101,6 +101,7 @@ func _get_next_node():
 	
 	if _nid == _final_nid:
 		_Dialog_Box.visible = false
+		get_tree().change_scene("res://InsectScene.tscn")
 
 
 func _get_tagged_text(tag : String, text : String):
@@ -132,4 +133,5 @@ func _play_node():
 	if(_nid == 3 && _bg_anim && _video):
 		_bg_anim.queue_free()
 		_video.play()
+
 

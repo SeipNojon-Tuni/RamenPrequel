@@ -6,6 +6,7 @@
 script = ExtResource( 1 )
 TYPE = "EXP_Story_editor"
 names = {
+"DiamondEye": 9,
 "FirstPuzzle": 2,
 "Landing": 1,
 "SecondPuzzle": 3,
@@ -1987,6 +1988,141 @@ and head to the Earth</dialog>
 },
 38: {
 "graph_offset": Vector2( 18860, 60 ),
+"links": {
+
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<end>",
+"type": "line"
+}
+}
+},
+9: {
+"available_nid": [  ],
+"groups": [  ],
+"human_readable_description": "Getting the Eye",
+"name": "DiamondEye",
+"nodes": {
+1: {
+"graph_offset": Vector2( 40, 40 ),
+"links": {
+0: 2
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<start>",
+"type": "line"
+},
+2: {
+"graph_offset": Vector2( 520, -120 ),
+"links": {
+0: 3
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>We have finally reached The Diamond Eye</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+3: {
+"graph_offset": Vector2( 1040, -120 ),
+"links": {
+0: 4
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Oh, it's shine is so calling. I need to crab it right away</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+4: {
+"graph_offset": Vector2( 1520, -120 ),
+"links": {
+0: 5
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>O'Beep, wait</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+5: {
+"graph_offset": Vector2( 2040, -120 ),
+"links": {
+0: 6
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Great, we got it. Let's return right away...</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+6: {
+"graph_offset": Vector2( 2540, -120 ),
+"links": {
+0: 7
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>Wait. Why is the floor grumbling?</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+7: {
+"graph_offset": Vector2( 3020, -120 ),
+"links": {
+0: 8
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>It is a trap. The temple collapses (I tried to warn you)</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+8: {
+"graph_offset": Vector2( 3500, -120 ),
+"links": {
+0: 9
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>TinHeart</speaker>
+<dialog>I now recommend running away as fast as possible</dialog>
+<image>TinHeart</image>",
+"type": "line"
+},
+9: {
+"graph_offset": Vector2( 3980, -120 ),
+"links": {
+0: 10
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<speaker>O'Beep</speaker>
+<dialog>I am already going!</dialog>
+<image>O'Beep</image>",
+"type": "line"
+},
+10: {
+"graph_offset": Vector2( 4480, -120 ),
+"links": {
+0: 11
+},
+"rect_size": Vector2( 324, 137 ),
+"slot_amount": 1,
+"text": "<dialog>Sounds of grumbling</dialog>
+",
+"type": "line"
+},
+11: {
+"graph_offset": Vector2( 4960, -120 ),
 "links": {
 
 },
