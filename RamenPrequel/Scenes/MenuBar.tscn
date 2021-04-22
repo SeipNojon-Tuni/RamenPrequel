@@ -12,7 +12,8 @@ script = ExtResource( 3 )
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Control" type="Control" parent="CanvasLayer"]
-margin_right = 208.0
+margin_left = 816.0
+margin_right = 1024.0
 margin_bottom = 280.0
 __meta__ = {
 "_edit_use_anchors_": false
