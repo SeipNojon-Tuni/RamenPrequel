@@ -16,14 +16,24 @@ func puzzle1(name,rottaa):
 	# Play sound
 	_sound.play_puzzle1()
 	
+	if(puz1 == null):
+		puz1 = 0
+	if(puz2 == null):
+		puz2 = 90
+	if(puz3 == null):
+		puz3 = 90
+	
+	
 	if(name=="puz1"):
 		puz1=rottaa
 	if(name=="puz2"):
 		puz2=rottaa
 	if(name=="puz3"):
 		puz3=rottaa
-	if(puz1==0&&puz2==90&&puz3==270 or puz1==180&&puz2==270&&puz3==90):
+	
+	print(str(puz1) + " " + str(puz2) + " " + str(puz3))
+		
+	if((puz1==0&&puz2==90&&puz3==270) or (puz1==180&&puz2==270&&puz3==90)):
 		print("jee")
 		get_tree().change_scene("res://Scenes/Puzzle2.tscn")
-
 

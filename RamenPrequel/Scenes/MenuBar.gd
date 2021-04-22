@@ -31,6 +31,7 @@ func _on_ReturnMenu_pressed():
 	# Only return to menu if not in mainmenu
 	if(get_tree().get_current_scene().get_name() != "MainMenu"):
 		get_tree().change_scene("res://Scenes/MainMenu.tscn")
+		dialogue.stop()
 
 
 func _on_HSlider_value_changed(value):
