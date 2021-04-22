@@ -35,7 +35,7 @@ story = {
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>Hey TinHeart, what is this place... is this the Earth? 
-is the treasure in here?</dialog> 
+Is the treasure in here?</dialog> 
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -47,7 +47,7 @@ is the treasure in here?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>No, I do not thing, that this is the Earth, hmmm.</dialog>
+<dialog>No, I do not think that this is the Earth, hmmm.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -59,8 +59,8 @@ is the treasure in here?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Oh my, I think we have stumbled upon 
-the creators of our galaxy on our journey to the treasure</dialog>
+<dialog>Oh my, I think we have stumbled upon the creators
+of our galaxy on our journey to the treasure.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -72,8 +72,8 @@ the creators of our galaxy on our journey to the treasure</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, our creators! I was thinking that our universe 
-has simply born by itself</dialog>
+<dialog>Wait, our creators?? I thought that our universe 
+was simply born by itself!</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -85,10 +85,10 @@ has simply born by itself</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>One could thing many things. Wait, based on these names, 
+<dialog>One could think many things. Wait, based on these names 
 our universe is not only created but also artificial and
  not real... In fact, it seems that we are living simply 
-inside the game</dialog>
+inside a game!</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -100,7 +100,7 @@ inside the game</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>That can't be true, our universe must be real</dialog>
+<dialog>That can't be true, our universe must be real!</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -112,8 +112,8 @@ inside the game</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>The truth can hurt. Anyway, I do thing that 
-we still should search the treasure, as we are still living</dialog>
+<dialog>The truth can hurt. Anyway, I do think that we should
+still search for the treasure, as we are still living.</dialog>
 <image>TinHeart</image>
 ",
 "type": "line"
@@ -126,9 +126,8 @@ we still should search the treasure, as we are still living</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Let's still enjoy from the 
-presentation of our creators, as probably no one has 
-witnessed this before</dialog>
+<dialog>Let's still enjoy watching the presentation of our
+creators, as probably no one has witnessed this before.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -140,7 +139,7 @@ witnessed this before</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>I agree. Let's grab the popcorn and enjoy the show</dialog>
+<dialog>I agree. Let's grab some popcorn and enjoy the show!</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -151,7 +150,7 @@ witnessed this before</dialog>
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog>The Spurffs Gaming Co. Presents</dialog>",
+"text": "<dialog>The Spurffs Gaming Co. presents</dialog>",
 "type": "line"
 },
 12: {
@@ -161,7 +160,7 @@ witnessed this before</dialog>
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog>Blackbeard's Treasure: Tales From the Outer Space</dialog>",
+"text": "<dialog>Blackbeard's Treasure: Tales from Outer Space</dialog>",
 "type": "line"
 },
 13: {
@@ -171,7 +170,7 @@ witnessed this before</dialog>
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog>Writing and Narrative:
+"text": "<dialog> Narrative Designer:
 Teemu Kanerva</dialog>",
 "type": "line"
 },
@@ -182,7 +181,7 @@ Teemu Kanerva</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog> Programmers:
+"text": "<dialog> Programmer:
 Pasi Pulkkinen</dialog>",
 "type": "line"
 },
@@ -193,7 +192,7 @@ Pasi Pulkkinen</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog> Producers:
+"text": "<dialog> Producer:
 Nevena Sicevic</dialog>",
 "type": "line"
 },
@@ -204,7 +203,7 @@ Nevena Sicevic</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog> Graphics: 
+"text": "<dialog> Graphic Designer: 
 Sipi Yla-Nojonen</dialog>",
 "type": "line"
 },
@@ -215,7 +214,7 @@ Sipi Yla-Nojonen</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog>Designers:
+"text": "<dialog> Game Designer:
 Lassi Nieminen</dialog>",
 "type": "line"
 },
@@ -226,7 +225,7 @@ Lassi Nieminen</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog> Audio:
+"text": "<dialog> Audio Designer:
 Sipi Yla-Nojonen</dialog>",
 "type": "line"
 },
@@ -237,7 +236,7 @@ Sipi Yla-Nojonen</dialog>",
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog> QA:
+"text": "<dialog> QA testing:
 Everyone</dialog>",
 "type": "line"
 },

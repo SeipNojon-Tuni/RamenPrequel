@@ -33,7 +33,7 @@ story = {
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog>On the space, near the Planet Ostrog</dialog>",
+"text": "<dialog>In space, near the planet Ostrog</dialog>",
 "type": "line"
 },
 3: {
@@ -50,14 +50,14 @@ It is on:</dialog>
 "type": "line"
 },
 4: {
-"graph_offset": Vector2( 1700, -260 ),
+"graph_offset": Vector2( 1680, -260 ),
 "links": {
 0: 5
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<dialog>The deep seas in the galaxy of Milky Way, 
-on the Planet Earth, located on the West Indies</dialog>
+on the Planet Earth, located on the West Indies.</dialog>
 <image>TreasureScroll</image>",
 "type": "line"
 },
@@ -69,7 +69,7 @@ on the Planet Earth, located on the West Indies</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Yes, our long journey is finally over</dialog>
+<dialog>Yes, our long journey is finally over.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -81,8 +81,8 @@ on the Planet Earth, located on the West Indies</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>We can start the new life, but what exactly 
-the treasure contains?</dialog>
+<dialog>We can start our new life, but what exactly 
+does the treasure contain?</dialog>
 <image>TinHeart</image>
 ",
 "type": "line"
@@ -120,8 +120,8 @@ the treasure location?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>It says that, the area has been long under the influence 
-of someone named BlackBeard</dialog>
+<dialog>It says that the area has been long under the influence 
+of someone named BlackBeard.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -134,7 +134,7 @@ of someone named BlackBeard</dialog>
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>Now this BlackBeard has died and left behind a treasure, 
-which is searched by pirates</dialog>
+which is searched by pirates.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -146,7 +146,7 @@ which is searched by pirates</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>(Pirates certainly does not sound good)</dialog>
+<dialog>(The word pirates certainly does not sound good.)</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -158,7 +158,7 @@ which is searched by pirates</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>A treasure, that has to be it!</dialog>
+<dialog>A treasure, this has to be it!</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -170,7 +170,7 @@ which is searched by pirates</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>But does the pirates mean battling for the treasure, 
+<dialog>But do the pirates imply us battling for the treasure, 
 with a ship and pirate language?</dialog>
 <image>O'Beep</image>",
 "type": "line"
@@ -183,7 +183,7 @@ with a ship and pirate language?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Great thinking!</dialog>
+<dialog>Well though!!</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -196,7 +196,7 @@ with a ship and pirate language?</dialog>
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>Unfortunately that seems to be the case. We have to 
-battle again</dialog>
+battle again.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -208,8 +208,8 @@ battle again</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, I remember seeing that the ship has a book 
-about pirates</dialog>
+<dialog>Wait, I remember seeing a book about pirates
+in this spaceship.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -221,7 +221,7 @@ about pirates</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Yes, there it is. Let's see...</dialog>
+<dialog>Yes, here it is. Let's see...</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -234,7 +234,7 @@ about pirates</dialog>
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>It has a pirate language dictionary, battle tips and 
-guide to transforming the spaceship to the pirate ship</dialog>
+guide to transforming the spaceship into a pirate ship.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -258,8 +258,8 @@ guide to transforming the spaceship to the pirate ship</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>I think we should as we have long journey ahead and 
-therefore, time to learn more about pirates</dialog>
+<dialog>I think we should, as we have a long journey ahead and 
+therefore, time to learn more about pirates.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -284,8 +284,8 @@ therefore, time to learn more about pirates</dialog>
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>So ye mates, prepare to learn about pirates and 
-to transform our spaceship to pirate ship as soon as we 
-enter the atmosphere of the earth!</dialog>
+to transform the spaceship into a pirate ship as soon as we 
+enter the atmosphere of the Earth!</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },

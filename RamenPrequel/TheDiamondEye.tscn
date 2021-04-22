@@ -1,19 +1,19 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://diamond_eye.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Sprites/SpurffWorld/Spurff_Temple.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/SpurffWorld/Spurff_Temple_resized.png" type="Texture" id=2]
 [ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://DiamondEye.gd" type="Script" id=4]
 
 [node name="TheDiamondEye" type="Node2D"]
 
 [node name="Spurff_Temple" type="Sprite" parent="."]
-position = Vector2( -172.904, 374.491 )
-scale = Vector2( 0.623703, 0.344389 )
+position = Vector2( 499.275, 308.83 )
+scale = Vector2( 0.667494, 0.57121 )
 texture = ExtResource( 2 )
 
 [node name="Dialog_Player" parent="." instance=ExtResource( 3 )]
 script = ExtResource( 4 )
 
 [node name="diamond_eye" parent="." instance=ExtResource( 1 )]
-position = Vector2( 679.237, 146.387 )
+position = Vector2( 737.852, 134.656 )

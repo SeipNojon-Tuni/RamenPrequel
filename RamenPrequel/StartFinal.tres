@@ -34,9 +34,11 @@ story = {
 "rect_size": Vector2( 483, 213.6 ),
 "slot_amount": 1,
 "text": "<speaker>Sparky</speaker>
-<dialog>A war between two battling robot factions: Cult of Ramen 
-and Noo Dle Syndicate in the Planet Micrawa Ramen
- has continued for nearby 100 years...</dialog>
+<dialog>Let me tell you a story...
+A war between two battling robot factions:
+the Cult of Ramen  and the Noo Dle Syndicate
+in the planet Micrawa Ramen  has continued for nearby
+100 years...</dialog>
 <image>Sparky</image>
 
 ",
@@ -50,10 +52,10 @@ and Noo Dle Syndicate in the Planet Micrawa Ramen
 "rect_size": Vector2( 441, 206.4 ),
 "slot_amount": 1,
 "text": "<speaker>Sparky</speaker>
-<dialog>Now Noo Dle Syndicate has won the war and 
-Cult of Ramen, which has fallen to just two robots 
-have been commanded to be exiled to the wasteland 
-from Shoyu, the capital of Planet Micrawa Ramen</dialog> 
+<dialog>Now the Noo Dle Syndicate has won the war and 
+the Cult of Ramen, which has fallen to just two robots, 
+has been commanded to be exiled to the wasteland 
+from Shoyu, the capital of the planet Micrawa Ramen.</dialog> 
 <image>Sparky</image>",
 "type": "line"
 },

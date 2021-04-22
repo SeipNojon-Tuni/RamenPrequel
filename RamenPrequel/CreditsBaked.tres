@@ -20,7 +20,7 @@ story = {
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>Hey TinHeart, what is this place... is this the Earth? 
-is the treasure in here?</dialog> 
+Is the treasure in here?</dialog> 
 <image>O'Beep</image>"
 },
 3: {
@@ -28,7 +28,7 @@ is the treasure in here?</dialog>
 0: 4
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>No, I do not thing, that this is the Earth, hmmm.</dialog>
+<dialog>No, I do not think that this is the Earth, hmmm.</dialog>
 <image>TinHeart</image>"
 },
 4: {
@@ -36,8 +36,8 @@ is the treasure in here?</dialog>
 0: 5
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Oh my, I think we have stumbled upon 
-the creators of our galaxy on our journey to the treasure</dialog>
+<dialog>Oh my, I think we have stumbled upon the creators
+of our galaxy on our journey to the treasure.</dialog>
 <image>TinHeart</image>"
 },
 5: {
@@ -45,8 +45,8 @@ the creators of our galaxy on our journey to the treasure</dialog>
 0: 6
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, our creators! I was thinking that our universe 
-has simply born by itself</dialog>
+<dialog>Wait, our creators?? I thought that our universe 
+was simply born by itself!</dialog>
 <image>O'Beep</image>"
 },
 6: {
@@ -54,10 +54,10 @@ has simply born by itself</dialog>
 0: 7
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>One could thing many things. Wait, based on these names, 
+<dialog>One could think many things. Wait, based on these names 
 our universe is not only created but also artificial and
  not real... In fact, it seems that we are living simply 
-inside the game</dialog>
+inside a game!</dialog>
 <image>TinHeart</image>"
 },
 7: {
@@ -65,7 +65,7 @@ inside the game</dialog>
 0: 8
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>That can't be true, our universe must be real</dialog>
+<dialog>That can't be true, our universe must be real!</dialog>
 <image>O'Beep</image>"
 },
 8: {
@@ -73,8 +73,8 @@ inside the game</dialog>
 0: 9
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>The truth can hurt. Anyway, I do thing that 
-we still should search the treasure, as we are still living</dialog>
+<dialog>The truth can hurt. Anyway, I do think that we should
+still search for the treasure, as we are still living.</dialog>
 <image>TinHeart</image>
 "
 },
@@ -83,9 +83,8 @@ we still should search the treasure, as we are still living</dialog>
 0: 10
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Let's still enjoy from the 
-presentation of our creators, as probably no one has 
-witnessed this before</dialog>
+<dialog>Let's still enjoy watching the presentation of our
+creators, as probably no one has witnessed this before.</dialog>
 <image>TinHeart</image>"
 },
 10: {
@@ -93,68 +92,68 @@ witnessed this before</dialog>
 0: 11
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>I agree. Let's grab the popcorn and enjoy the show</dialog>
+<dialog>I agree. Let's grab some popcorn and enjoy the show!</dialog>
 <image>O'Beep</image>"
 },
 11: {
 "links": {
 0: 12
 },
-"text": "<dialog>The Spurffs Gaming Co. Presents</dialog>"
+"text": "<dialog>The Spurffs Gaming Co. presents</dialog>"
 },
 12: {
 "links": {
 0: 13
 },
-"text": "<dialog>Blackbeard's Treasure: Tales From the Outer Space</dialog>"
+"text": "<dialog>Blackbeard's Treasure: Tales from Outer Space</dialog>"
 },
 13: {
 "links": {
 0: 14
 },
-"text": "<dialog>Writing and Narrative:
+"text": "<dialog> Narrative Designer:
 Teemu Kanerva</dialog>"
 },
 14: {
 "links": {
 0: 15
 },
-"text": "<dialog> Programmers:
+"text": "<dialog> Programmer:
 Pasi Pulkkinen</dialog>"
 },
 15: {
 "links": {
 0: 16
 },
-"text": "<dialog> Producers:
+"text": "<dialog> Producer:
 Nevena Sicevic</dialog>"
 },
 16: {
 "links": {
 0: 17
 },
-"text": "<dialog> Graphics: 
+"text": "<dialog> Graphic Designer: 
 Sipi Yla-Nojonen</dialog>"
 },
 17: {
 "links": {
 0: 18
 },
-"text": "<dialog>Designers:
+"text": "<dialog> Game Designer:
 Lassi Nieminen</dialog>"
 },
 18: {
 "links": {
 0: 19
 },
-"text": "<dialog> Audio:
+"text": "<dialog> Audio Designer:
 Sipi Yla-Nojonen</dialog>"
 },
 19: {
 "links": {
 0: 20
 },
-"text": "<dialog> QA:
+"text": "<dialog> QA testing:
 Everyone</dialog>"
 },
 20: {
