@@ -13,12 +13,12 @@ func collect_insect():
 		score += value
 		set_score_text()
 		if win():
-			get_tree().change_scene("res://Scenes/MainMenu.tscn")
+			get_tree().change_scene("res://SpurffsEnding.tscn")
 			queue_free()
 	
 func win ():
 	if score == 11:
-		get_tree().change_scene("res://Scenes/MainMenu.tscn")
+		get_tree().change_scene("res://SpurffsEnding.tscn")
 	
 
 func _on_Insect_input_event(_viewport, event, _shape_idx):

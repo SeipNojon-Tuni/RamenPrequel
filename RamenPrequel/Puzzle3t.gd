@@ -41,4 +41,4 @@ func add(name):
 	elif name!=code.substr(place,1):
 		get_tree().change_scene("res://Scenes/Puzzle1.tscn")
 	if place==4:
-		get_tree().change_scene("res://Ending.tscn")
+		get_tree().change_scene("res://TheDiamondEye.tscn")
