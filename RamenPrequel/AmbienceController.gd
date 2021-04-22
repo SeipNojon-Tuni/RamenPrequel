@@ -17,6 +17,8 @@ func _process(_delta):
 	# If song stops replay
 	if(!playing):
 		replay_current()
+		print("replaying last track")
+	
 
 
 func scene_loaded(name):
@@ -41,6 +43,7 @@ func set_music(name):
 # Replay latest track
 func replay_current():
 	stream = load("res://Audio/music/" + current_track + ".wav")
+	play()
 	
 
 func set_volume(value):
