@@ -3,12 +3,7 @@
 [ext_resource path="res://DialogueCinema.gd" type="Script" id=1]
 [ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=2]
 
-[node name="Control" type="Control"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="Control" type="Node"]
 
 [node name="Dialog_Player" parent="." instance=ExtResource( 2 )]
 script = ExtResource( 1 )
