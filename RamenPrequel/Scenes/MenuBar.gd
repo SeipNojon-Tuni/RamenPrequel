@@ -1,6 +1,7 @@
 extends Node2D
 
 onready var ambience = get_node("/root/Ambience")
+onready var dialogue = get_node("/root/DialoguePlayer")
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -32,7 +33,9 @@ func _on_ReturnMenu_pressed():
 		get_tree().change_scene("res://Scenes/MainMenu.tscn")
 
 
-
-
 func _on_HSlider_value_changed(value):
 	ambience.set_volume(value)
+
+
+func _on_HSlider2_value_changed(value):
+	dialogue.set_volume(value)

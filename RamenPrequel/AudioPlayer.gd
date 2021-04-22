@@ -85,3 +85,6 @@ func reset_audio(bank, id):
 	
 	self.stream = load("res://Audio/dialogue/" + bank + "/Dialogue" + str(id) + ".wav")
 	self.play()
+
+func set_volume(value):
+	volume_db = value
