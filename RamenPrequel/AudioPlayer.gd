@@ -75,6 +75,10 @@ func play_engine():
 	self.stream = load("res://Audio/effects/engine.wav")
 	self.play()
 	
+func play_landing():
+	self.stream = load("res://Audio/effects/landing.wav")
+	self.play()
+	
 # Stop audio if playing and start playing next audio by defined bank, id names
 func reset_audio(bank, id):
 	if(self.playing):

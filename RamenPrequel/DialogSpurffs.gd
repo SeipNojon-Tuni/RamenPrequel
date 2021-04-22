@@ -63,9 +63,7 @@ func play_dialog(record_name : String):
 	
 	if(_audio_player):
 		# Set audio bank and index
-		var text = _Story_Reader.get_text(_did, _nid)
-		var speaker = _get_tagged_text("speaker", text)
-		_audio_player.play_audio(speaker)
+		_audio_player.play_landing()
 	
 
 # Private Methods
