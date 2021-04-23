@@ -46,23 +46,6 @@ script = ExtResource( 3 )
 
 [node name="Node2D" type="Node2D" parent="."]
 
-[node name="diamond_eye" type="Sprite" parent="Node2D"]
-position = Vector2( 883.767, 127.879 )
-scale = Vector2( 0.212261, 0.22209 )
-texture = ExtResource( 10 )
-
-[node name="DiamondGlow" type="Light2D" parent="Node2D/diamond_eye"]
-position = Vector2( -81.248, 44.7476 )
-scale = Vector2( 1.28466, 1.28618 )
-texture = ExtResource( 9 )
-offset = Vector2( -1200, 500 )
-color = Color( 0.0117647, 0.713726, 0.533333, 1 )
-script = ExtResource( 8 )
-minVal = 0.5
-time = 2.5
-
-[node name="Tween" type="Tween" parent="Node2D/diamond_eye"]
-
 [node name="Dialog_Player" parent="." instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 
@@ -77,9 +60,26 @@ margin_top = -64.0
 margin_bottom = 192.0
 
 [node name="Spurff_Temple" type="Sprite" parent="."]
-position = Vector2( 517.2, 297.302 )
-scale = Vector2( 0.267102, 0.279272 )
+position = Vector2( 512.907, 299.595 )
+scale = Vector2( 0.267839, 0.279927 )
 texture = ExtResource( 6 )
+
+[node name="diamond_eye" type="Sprite" parent="."]
+position = Vector2( 883.767, 127.879 )
+scale = Vector2( 0.212261, 0.22209 )
+texture = ExtResource( 10 )
+
+[node name="DiamondGlow" type="Light2D" parent="diamond_eye"]
+position = Vector2( -81.248, 44.7476 )
+scale = Vector2( 1.28466, 1.28618 )
+texture = ExtResource( 9 )
+offset = Vector2( -1200, 500 )
+color = Color( 0.0117647, 0.713726, 0.533333, 1 )
+script = ExtResource( 8 )
+minVal = 0.5
+time = 2.5
+
+[node name="Tween" type="Tween" parent="diamond_eye"]
 
 [node name="instruction" type="Sprite" parent="."]
 visible = false

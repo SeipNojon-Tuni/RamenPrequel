@@ -1,11 +1,13 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://EndingDialogue.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/MicrawaWaste/shuttle.png" type="Texture" id=2]
 [ext_resource path="res://Space.png" type="Texture" id=3]
 [ext_resource path="res://Dialog-System-Example/Dialog_Player.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Ending.gd" type="Script" id=5]
 
 [node name="Ending" type="Node2D"]
+script = ExtResource( 5 )
 
 [node name="Dialog_Player" parent="." instance=ExtResource( 4 )]
 script = ExtResource( 1 )

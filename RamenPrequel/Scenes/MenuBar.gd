@@ -40,3 +40,7 @@ func _on_HSlider_value_changed(value):
 
 func _on_HSlider2_value_changed(value):
 	dialogue.set_volume(value)
+
+# Switch fullscreen
+func _on_CheckButton_toggled(button_pressed):
+	OS.window_fullscreen = button_pressed
