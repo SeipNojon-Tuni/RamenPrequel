@@ -19,8 +19,8 @@ story = {
 0: 3
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Hey TinHeart, what is this place... is this the Earth? 
-Is the treasure in here?</dialog> 
+<dialog>Hey TinHeart, what is this place... is this the Earth? Is the 
+treasure in here?</dialog> 
 <image>O'Beep</image>"
 },
 3: {
@@ -36,8 +36,8 @@ Is the treasure in here?</dialog>
 0: 5
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Oh my, I think we have stumbled upon the creators
-of our galaxy on our journey to the treasure.</dialog>
+<dialog>Oh my, I think we have stumbled upon the creators of our
+galaxy on our journey to the treasure.</dialog>
 <image>TinHeart</image>"
 },
 5: {
@@ -45,8 +45,8 @@ of our galaxy on our journey to the treasure.</dialog>
 0: 6
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, our creators?? I thought that our universe 
-was simply born by itself!</dialog>
+<dialog>Wait, our creators?? I thought that our universe was
+simply born by itself!</dialog>
 <image>O'Beep</image>"
 },
 6: {
@@ -56,8 +56,8 @@ was simply born by itself!</dialog>
 "text": "<speaker>TinHeart</speaker>
 <dialog>One could think many things. Wait, based on these names 
 our universe is not only created but also artificial and
- not real... In fact, it seems that we are living simply 
-inside a game!</dialog>
+not real... In fact, it seems that we are living simply inside
+a game!</dialog>
 <image>TinHeart</image>"
 },
 7: {
@@ -73,8 +73,8 @@ inside a game!</dialog>
 0: 9
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>The truth can hurt. Anyway, I do think that we should
-still search for the treasure, as we are still living.</dialog>
+<dialog>The truth can hurt. Anyway, I do think that we should still
+search for the treasure, as we are still living.</dialog>
 <image>TinHeart</image>
 "
 },
@@ -83,8 +83,8 @@ still search for the treasure, as we are still living.</dialog>
 0: 10
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Let's still enjoy watching the presentation of our
-creators, as probably no one has witnessed this before.</dialog>
+<dialog>Let's still enjoy from the presentation of our creators,
+as probably no one has witnessed this before.</dialog>
 <image>TinHeart</image>"
 },
 10: {
