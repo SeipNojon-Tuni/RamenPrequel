@@ -586,8 +586,8 @@ Let's try to figure it out.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>I hit something! There seems to be another door!
-But where is the Diamond Eye?</dialog>
+<dialog>I hit something! There seems to be another door! But 
+where is the Diamond Eye?</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -611,8 +611,8 @@ But where is the Diamond Eye?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>This door must also have some specific solution 
-to opening it.</dialog>
+<dialog>This door must also have some specific solution to opening 
+it.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -636,8 +636,8 @@ to opening it.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Keypad</speaker>
-<dialog>Wrong password. Two attemps remaining before 
-the temple collapses.</dialog>",
+<dialog>Wrong password. Two attemps remaining before the temple 
+collapses.</dialog>",
 "type": "line"
 },
 10: {
@@ -683,8 +683,8 @@ the temple collapses.</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>(We have only one attempt remaining.)
-This keypad must be the solution to opening the door.</dialog>
+<dialog>(We have only one attempt remaining.) This keypad must be 
+the solution to opening the door.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -696,10 +696,9 @@ This keypad must be the solution to opening the door.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>O'Beep, look, there is a painting on the rock
-which has the icons that resemble the ones
-on the keyboard!</dialog>
-<image>TinHeart</image>",
+<dialog>O'Beep, look, there is a painting on the rock which has
+the icons that resemble the ones on the keyboard!</dialog>
+<image>TinHeart</image> ",
 "type": "line"
 },
 15: {
@@ -722,10 +721,9 @@ on the keyboard!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Yes, it must be, but how? Unfortunately we only have 
-one attempt left, so we have to be sure about it, or else
-we will be destroyed.
-(And that is not a good thing.)</dialog>
+<dialog>Yes, it must be, but how? Unfortunately we only have one 
+attempt left, so we have to be sure about it, or else we will 
+be destroyed. (And that is not a good thing.)</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -943,8 +941,8 @@ and head to the main town.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>That was a close call. Anyway, the door opened 
-and we can proceed.</dialog>
+<dialog>That was a close call. Anyway, the door opened and we 
+can proceed.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -956,8 +954,8 @@ and we can proceed.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>O'Beep. I think we have reached our destination 
-as The Diamond Eye is up ahead.</dialog>
+<dialog>O'Beep. I think we have reached our destination as The 
+Diamond Eye is up ahead.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -981,8 +979,8 @@ as The Diamond Eye is up ahead.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>O'Beep, wait, those tiles with the symbols seem to be
-our last obstacle. I think that if you step on the wrong one, 
+<dialog>O'Beep, wait, those tiles with the symbols seem to be our 
+last obstacle. I think that if you step on the wrong one, 
 you fall to your death!</dialog>
 <image>TinHeart</image>",
 "type": "line"
@@ -995,9 +993,8 @@ you fall to your death!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>No way, so there is still one puzzle left! 
-Based on the previous puzzles, there has to be a
-solution somewhere here.</dialog>
+<dialog>No way, so there is still one puzzle left! Based on the 
+previous puzzles, there has to be a solution somewhere.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },

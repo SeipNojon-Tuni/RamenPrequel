@@ -388,8 +388,8 @@ Let's try to figure it out.</dialog>
 0: 6
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>I hit something! There seems to be another door!
-But where is the Diamond Eye?</dialog>
+<dialog>I hit something! There seems to be another door! But 
+where is the Diamond Eye?</dialog>
 <image>O'Beep</image>"
 },
 6: {
@@ -405,8 +405,8 @@ But where is the Diamond Eye?</dialog>
 0: 8
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>This door must also have some specific solution 
-to opening it.</dialog>
+<dialog>This door must also have some specific solution to opening 
+it.</dialog>
 <image>TinHeart</image>"
 },
 8: {
@@ -422,8 +422,8 @@ to opening it.</dialog>
 0: 10
 },
 "text": "<speaker>Keypad</speaker>
-<dialog>Wrong password. Two attemps remaining before 
-the temple collapses.</dialog>"
+<dialog>Wrong password. Two attemps remaining before the temple 
+collapses.</dialog>"
 },
 10: {
 "links": {
@@ -453,8 +453,8 @@ the temple collapses.</dialog>"
 0: 14
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>(We have only one attempt remaining.)
-This keypad must be the solution to opening the door.</dialog>
+<dialog>(We have only one attempt remaining.) This keypad must be 
+the solution to opening the door.</dialog>
 <image>TinHeart</image>"
 },
 14: {
@@ -462,10 +462,9 @@ This keypad must be the solution to opening the door.</dialog>
 0: 15
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>O'Beep, look, there is a painting on the rock
-which has the icons that resemble the ones
-on the keyboard!</dialog>
-<image>TinHeart</image>"
+<dialog>O'Beep, look, there is a painting on the rock which has
+the icons that resemble the ones on the keyboard!</dialog>
+<image>TinHeart</image> "
 },
 15: {
 "links": {
@@ -480,10 +479,9 @@ on the keyboard!</dialog>
 0: 17
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Yes, it must be, but how? Unfortunately we only have 
-one attempt left, so we have to be sure about it, or else
-we will be destroyed.
-(And that is not a good thing.)</dialog>
+<dialog>Yes, it must be, but how? Unfortunately we only have one 
+attempt left, so we have to be sure about it, or else we will 
+be destroyed. (And that is not a good thing.)</dialog>
 <image>O'Beep</image>"
 },
 17: {
@@ -625,8 +623,8 @@ and head to the main town.</dialog>
 0: 3
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>That was a close call. Anyway, the door opened 
-and we can proceed.</dialog>
+<dialog>That was a close call. Anyway, the door opened and we 
+can proceed.</dialog>
 <image>O'Beep</image>"
 },
 3: {
@@ -634,8 +632,8 @@ and we can proceed.</dialog>
 0: 4
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>O'Beep. I think we have reached our destination 
-as The Diamond Eye is up ahead.</dialog>
+<dialog>O'Beep. I think we have reached our destination as The 
+Diamond Eye is up ahead.</dialog>
 <image>TinHeart</image>"
 },
 4: {
@@ -651,8 +649,8 @@ as The Diamond Eye is up ahead.</dialog>
 0: 6
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>O'Beep, wait, those tiles with the symbols seem to be
-our last obstacle. I think that if you step on the wrong one, 
+<dialog>O'Beep, wait, those tiles with the symbols seem to be our 
+last obstacle. I think that if you step on the wrong one, 
 you fall to your death!</dialog>
 <image>TinHeart</image>"
 },
@@ -661,9 +659,8 @@ you fall to your death!</dialog>
 0: 7
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>No way, so there is still one puzzle left! 
-Based on the previous puzzles, there has to be a
-solution somewhere here.</dialog>
+<dialog>No way, so there is still one puzzle left! Based on the 
+previous puzzles, there has to be a solution somewhere.</dialog>
 <image>O'Beep</image>"
 },
 7: {
