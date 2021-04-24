@@ -2044,8 +2044,7 @@ the Earth.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Oh, its shine is so appealing. I need to grab it
-right away!</dialog>
+<dialog>Oh, its shine is so appealing. I need to grab it right away!</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },

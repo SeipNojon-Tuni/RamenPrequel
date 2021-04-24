@@ -33,8 +33,8 @@ It is on:</dialog>
 "links": {
 0: 5
 },
-"text": "<dialog>The deep seas in the galaxy of Milky Way, 
-on the Planet Earth, located on the West Indies.</dialog>
+"text": "<dialog>The deep seas in the galaxy of Milky Way, on the Planet 
+Earth, located on the West Indies.</dialog>
 <image>TreasureScroll</image>"
 },
 5: {
@@ -50,8 +50,8 @@ on the Planet Earth, located on the West Indies.</dialog>
 0: 7
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>We can start our new life, but what exactly 
-does the treasure contain?</dialog>
+<dialog>We can start our new life, but what exactly does the 
+treasure contain?</dialog>
 <image>TinHeart</image>
 "
 },
@@ -68,8 +68,8 @@ does the treasure contain?</dialog>
 0: 9
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>What does the encyclopaedia of Cosmos say about 
-the treasure location?</dialog>
+<dialog>What does the encyclopaedia of Cosmos say about the 
+treasure location?</dialog>
 <image>O'Beep</image>"
 },
 9: {
@@ -111,8 +111,8 @@ which is searched by pirates.</dialog>
 0: 14
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>But do the pirates imply us battling for the treasure, 
-with a ship and pirate language?</dialog>
+<dialog>But do the pirates imply us battling for the treasure, with 
+a ship and pirate language?</dialog>
 <image>O'Beep</image>"
 },
 14: {
@@ -128,8 +128,7 @@ with a ship and pirate language?</dialog>
 0: 16
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Unfortunately that seems to be the case. We have to 
-battle again.</dialog>
+<dialog>Unfortunately that seems to be the case.</dialog>
 <image>TinHeart</image>"
 },
 16: {
@@ -137,8 +136,8 @@ battle again.</dialog>
 0: 17
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, I remember seeing a book about pirates
-in this spaceship.</dialog>
+<dialog>Wait, I remember seeing a book about pirates in this 
+spaceship.</dialog>
 <image>O'Beep</image>"
 },
 17: {
@@ -154,8 +153,8 @@ in this spaceship.</dialog>
 0: 19
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>It has a pirate language dictionary, battle tips and 
-guide to transforming the spaceship into a pirate ship.</dialog>
+<dialog>It has a pirate language dictionary, battle tips and guide 
+to transforming the spaceship into a pirate ship.</dialog>
 <image>O'Beep</image>"
 },
 19: {
@@ -188,8 +187,8 @@ therefore, time to learn more about pirates.</dialog>
 0: 23
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>So ye mates, prepare to learn about pirates and 
-to transform the spaceship into a pirate ship as soon as we 
+<dialog>So ye mates, prepare to learn about pirates and to 
+transform the spaceship into a pirate ship as soon as we 
 enter the atmosphere of the Earth!</dialog>
 <image>O'Beep</image>"
 },

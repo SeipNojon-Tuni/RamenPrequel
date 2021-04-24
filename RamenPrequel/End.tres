@@ -56,8 +56,8 @@ It is on:</dialog>
 },
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
-"text": "<dialog>The deep seas in the galaxy of Milky Way, 
-on the Planet Earth, located on the West Indies.</dialog>
+"text": "<dialog>The deep seas in the galaxy of Milky Way, on the Planet 
+Earth, located on the West Indies.</dialog>
 <image>TreasureScroll</image>",
 "type": "line"
 },
@@ -81,8 +81,8 @@ on the Planet Earth, located on the West Indies.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>We can start our new life, but what exactly 
-does the treasure contain?</dialog>
+<dialog>We can start our new life, but what exactly does the 
+treasure contain?</dialog>
 <image>TinHeart</image>
 ",
 "type": "line"
@@ -107,8 +107,8 @@ does the treasure contain?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>What does the encyclopaedia of Cosmos say about 
-the treasure location?</dialog>
+<dialog>What does the encyclopaedia of Cosmos say about the 
+treasure location?</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -170,8 +170,8 @@ which is searched by pirates.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>But do the pirates imply us battling for the treasure, 
-with a ship and pirate language?</dialog>
+<dialog>But do the pirates imply us battling for the treasure, with 
+a ship and pirate language?</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -195,8 +195,7 @@ with a ship and pirate language?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Unfortunately that seems to be the case. We have to 
-battle again.</dialog>
+<dialog>Unfortunately that seems to be the case.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -208,8 +207,8 @@ battle again.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, I remember seeing a book about pirates
-in this spaceship.</dialog>
+<dialog>Wait, I remember seeing a book about pirates in this 
+spaceship.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -233,8 +232,8 @@ in this spaceship.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>It has a pirate language dictionary, battle tips and 
-guide to transforming the spaceship into a pirate ship.</dialog>
+<dialog>It has a pirate language dictionary, battle tips and guide 
+to transforming the spaceship into a pirate ship.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -283,8 +282,8 @@ therefore, time to learn more about pirates.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>So ye mates, prepare to learn about pirates and 
-to transform the spaceship into a pirate ship as soon as we 
+<dialog>So ye mates, prepare to learn about pirates and to 
+transform the spaceship into a pirate ship as soon as we 
 enter the atmosphere of the Earth!</dialog>
 <image>O'Beep</image>",
 "type": "line"
