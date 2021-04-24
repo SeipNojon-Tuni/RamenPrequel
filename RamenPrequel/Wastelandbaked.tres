@@ -144,8 +144,7 @@ we should head to the wasteland and see if we find them!</dialog>
 0: 4
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Let's fix the ship right away. TinHeart, 
-do the fixing.</dialog>
+<dialog>Let's fix the ship right away. TinHeart, do the fixing.</dialog>
 <image>O'Beep</image>"
 },
 4: {
@@ -167,8 +166,8 @@ do the fixing.</dialog>
 0: 7
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>The ship should be working now...
- And look, the door also opened!</dialog>
+<dialog>The ship should be working now... And look, the door also 
+opened!</dialog>
 <image>TinHeart</image>"
 },
 7: {
@@ -184,8 +183,8 @@ do the fixing.</dialog>
 0: 9
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>The ship looks amazing, but what should we do next, 
-maybe head to space without any directions...?</dialog>
+<dialog>The ship looks amazing, but what should we do next, maybe 
+head to space without any directions...?</dialog>
 <image>O'Beep</image>"
 },
 9: {
@@ -194,7 +193,7 @@ maybe head to space without any directions...?</dialog>
 },
 "text": "<speaker>TinHeart</speaker>
 <dialog>Calm down O'Beep, we do not even know how it operates,
- I think that the instructions for controlling this ship are 
+I think that the instructions for controlling this ship are 
 somewhere, so lets look for them.</dialog>
 <image>TinHeart</image>"
 },
@@ -203,8 +202,8 @@ somewhere, so lets look for them.</dialog>
 0: 11
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Cool, there they are. Hey wise one, do you know 
-how to read these?</dialog>
+<dialog>Cool, there they are. Hey wise one, do you know how to 
+read these?</dialog>
 <image>O'Beep</image>"
 },
 11: {
@@ -235,8 +234,8 @@ how to read these?</dialog>
 0: 15
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>Apparently, the location is not told, 
-maybe we should go searching for this treasure.</dialog>
+<dialog>Apparently, the location is not told, maybe we should 
+go searching for this treasure.</dialog>
 <image>O'Beep</image>"
 },
 15: {
@@ -244,8 +243,8 @@ maybe we should go searching for this treasure.</dialog>
 0: 16
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>That is certainly a good goal, since we
- don't have anything else to do anyway.</dialog>
+<dialog>That is certainly a good goal, since we don't have anything 
+else to do anyway.</dialog>
 <image>TinHeart</image>"
 },
 16: {
@@ -261,9 +260,8 @@ maybe we should go searching for this treasure.</dialog>
 0: 18
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Wait for a moment, the paper has a signature 
-of the Spurffs from the planet Ostrog. 
-Maybe that would be a good place to start.</dialog>
+<dialog>Wait, the paper has a signature of the Spurffs from the 
+planet Ostrog. Maybe that would be a good place to start.</dialog>
 <image>TinHeart</image>"
 },
 18: {
@@ -279,9 +277,9 @@ Maybe that would be a good place to start.</dialog>
 0: 20
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Remove the steering wheel, pull the fuzzy dice 
-for three times, remove half of the gasoline and 
-press the big red button!</dialog>
+<dialog>Remove the steering wheel, pull the fuzzy dice for three 
+times, remove half of the gasoline and press the big red 
+button!</dialog>
 <image>TinHeart</image>"
 },
 20: {
@@ -305,8 +303,8 @@ press the big red button!</dialog>
 0: 23
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>If I remember correctly, it is the one closest to our planet. 
-Yes that was surely the case.</dialog>
+<dialog>If I remember correctly, it is the one closest to our
+planet. Yes that was surely the case.</dialog>
 <image>TinHeart</image>"
 },
 23: {

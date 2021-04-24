@@ -230,8 +230,7 @@ we should head to the wasteland and see if we find them!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Let's fix the ship right away. TinHeart, 
-do the fixing.</dialog>
+<dialog>Let's fix the ship right away. TinHeart, do the fixing.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -265,8 +264,8 @@ do the fixing.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>The ship should be working now...
- And look, the door also opened!</dialog>
+<dialog>The ship should be working now... And look, the door also 
+opened!</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -290,8 +289,8 @@ do the fixing.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>The ship looks amazing, but what should we do next, 
-maybe head to space without any directions...?</dialog>
+<dialog>The ship looks amazing, but what should we do next, maybe 
+head to space without any directions...?</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -304,7 +303,7 @@ maybe head to space without any directions...?</dialog>
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>Calm down O'Beep, we do not even know how it operates,
- I think that the instructions for controlling this ship are 
+I think that the instructions for controlling this ship are 
 somewhere, so lets look for them.</dialog>
 <image>TinHeart</image>",
 "type": "line"
@@ -317,8 +316,8 @@ somewhere, so lets look for them.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Cool, there they are. Hey wise one, do you know 
-how to read these?</dialog>
+<dialog>Cool, there they are. Hey wise one, do you know how to 
+read these?</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -365,8 +364,8 @@ how to read these?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Apparently, the location is not told, 
-maybe we should go searching for this treasure.</dialog>
+<dialog>Apparently, the location is not told, maybe we should 
+go searching for this treasure.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -378,8 +377,8 @@ maybe we should go searching for this treasure.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>That is certainly a good goal, since we
- don't have anything else to do anyway.</dialog>
+<dialog>That is certainly a good goal, since we don't have anything 
+else to do anyway.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -403,9 +402,8 @@ maybe we should go searching for this treasure.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Wait for a moment, the paper has a signature 
-of the Spurffs from the planet Ostrog. 
-Maybe that would be a good place to start.</dialog>
+<dialog>Wait, the paper has a signature of the Spurffs from the 
+planet Ostrog. Maybe that would be a good place to start.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -429,9 +427,9 @@ Maybe that would be a good place to start.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Remove the steering wheel, pull the fuzzy dice 
-for three times, remove half of the gasoline and 
-press the big red button!</dialog>
+<dialog>Remove the steering wheel, pull the fuzzy dice for three 
+times, remove half of the gasoline and press the big red 
+button!</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -467,8 +465,8 @@ press the big red button!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>If I remember correctly, it is the one closest to our planet. 
-Yes that was surely the case.</dialog>
+<dialog>If I remember correctly, it is the one closest to our
+planet. Yes that was surely the case.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
