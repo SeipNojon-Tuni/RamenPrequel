@@ -226,8 +226,8 @@ The temple is just behind that corner.</dialog>
 0: 5
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>And the door does not open no matter how hard you
-push it!</dialog>
+<dialog>And the door does not open no matter how hard you push 
+it!</dialog>
 <image>O'Beep</image>"
 },
 5: {
@@ -243,8 +243,8 @@ push it!</dialog>
 0: 7
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Anyway, temples also often have a mechanism
-that has to be opened in some way... Let me see...</dialog>
+<dialog>Anyway, temples also often have a mechanism that has to 
+be opened in some way. Let me see...</dialog>
 <image>TinHeart</image>"
 },
 7: {
@@ -269,8 +269,8 @@ a trap to trigger!</dialog>
 0: 10
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Although now that I think about it, those wheels
-might be our solution to getting the Diamond Eye.</dialog>
+<dialog>Although now that I think about it, those wheels might be 
+our solution to getting the Diamond Eye.</dialog>
 <image>TinHeart</image>"
 },
 10: {
@@ -278,8 +278,8 @@ might be our solution to getting the Diamond Eye.</dialog>
 0: 11
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>We should first look around to see if we find 
-some instructions to open the door...</dialog>
+<dialog>We should first look around to see if we find some 
+instructions to open the door...</dialog>
 <image>TinHeart</image>"
 },
 11: {
@@ -303,9 +303,8 @@ some instructions to open the door...</dialog>
 0: 14
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Those symbols seem to match the ones on the wheel. 
-This must be the solution to opening the door.
-Great job, O'Beep!</dialog>
+<dialog>Those symbols seem to match the ones on the wheel. This 
+must be the solution to opening the door. Great job, O'Beep!</dialog>
 <image>TinHeart</image>"
 },
 14: {
@@ -321,8 +320,8 @@ Great job, O'Beep!</dialog>
 0: 16
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>But what should we exactly do with these symbols? 
-Just try random things?</dialog>
+<dialog>But what should we exactly do with these symbols? Just 
+try random things?</dialog>
 <image>O'Beep</image>"
 },
 16: {
@@ -330,8 +329,8 @@ Just try random things?</dialog>
 0: 17
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>That is not helpful. There has to be some pattern. 
-Let's try to figure it out.</dialog>
+<dialog>That is not helpful. There has to be some pattern. Let's try 
+to figure it out.</dialog>
 <image>TinHeart</image>"
 },
 17: {
@@ -339,8 +338,8 @@ Let's try to figure it out.</dialog>
 0: 18
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>(Isn't that just trying random things?)
- Okay, let's try to figure this out!</dialog>
+<dialog>(Isn't that just trying random things?) Okay, let's try to 
+figure this out!</dialog>
 <image>O'Beep</image>"
 },
 18: {
