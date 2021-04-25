@@ -51,9 +51,9 @@ cannot do anything else but sing.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>The wasteland life is definely boring, but I do not have
-anything else in my mind that we could do except to search
-the scraps for food etc. so that we do not die.</dialog>
+<dialog>The wasteland life is definely boring. Unfortunately I do 
+not have anything else in my mind that we could do except 
+to search the scraps for food etc. so that we do not die.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -78,9 +78,9 @@ I think it will definely have some scraps for us.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Think outside of the box, perhaps this spaceship could be
-our way out of this situation, let's head to space and start
-a new life somewhere else!</dialog> 
+<dialog>Think outside of the box, perhaps this spaceship could 
+be our way out of this situation, let's head to space and 
+start a new life somewhere else!</dialog> 
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -289,8 +289,8 @@ opened!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>The ship looks amazing, but what should we do next, maybe 
-head to space without any directions...?</dialog>
+<dialog>The ship looks amazing, but what should we do next, head 
+to space without any directions...?</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -377,7 +377,7 @@ go searching for this treasure.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>That is certainly a good goal, since we don't have anything 
+<dialog>That is certainly a good goal, since we don't have nothing 
 else to do anyway.</dialog>
 <image>TinHeart</image>",
 "type": "line"
@@ -390,7 +390,7 @@ else to do anyway.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>The only problem is that the treasure's location is not told.</dialog>
+<dialog>The only issue is that the treasure's location is not told.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
