@@ -252,7 +252,7 @@ be opened in some way. Let me see...</dialog>
 0: 8
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>TinHeart, look! These wheels on the door, they are moving!</dialog>
+<dialog>TinHeart, look! These wheels on the door move!</dialog>
 <image>O'Beep</image>"
 },
 8: {
@@ -329,7 +329,7 @@ try random things?</dialog>
 0: 17
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>That is not helpful. There has to be some pattern. Let's try 
+<dialog>That is not helpful. There has to be a pattern. Let's try 
 to figure it out.</dialog>
 <image>TinHeart</image>"
 },
@@ -404,8 +404,7 @@ where is the Diamond Eye?</dialog>
 0: 8
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>This door must also have some specific solution to opening 
-it.</dialog>
+<dialog>This door must also have some solution to opening it.</dialog>
 <image>TinHeart</image>"
 },
 8: {
