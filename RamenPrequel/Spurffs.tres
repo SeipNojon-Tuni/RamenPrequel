@@ -49,12 +49,12 @@ story = {
 "links": {
 0: 4
 },
-"rect_size": Vector2( 324, 137 ),
+"rect_size": Vector2( 441, 150 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Great, we have succefully landed in SpurffVille,
- the capital of the planet Ostrog and also 
-the home of the Spurffs.</dialog>
+<dialog>Great, we have succefully landed in SpurffVille, the
+capital of the planet Ostrog and also the home of the
+Spurffs.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -88,11 +88,11 @@ almost a two second trip in space.</dialog>
 "links": {
 0: 7
 },
-"rect_size": Vector2( 324, 137 ),
+"rect_size": Vector2( 441, 150 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>If I remember correctly, the leader of the Spurffs 
-has the only right to use this signature.</dialog>
+<dialog>If I remember correctly, the leader of the Spurffs has
+the only right to use this signature.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -101,11 +101,11 @@ has the only right to use this signature.</dialog>
 "links": {
 0: 8
 },
-"rect_size": Vector2( 324, 137 ),
+"rect_size": Vector2( 441, 167 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>The leader hut should be somewhere in the main town 
-of SpurffVille. Perhaps we should head there.</dialog>
+<dialog>The leader hut should be somewhere in the main town of
+SpurffVille. Perhaps we should head there.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -117,8 +117,8 @@ of SpurffVille. Perhaps we should head there.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>That is a great idea, but why does everyone seem 
-to be so scared here?</dialog>
+<dialog>That is a great idea, but why does everyone seem to be 
+so scared here?</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -163,12 +163,12 @@ about that, we should just find the leader, let's go!</dialog>
 "links": {
 0: 13
 },
-"rect_size": Vector2( 324, 137 ),
+"rect_size": Vector2( 462, 156 ),
 "slot_amount": 1,
 "text": "<speaker>Guard</speaker>
-<dialog>Stop right there, you Tinheads. Don't you know
-that no one is allowed to enter or leave SpurffVille?
-Who are you even?</dialog>
+<dialog>Stop right there, you Tinheads. Don't you know that no
+one is allowed to enter or leave SpurffVille? Who are you
+even?</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -180,9 +180,9 @@ Who are you even?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>I am TinHeart and this is O'Beep, and we are coming 
-from the planet Micrawa Ramen to meet your leader. 
-Why exactly are visitors not allowed?</dialog>
+<dialog>I am TinHeart and this is O'Beep, and we are coming from
+the planet Micrawa Ramen to meet your leader. Why is it
+exactly that visitors are not allowed?</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -207,10 +207,10 @@ Why exactly are visitors not allowed?</dialog>
 "slot_amount": 1,
 "text": "<speaker>Guard</speaker>
 <dialog>Anyway, one day ago a lumpy Spurff servant accidentally 
-dropped the most valuable treasure of our planet: 
-the Diamond Eye. Our leader declared a state of 
-emergency and since then no one has 
-been allowed to enter or exit SpurffVille.</dialog>
+dropped the most valuable treasure of our planet: the
+Diamond Eye. Our leader declared a state of emergency
+and since then no one has been allowed to enter or exit
+SpurffVille.</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -219,12 +219,12 @@ been allowed to enter or exit SpurffVille.</dialog>
 "links": {
 0: 17
 },
-"rect_size": Vector2( 324, 137 ),
+"rect_size": Vector2( 467, 178 ),
 "slot_amount": 1,
 "text": "<speaker>Guard</speaker>
-<dialog>Another Diamond Eye is in the ancient temple but it is 
-too dangerous to go there and there are no volunteers
-for the task.</dialog>
+<dialog>Another Diamond Eye is in the ancient temple but it is too
+dangerous to go there and there are no volunteers for
+the task.</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -233,13 +233,12 @@ for the task.</dialog>
 "links": {
 0: 18
 },
-"rect_size": Vector2( 324, 137 ),
+"rect_size": Vector2( 441, 150 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>That explains why everyone is so scared... 
-I just got a great idea! Perhaps we could get the 
-Eye from the temple as we have to enter the town 
-and see the leader.</dialog>
+<dialog>That explains why everyone is so scared... I just got a
+great idea! Mybe we could get the Eye from the temple
+as we have to enter the town and see the leader.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -251,9 +250,9 @@ and see the leader.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Let's not do that... Or actually, now after thinking
-some more... We can do that since otherwise we cannot
-progress in our journey.</dialog>
+<dialog>Let's not do that... Or actually, now after thinking some
+more... We can do that since otherwise we cannot move
+on with our journey.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -265,8 +264,8 @@ progress in our journey.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Guard</speaker>
-<dialog>You rusty TinHeads want to help us? It is okay
- as long as you return the new Eye to me.
+<dialog>You rusty TinHeads want to help us? It is okay as long
+as you return the new Eye to me.
  (If they fail, we get to keep robot parts!) 
 The temple is just behind that corner.</dialog>
 <image>Guard</image>",
@@ -420,7 +419,7 @@ our solution to getting the Diamond Eye.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>We should first look around to see if we find some 
+<dialog>We should first try to look around to see if we find some 
 instructions to open the door...</dialog>
 <image>TinHeart</image>",
 "type": "line"
@@ -457,8 +456,9 @@ instructions to open the door...</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Those symbols seem to match the ones on the wheel. This 
-must be the solution to opening the door. Great job, O'Beep!</dialog>
+<dialog>Those symbols seem to match the ones on the wheel. It
+must be the solution to opening the door. Amazing work, 
+O'Beep!</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -634,8 +634,8 @@ where is the Diamond Eye?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Keypad</speaker>
-<dialog>Wrong password. Two attemps remaining before the temple 
-collapses.</dialog>",
+<dialog>Wrong password. Two attemps remaining before the
+temple collapses.</dialog>",
 "type": "line"
 },
 10: {
@@ -681,8 +681,8 @@ collapses.</dialog>",
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>(We have only one attempt remaining.) This keypad must be 
-the solution to opening the door.</dialog>
+<dialog>(We have only one attempt remaining.)
+This keypad must be the solution to opening the door.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -695,7 +695,7 @@ the solution to opening the door.</dialog>
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
 <dialog>O'Beep, look, there is a painting on the rock which has
-the icons that resemble the ones on the keyboard!</dialog>
+the icons that resemble the ones on the keypad!</dialog>
 <image>TinHeart</image> ",
 "type": "line"
 },
@@ -773,8 +773,8 @@ be destroyed. (And that is not a good thing.)</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Whew, that was a close call. We were close to
- becoming only bolts and wires.</dialog>
+<dialog>Whew, that was a close call. We were close to becoming
+only bolts and wires.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -872,9 +872,9 @@ looking for.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Guard</speaker>
-<dialog>Anyway, I can take it back to its rightful place.
-That clumsy guard won't get another chance of
-destroying the eye again!</dialog>
+<dialog>Anyway, I can take it back to its rightful place. That
+clumsy guard won't get another chance of destroying
+the Eye again!</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -886,8 +886,8 @@ destroying the eye again!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Guard</speaker>
-<dialog>You are now free to cross the bridge 
-and head to the main town.</dialog>
+<dialog>You are now free to cross the bridge and head to the
+main town.</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -952,7 +952,7 @@ can proceed.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>O'Beep. I think we have reached our destination as The 
+<dialog>O'Beep. I think we have reached our destination as the 
 Diamond Eye is up ahead.</dialog>
 <image>TinHeart</image>",
 "type": "line"
@@ -1077,8 +1077,8 @@ previous puzzles, there has to be a solution somewhere.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Wait, all the Spurffs are still scared even though
- we've retrieved the Diamond Eye!</dialog>
+<dialog>Wait, all the Spurffs are still scared even though we've
+retrieved the Diamond Eye!</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -1149,8 +1149,8 @@ should be on the highest spot of the town.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Oh no, the door is locked tight with a lock. 
-I hope we don't have to solve another puzzle!</dialog>
+<dialog>Oh no, the door is locked tight with a lock. I hope we don't
+have to solve another puzzle!</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -1186,8 +1186,8 @@ I hope we don't have to solve another puzzle!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>So, I hear that the new Diamond Eye from the temple
-has been retrieved by some TinHeads...</dialog>
+<dialog>So, I hear that the new Diamond Eye from the temple has
+been retrieved by some TinHeads...</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -1212,8 +1212,8 @@ the Blight Bugs that are still roaming free in the town.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>And therefore the lockdown can't be lifted until 
-every bug is back in its habitat...</dialog>
+<dialog>And therefore the lockdown can't be lifted until every
+bug is back in its habitat...</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -1225,8 +1225,8 @@ every bug is back in its habitat...</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>Since the bugs are so deadly, even a little sting 
-can kill and they move very fast.</dialog>
+<dialog>Since the bugs are so deadly, even a little sting can kill
+and they move very fast.</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -1253,9 +1253,9 @@ exterminator was also a treasure hunter.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>Oh those normal Spurffs who have to go on with 
-their normal lives in all this. Luckily our leader is safe 
-as he is so scared that he has locked himself up in the hut.</dialog>
+<dialog>Oh those poor Spurffs... they have to go on with their
+normal lives in all this. Luckily our leader is safe as he is
+so scared that he has locked himself up in the hut.</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -1268,8 +1268,8 @@ as he is so scared that he has locked himself up in the hut.</dialog>
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
 <dialog>TinHeart, did you hear the same as I did? We cannot see 
-the leader and we are in risk of dying! 
-I am going to talk to that Spurff right away!</dialog>
+the leader and we are in risk of dying! I am going to talk
+to that Spurff right away!</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -1281,10 +1281,10 @@ I am going to talk to that Spurff right away!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>You bilge-sucking Spurffs! So we had to go all the way to
-that dangerous temple and get the Diamond Eye, 
-and we still don't get to see the leader? While you are
-saying that we are also at risk of death??</dialog>
+<dialog>You bilge-sucking Spurffs! So we had to go all the way
+to that dangerous temple and get the Diamond Eye, and
+we still don't get to see the leader? While you are saying
+that we are also at risk of death??</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -1323,8 +1323,8 @@ from the temple!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Allow me to introduce ourselves. I am TinHeart and this is 
-O'Beep. We are coming from the planet Micrawa Ramen 
+<dialog>Allow me to introduce ourselves. I am TinHeart and this
+is O'Beep. We are coming from the planet Micrawa Ramen 
 to see your leader.</dialog>
 <image>TinHeart</image>",
 "type": "line"
@@ -1337,9 +1337,9 @@ to see your leader.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>Didn't you hear what I just said? The leader is locked 
-in his hut and does not go out until those damned
-dangerous Blight Bugs have returned to their den.</dialog>
+<dialog>Didn't you hear what I just said? The leader is locked in
+his hut and does not go out until those damned scary
+Blight Bugs have returned to their den.</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -1388,8 +1388,8 @@ from metal!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Just open the door to your leader and we will leave
-right away. We don't want to help you!</dialog>
+<dialog>Just open the door to your leader and we will leave right
+away. We don't want to help you!</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -1413,8 +1413,8 @@ right away. We don't want to help you!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>If we are immune to the poison, we could easily help 
-the Spurffs and get to the leader that way.</dialog>
+<dialog>If we are immune to the poison, we could easily help the
+Spurffs and get to the leader that way.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -1438,8 +1438,8 @@ the Spurffs and get to the leader that way.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Well now that I think about it, that is probably our 
-only way to meet the leader...</dialog>
+<dialog>Well now that I think about it, that is probably our only
+way to meet the leader...</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -1451,8 +1451,8 @@ only way to meet the leader...</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>We will help you only if you promise to take us to 
-the leader right after the bug problem has been solved.</dialog>
+<dialog>We will help you only after you've promised to take us to
+the leader once the bug problem has been solved.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -1489,8 +1489,8 @@ where they are and how we can catch them.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>They are located in the town. You can catch them 
-with this net. According to the scouts, there are 11 bugs.</dialog>
+<dialog>They are located in the town. You can catch them with
+this net. According to the scouts, there are 11 bugs.</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -1502,8 +1502,8 @@ with this net. According to the scouts, there are 11 bugs.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>That doesn't sound too bad. O'Beep, let's grab 
-the gears and catch those nasty bugs!</dialog>
+<dialog>That doesn't sound too bad. O'Beep, let's grab the gear
+and catch those nasty bugs!</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -1568,8 +1568,8 @@ is approaching!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>Great job, robots! The bugs have been caught and 
-the lockdown can finally be lifted!</dialog>
+<dialog>Great job, robots! The bugs have been caught and the
+lockdown can finally be lifted!</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -1593,9 +1593,9 @@ the lockdown can finally be lifted!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>Yes, you can. Or actually... Nah, I am joking. In fact,
-let me take you there myself so I can give the
-leader the status update.</dialog>
+<dialog>Yes, you can. Or actually... Nah, I am joking. In fact, let
+me take you there myself so I can give the leader the
+status update.</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -1629,8 +1629,8 @@ leader the status update.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>Ahoy leader, the Diamond Eye has been returned
-and the bugs have gone back to their den.</dialog>
+<dialog>Ahoy, leader, the Diamond Eye has been returned and
+the bugs have gone back to their den.</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -1655,9 +1655,9 @@ of your hut.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>The Leader</speaker>
-<dialog>Hmm.. I am currently working, and therefore, do not 
-come out until the evening. Thanks anyway for 
-the information.</dialog>
+<dialog>Hmm... I am currently working, and therefore, cannot 
+come out until the evening. Thanks anyway for the
+information.</dialog>
 <image>Leader</image>",
 "type": "line"
 },
@@ -1669,9 +1669,9 @@ the information.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Spurff</speaker>
-<dialog>I think you can now see the leader. I actually think that 
-he will be more than happy to meet you, after he hears what 
-you have done.</dialog>
+<dialog>You can now see the leader. I actually think that he will
+be more than happy to meet you, after he hears what you
+have done.</dialog>
 <image>Guard</image>",
 "type": "line"
 },
@@ -1757,8 +1757,8 @@ Micrawa Ramen.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>We retrieved the Diamond Eye and scared the bugs back to 
-their den.</dialog>
+<dialog>We retrieved the Diamond Eye and scared the bugs back
+to their den.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },
@@ -1770,9 +1770,8 @@ their den.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Greet</speaker>
-<dialog>So you are the heroes that saved our town. 
-We are so grateful that we can give you robots anything 
-you want!</dialog>
+<dialog>So you are the heroes that saved our town. We are so
+grateful that we can give you robots anything you want!</dialog>
 <image>Leader</image>",
 "type": "line"
 },
@@ -1796,8 +1795,8 @@ you want!</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>We don't want that. In fact, we would like to ask you 
-about this paper that we found in our ship.</dialog>
+<dialog>No, not that. In fact, we would like to ask you about this
+paper that we found in our ship.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -1822,8 +1821,8 @@ In the deep seas of...</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Unfortunately that is only thing which is told. It had 
-your signature on it, so we thought that you probably know 
+<dialog>Unfortunately that is only thing it says. It had your
+signature on it, so we thought that you probably know 
 something about it.</dialog>
 <image>O'Beep</image>",
 "type": "line"
@@ -1836,9 +1835,9 @@ something about it.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Greet</speaker>
-<dialog>Yes, I remember that paper. In fact, I can tell you 
-the rest of the clue as a reward for saving our kingdom. 
-I as an oldie do not have any use of it anyway.</dialog>
+<dialog>Yes, I remember that paper. In fact, I can tell you the
+rest of the clue as a reward for saving our kingdom. I as
+an oldie do not have any use of it anyway.</dialog>
 <image>Leader</image>",
 "type": "line"
 },
@@ -1862,8 +1861,8 @@ I as an oldie do not have any use of it anyway.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Greet</speaker>
-<dialog>In the deep seas of the galaxy of Milky Way,
-on the planet Earth, located on the West Indies.</dialog>
+<dialog>In the deep seas of the galaxy of Milky Way, on the planet
+Earth, located on the West Indies.</dialog>
 <image>Leader</image>",
 "type": "line"
 },
@@ -1875,7 +1874,8 @@ on the planet Earth, located on the West Indies.</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>So the complete clue has surprisingly precice instructions.
+<dialog>Hmmmmmmm so the complete clue has surprisingly precice
+instructions.
 (Good thing we did not travel randomly in space)</dialog>
 <image>O'Beep</image>",
 "type": "line"
@@ -1901,7 +1901,7 @@ by the humans?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Thank you very much leader for your help.</dialog>
+<dialog>Thank you very much, leader, for your help.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -1913,8 +1913,8 @@ by the humans?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Greet</speaker>
-<dialog>That was just a small thing for saving our town. 
-Do you want anything else?</dialog>
+<dialog>That was just a small thing for saving our town. Do you
+want anything else?</dialog>
 <image>Leader</image>",
 "type": "line"
 },
@@ -1950,8 +1950,8 @@ Do you want anything else?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>TinHeart</speaker>
-<dialog>Then we leave right away. Thank you Spurffs,
- and you Greet, for your generosity.</dialog>
+<dialog>Then we leave right away. Thank you, Spurffs, and you,
+Greet, for your generosity.</dialog>
 <image>TinHeart</image>",
 "type": "line"
 },
@@ -1975,8 +1975,7 @@ Do you want anything else?</dialog>
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>O'Beep</speaker>
-<dialog>Now we only need to walk to the ship and head to 
-the Earth.</dialog>
+<dialog>Now we only need to go to the ship and head to Earth.</dialog>
 <image>O'Beep</image>",
 "type": "line"
 },

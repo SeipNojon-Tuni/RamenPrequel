@@ -26,7 +26,7 @@ story = {
 },
 "text": "<speaker>O'Beep</speaker>
 <dialog>So finally we have the treasure location discovered. 
-It is on:</dialog>
+It is in:</dialog>
 <image>O'Beep</image>"
 },
 4: {
@@ -120,7 +120,7 @@ a ship and pirate language?</dialog>
 0: 15
 },
 "text": "<speaker>TinHeart</speaker>
-<dialog>Well though!!</dialog>
+<dialog>Well though...</dialog>
 <image>TinHeart</image>"
 },
 15: {
@@ -187,9 +187,9 @@ therefore, time to learn more about pirates.</dialog>
 0: 23
 },
 "text": "<speaker>O'Beep</speaker>
-<dialog>So ye mates, prepare to learn about pirates and to 
-transform the spaceship into a pirate ship as soon as we 
-enter the atmosphere of the Earth!</dialog>
+<dialog>So ye mates, prepare to learn about pirates and alter
+the spaceship into a pirate ship as soon as we enter
+the atmosphere of the Earth!</dialog>
 <image>O'Beep</image>"
 },
 23: {
